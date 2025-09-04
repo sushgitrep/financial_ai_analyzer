@@ -1,0 +1,83 @@
+# Financial AI Analyzer v3.0 Configuration - Enhanced with Persistence
+
+app:
+  name: "Financial AI Analyzer"
+  version: "3.0.0"
+  description: "Enhanced with Bank Selection Tab and Data Persistence"
+
+# File Persistence Settings
+persistence:
+  enable_plot_storage: true
+  enable_data_storage: true
+  plots_base_path: "./plots"
+  data_base_path: "./data/banks"
+  logs_path: "./logs"
+
+# Model Settings (embedded in agents)
+models:
+  finbert:
+    model_name: "ProsusAI/finbert"
+
+  bertopic:
+    embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+    min_topic_size: 3
+    nr_topics: "auto"
+
+  summarizer:
+    model_name: "facebook/bart-large-cnn"
+
+# PDF Processing
+pdf:
+  max_file_size_mb: 100
+  allowed_types: [".pdf"]
+
+# Text Preprocessing
+preprocessing:
+  remove_stopwords: true
+  lowercase: true
+  min_word_length: 2
+  use_spacy: true
+  spacy_model: "en_core_web_sm"
+  lemmatization: true
+
+# Analysis Settings
+analysis:
+  confidence_threshold: 0.7
+  max_topics: 25
+  summary_types: ["overall", "by_topic", "by_metrics"]
+
+# Financial Metrics to Track
+financial_metrics:
+  - "revenue"
+  - "net_income"
+  - "return_on_equity"
+  - "return_on_assets" 
+  - "earnings_per_share"
+  - "book_value"
+  - "loan_loss_provision"
+  - "tier_1_capital_ratio"
+  - "net_interest_margin"
+  - "efficiency_ratio"
+
+# Focus Topics for Banking
+focus_topics:
+  - "credit_risk"
+  - "market_risk"
+  - "operational_risk"
+  - "liquidity_risk"
+  - "digital_transformation"
+  - "market_outlook"
+  - "regulatory_compliance"
+  - "esg_sustainability"
+
+# Visualization Settings
+visualization:
+  max_words_wordcloud: 100
+  wordcloud_width: 800
+  wordcloud_height: 400
+  top_words_count: 10
+  top_topics_display: 10
+  color_palette: "Set2"
+  save_plots: true
+  plot_format: "png"
+  plot_dpi: 300
