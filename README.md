@@ -10,7 +10,15 @@
 - **Warning Dialog**: "You have existing data for Bank A. Switch to Bank B?"
 - **Data Preservation**: Previous bank data remains saved
 
+NOT TO WORK DRECTLY ON MAIN BRANCH
+
 steps:
+
+1. Setup the python environment in VS Studio
+2. Then clone it
+3. Create branch
+4. Commit to Branch
+
 1. install the pre req :
    
 pip install -r requirements.txt
