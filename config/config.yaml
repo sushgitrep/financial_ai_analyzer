@@ -70,6 +70,11 @@ focus_topics:
   - "regulatory_compliance"
   - "esg_sustainability"
 
+# models use in sentiment analysis agent
+sentiment_analysis:
+  models: ["finbert", "finbert-tone", "financial-roberta"]
+
+
 # Visualization Settings
 visualization:
   max_words_wordcloud: 100
