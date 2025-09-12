@@ -2,19 +2,33 @@ import re
 
 
 class BaseAnalyzer:
-    def analyze(self, text_sections: list[dict]) -> dict:
+
+    def analyze(self, text_sections: list[dict]) -> list:
         results = []
         for section in text_sections:
+            speaker = section.get("speaker")
             try:
                 result = self.classifier(section["speech"])
-                results.append(result[0])
+                results.append(result[0] | {"speaker": section["speaker"]})
             except RuntimeError as e:
                 chunks = self.split_into_chunks(section["speech"])
+                chunk_results = []
                 for chunk in chunks:
                     result = self.classifier(chunk)
-                    results.append(result[0])
+                    chunk_results.append(result[0])
 
-        return self.aggregate_analysis_results(results)
+                aggregated = self.aggregate_analysis_results(chunk_results)
+                results.append(aggregated | {"speaker": section["speaker"]})
+
+        return results
+
+    def aggregate_results_per_speaker(self, results: dict) -> dict:
+        # Aggregate results per speaker
+        aggregated_results = dict()
+        for speaker, res in results.items():
+            aggregated_results[speaker] = self.aggregate_analysis_results(res)
+
+        return aggregated_results
 
     def split_into_chunks(self, text: str, max_words: int = 300) -> list[str]:
         """
@@ -52,4 +66,7 @@ class BaseAnalyzer:
         for r in results:
             counts[r["label"].lower()] += 1
         total = sum(counts.values())
-        return {k: v / total for k, v in counts.items()}
+        sentiment_scores = {k: v / total for k, v in counts.items()}
+
+        max_label = max(sentiment_scores, key=sentiment_scores.get)
+        return {"label": max_label, "score": sentiment_scores[max_label]}

@@ -17,11 +17,11 @@ class TranscriptProcessorFactory:
         bank_name_lower = bank_name.lower()
         if bank_name_lower == "jp_morgan":
             return JPMorganProcessor("JPMorgan")
-        elif bank_name_lower == "lb":
+        elif bank_name_lower == "lehman_brothers":
             return LehmanBrothersProcessor("Lehman Brothers")
-        elif bank_name_lower == "baml":
+        elif bank_name_lower == "bank_of_america":
             return BankOfAmericaProcessor("Bank of America")
-        elif bank_name_lower == "svb":
+        elif bank_name_lower == "silicon_valley_bank":
             return SiliconValleyBankProcessor("Silicon Valley Bank")
         else:
             raise ValueError(f"No processor available for bank: {bank_name}")

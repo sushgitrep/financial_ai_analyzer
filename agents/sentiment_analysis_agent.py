@@ -310,37 +310,14 @@ class SentimentAnalysisAgent:
 
         models = self.config["sentiment_analysis"]["models"]
 
-        sentiment_sums = {}
-        for index, model in enumerate(models):
+        sentiments = dict()
+        for model in models:
             analyzer = SentimentAnalyzerFactory.create_analyzer(model)
             sentiment_results = analyzer.analyze(text_sections)
-
-            for key, value in sentiment_results.items():
-                sentiment_sums[key] = sentiment_sums.get(key, 0) + value
-
-        averages = {k: v / len(models) for k, v in sentiment_sums.items()}
-
-        logger.info(self.config["sentiment_analysis"]["models"])
-        logger.info(f"Average sentiment across models: {averages}")
+            sentiments[model] = sentiment_results
 
         return {
-            "overall_sentiment": overall_sentiment,
-            "overall_confidence": overall_confidence,
-            "sentiment_distribution": {
-                "positive": round(averages.get("positive", 0) * 100, 2),
-                "negative": round(averages.get("negative", 0) * 100, 2),
-                "neutral": round(averages.get("neutral", 0) * 100, 2),
-            },
-            "sentiment_counts": {
-                "positive": overall_positive,
-                "negative": overall_negative,
-                "neutral": overall_neutral,
-                "total": total_sentences,
-            },
-            "emotion_analysis": emotion_counts,
-            "sentence_analysis": sentence_sentiments[:20],
-            "positive_examples": positive_examples,
-            "negative_examples": negative_examples,
+            "sentiments": sentiments,
             "analysis_timestamp": datetime.now().isoformat(),
             "bank_name": self.current_bank,
             "text_length": len(text),
