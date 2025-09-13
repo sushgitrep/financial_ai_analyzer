@@ -8,4 +8,5 @@ class FinBERTAnalyzer(BaseAnalyzer):
             "sentiment-analysis",
             model="ProsusAI/finbert",
             truncation=False,
+            return_all_scores=True,
         )
