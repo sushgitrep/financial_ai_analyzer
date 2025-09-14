@@ -5,36 +5,49 @@ from transformers import pipeline
 
 class BaseAnalyzer:
     def __init__(self):
-        self.classifier = pipeline("sentiment-analysis", model="ProsusAI/finbert", max_length=400, truncation=True)
+        self.classifier = pipeline(
+            "sentiment-analysis",
+            model="ProsusAI/finbert",
+            max_length=400,
+            truncation=True,
+        )
 
     def analyze(self, text_sections: list[dict]) -> list:
         results = []
         for section in text_sections:
             speaker = section.get("speaker")
             speech = section.get("speech", "")
-            print(f"Speaker: {speaker}, Section length: {len(speech)}, Preview: {speech[:100]}")
+            print(
+                f"Speaker: {speaker}, Section length: {len(speech)}, Preview: {speech[:100]}"
+            )
             # Always chunk if text is too long
-            tokens = self.classifier.tokenizer.encode(section["speech"], add_special_tokens=True)
+            tokens = self.classifier.tokenizer.encode(
+                section["speech"], add_special_tokens=True
+            )
             if len(tokens) > 512:
-                chunks = self.split_into_chunks(section["speech"], self.classifier.tokenizer, max_tokens=510)
+                chunks = self.split_into_chunks(
+                    section["speech"], self.classifier.tokenizer, max_tokens=510
+                )
                 chunk_results = []
                 for chunk in chunks:
                     result = self.classifier(chunk, truncation=True, max_length=400)
                     chunk_results.append(result[0])
-                    print(f"Speaker: {speaker}, Chunk length: {len(chunk)}, Preview: {chunk[:100]}")
+                    print(
+                        f"Speaker: {speaker}, Chunk length: {len(chunk)}, Preview: {chunk[:100]}"
+                    )
                 aggregated = self.aggregate_analysis_results(chunk_results)
-                results.append({
-                    "speaker": speaker,
-                    "aggregated": aggregated,
-                    "chunks": chunk_results
-                })
+                results.append(
+                    {
+                        "speaker": speaker,
+                        "aggregated": aggregated,
+                        "chunks": chunk_results,
+                    }
+                )
             else:
                 result = self.classifier(section["speech"])
-                results.append({
-                    "speaker": speaker,
-                    "aggregated": result[0],
-                    "chunks": [result[0]]
-                })
+                results.append(
+                    {"speaker": speaker, "aggregated": result[0], "chunks": [result[0]]}
+                )
         return results
 
     def aggregate_results_per_speaker(self, results: dict) -> dict:
@@ -45,7 +58,9 @@ class BaseAnalyzer:
 
         return aggregated_results
 
-    def split_into_chunks(self, text: str, tokenizer, max_tokens: int = 508) -> list[str]:
+    def split_into_chunks(
+        self, text: str, tokenizer, max_tokens: int = 508
+    ) -> list[str]:
         sentences = re.split(r"(?<=[.!?])\s+", text.strip())
         chunks = []
         current_chunk = []
@@ -68,10 +83,14 @@ class BaseAnalyzer:
                 sub_chunk = []
                 sub_tokens = 0
                 for word in words:
-                    word_token_count = len(tokenizer.encode(word, add_special_tokens=False))
+                    word_token_count = len(
+                        tokenizer.encode(word, add_special_tokens=False)
+                    )
                     if sub_tokens + word_token_count > max_tokens and sub_chunk:
                         sub_chunk_text = " ".join(sub_chunk)
-                        sub_chunk_tokens = tokenizer.encode(sub_chunk_text, add_special_tokens=False)
+                        sub_chunk_tokens = tokenizer.encode(
+                            sub_chunk_text, add_special_tokens=False
+                        )
                         if len(sub_chunk_tokens) > max_tokens:
                             sub_chunk_tokens = sub_chunk_tokens[:max_tokens]
                             sub_chunk_text = tokenizer.decode(sub_chunk_tokens)
@@ -82,7 +101,9 @@ class BaseAnalyzer:
                     sub_tokens += word_token_count
                 if sub_chunk:
                     sub_chunk_text = " ".join(sub_chunk)
-                    sub_chunk_tokens = tokenizer.encode(sub_chunk_text, add_special_tokens=False)
+                    sub_chunk_tokens = tokenizer.encode(
+                        sub_chunk_text, add_special_tokens=False
+                    )
                     if len(sub_chunk_tokens) > max_tokens:
                         sub_chunk_tokens = sub_chunk_tokens[:max_tokens]
                         sub_chunk_text = tokenizer.decode(sub_chunk_tokens)

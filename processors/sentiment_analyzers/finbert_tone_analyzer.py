@@ -8,4 +8,5 @@ class FinBERTToneAnalyzer(BaseAnalyzer):
             "sentiment-analysis",
             model="yiyanghkust/finbert-tone",
             truncation=False,
+            return_all_scores=True,
         )

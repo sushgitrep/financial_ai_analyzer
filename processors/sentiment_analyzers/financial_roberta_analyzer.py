@@ -8,4 +8,5 @@ class FinancialRoBERTaAnalyzer(BaseAnalyzer):
             "sentiment-analysis",
             model="soleimanian/financial-roberta-large-sentiment",
             truncation=False,
+            return_all_scores=True,
         )
