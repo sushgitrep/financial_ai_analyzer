@@ -1,0 +1,351 @@
+{
+  "sentiments": {
+    "yiyanghkust/finbert-tone": {
+      "Operator": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Jeremy Barnum": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 4,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Christopher McGratty": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 6,
+        "positive_score": 0.16666666666666666,
+        "negative_score": 0.0,
+        "ratio_score": 0.16666666666666666
+      },
+      "Jamie Dimon": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 4,
+        "positive_score": 0.25,
+        "negative_score": 0.0,
+        "ratio_score": 0.25
+      },
+      "Betsy L. Graseck": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Steven Alexopolous": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Ebrahim Poonawala": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "John McDonald": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Mike Mayo": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 6,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Erika Najarian": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 3,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Jim Mitchell": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Ken Usdin": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 7,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Matt O\u2019Connor": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Glenn Schorr": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 10,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Gerard Cassidy": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 3,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Saul Martinez": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Chris Kotowski": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      }
+    },
+    "ProsusAI/finbert": {
+      "Operator": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Jeremy Barnum": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 4,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Christopher McGratty": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 6,
+        "positive_score": 0.16666666666666666,
+        "negative_score": 0.0,
+        "ratio_score": 0.16666666666666666
+      },
+      "Jamie Dimon": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 4,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Betsy L. Graseck": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.09090909090909091,
+        "negative_score": 0.0,
+        "ratio_score": 0.09090909090909091
+      },
+      "Steven Alexopolous": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Ebrahim Poonawala": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.2,
+        "negative_score": 0.0,
+        "ratio_score": 0.2
+      },
+      "John McDonald": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.125,
+        "negative_score": 0.0,
+        "ratio_score": 0.125
+      },
+      "Mike Mayo": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 6,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Erika Najarian": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 3,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Jim Mitchell": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.125,
+        "negative_score": 0.0,
+        "ratio_score": 0.125
+      },
+      "Ken Usdin": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 7,
+        "positive_score": 0.14285714285714285,
+        "negative_score": 0.0,
+        "ratio_score": 0.14285714285714285
+      },
+      "Matt O\u2019Connor": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Glenn Schorr": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 10,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Gerard Cassidy": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 3,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Saul Martinez": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.09090909090909091,
+        "negative_score": 0.0,
+        "ratio_score": 0.09090909090909091
+      },
+      "Chris Kotowski": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      }
+    }
+  },
+  "analysis_timestamp": "2025-09-13T19:20:55.335244",
+  "bank_name": "jp_morgan",
+  "text_length": 115870
+}

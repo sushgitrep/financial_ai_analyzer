@@ -72,7 +72,9 @@ focus_topics:
 
 # models use in sentiment analysis agent
 sentiment_analysis:
-  models: ["finbert", "finbert-tone", "financial-roberta"]
+  models:
+    - yiyanghkust/finbert-tone
+    - ProsusAI/finbert
 
 
 # Visualization Settings

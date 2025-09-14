@@ -49,6 +49,10 @@ class EnhancedPreprocessingAgent:
         self.transcript_processor = TranscriptProcessorFactory.create_processor(
             self.current_bank
         )
+        self._use_raw_for_finbert = any(
+        (m or "").strip().lower() in ("yiyanghkust/finbert-tone", "prosusai/finbert")
+        for m in self.config.get("sentiment_analysis", {}).get("models", [])
+        )
 
         # Setup NLTK stopwords
         try:
@@ -264,7 +268,13 @@ class EnhancedPreprocessingAgent:
         try:
             # Safe cleaning
             text = self._safe_clean_text(raw_text)
-            cleaned_text = self._simple_nltk_processing(text)
+            
+            # For FinBERT, skip stopword/punctuation removal
+            if self._use_raw_for_finbert:
+               cleaned_text = text
+            else:
+                cleaned_text = self._simple_nltk_processing(text)
+            
             self.transcript_processor = TranscriptProcessorFactory.create_processor(
                 self.current_bank
             )

@@ -1,18 +1,17 @@
-from processors.sentiment_analyzers.finbert_analyzer import FinBERTAnalyzer
-from processors.sentiment_analyzers.finbert_tone_analyzer import FinBERTToneAnalyzer
-from processors.sentiment_analyzers.financial_roberta_analyzer import (
-    FinancialRoBERTaAnalyzer,
-)
-
+from transformers import pipeline
+from processors.sentiment_analyzers.Finbertanalyzer_2 import FinBERTAnalyzer
+from processors.sentiment_analyzers.Finbertanalyzer_1 import FinBERTProsusAnalyzer
 
 class SentimentAnalyzerFactory:
     @staticmethod
-    def create_analyzer(model: str):
-        if model == "finbert":
-            return FinBERTAnalyzer()
-        elif model == "finbert-tone":
-            return FinBERTToneAnalyzer()
-        elif model == "financial-roberta":
-            return FinancialRoBERTaAnalyzer()
+    def create_analyzer(model_name):
+        print("[create_analyzer] got:", repr(model_name))
+        if model_name == "yiyanghkust/finbert-tone":
+            classifier = pipeline("sentiment-analysis", model="yiyanghkust/finbert-tone")
+            return FinBERTAnalyzer(classifier)
+        elif model_name == "ProsusAI/finbert":
+            classifier = pipeline("sentiment-analysis", model="ProsusAI/finbert")
+            return FinBERTProsusAnalyzer(classifier)
+        # Add other models as needed
         else:
-            raise ValueError(f"Unknown model: {model}")
+            raise ValueError(f"Unknown model: {model_name}")

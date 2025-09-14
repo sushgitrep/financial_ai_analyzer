@@ -1,0 +1,2488 @@
+{
+  "sentiments": {
+    "yiyanghkust/finbert-tone": {
+      "Operator": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9999192953109741,
+            "tokens": 121,
+            "text": "Good morning, ladies and gentlemen. Welcome to JPMorganChase's Second Quarter 2025 Earnings Call. This call is being recorded. Your line will be muted for the duration of the call. We will now go live to the presentation. The presentation is available on JPMorganChase's website. Please refer to the disclaimer in the back concerning forward-looking statements. Please stand by. At this time, I would like to turn the call over to JPMorganChase's Chairman and CEO, Jamie Dimon; and Chief Financial Officer, Jeremy Barnum. Mr. Barnum, please go ahead."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9991699457168579,
+            "tokens": 25,
+            "text": "Thank you. Please standby. Our first question will come from Christopher McGratty with KBW. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9984544515609741,
+            "tokens": 22,
+            "text": "Thank you. Next we will go to the line of Betsy Graseck from Morgan Stanley. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9961609840393066,
+            "tokens": 23,
+            "text": "Thank you. Next we will go to the line of Steven Alexopoulos from TD Cowen. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9967717528343201,
+            "tokens": 30,
+            "text": "Thank you. Next, we will go to the line of Ebrahim Poonawala from Bank of America Merrill Lynch. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9982941746711731,
+            "tokens": 23,
+            "text": "Thank you. Thank you. Our next question comes from John McDonald with Truist Securities. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9992803931236267,
+            "tokens": 23,
+            "text": "Thank you. Next, we will go to the line of Mike Mayo with Wells Fargo. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9974174499511719,
+            "tokens": 23,
+            "text": "Thank you. Next we will go to the line of Erika Najarian with UBS. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9991161227226257,
+            "tokens": 24,
+            "text": "Thank you. Next we will go to the line of Jim Mitchell with Seaport Global Securities. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9978651404380798,
+            "tokens": 21,
+            "text": "Thank you. Next we will go to the line of Ken Usdin from Autonomous. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.998794674873352,
+            "tokens": 25,
+            "text": "Thank you. Next we will go to the line of Matt O'Connor with Deutsche Bank. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9990774393081665,
+            "tokens": 22,
+            "text": "Thank you. Next we will go to the line of Glenn Schorr with Evercore. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9987190961837769,
+            "tokens": 22,
+            "text": "Thank you. Our next question comes from Gerard Cassidy with RBC Capital Markets. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9976595640182495,
+            "tokens": 20,
+            "text": "Thank you. Our next question comes from Saul Martinez with HSBC. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9981721639633179,
+            "tokens": 20,
+            "text": "Thank you. Our final question comes from Chris Kotowski with Oppenheimer. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9991612434387207,
+            "tokens": 9,
+            "text": "Thank you. We have no further questions."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9991518259048462,
+            "tokens": 11,
+            "text": "Operator: Thank you. We have no further questions."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 17,
+        "total_chunks": 17,
+        "total_tokens": 464,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Jeremy Barnum": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.7009599804878235,
+            "tokens": 510,
+            "text": "Thank you very much and good morning, everyone. This quarter, the Firm reported net income of $15 billion, EPS of $5.24 on revenue of $45.7 billion, with an ROTCE of 21%. These results included an income tax benefit of $774 million, which we described in more detail in the earnings press release. On the next page, we have some more detail. The Firm reported revenue of $45.7 billion, down $5.3 billion, or 10% year-on-year. NII ex. Markets was down $185 million or 1%, driven by the impact of lower rates and deposit margin compression, predominantly offset by higher wholesale deposits, higher revolving balances in Card, as well as the impact of securities activity, including from prior quarters. NIR ex. Markets was down $6.3 billion or 31%, and excluding the net gain related to Visa shares and net investment securities losses in the prior year, was up $1 billion or 8%, driven by higher asset management fees, higher auto lease income, higher investment banking fees, and higher Payments fees; and Markets revenue was up $1.1 billion, or 15%. Expenses of $23.8 billion were up $66 million; and excluding last year's Visa stock contribution to the Firm's foundation, was up $1.1 billion or 5%, primarily driven by compensation, higher brokerage and distribution fees, as well as higher auto lease depreciation. And credit costs were $2.8 billion, with net charge-offs of $2.4 billion and a net reserve build of $439 million. The build was driven by new lending activity, largely offset by a decrease in the probabilities that we attached to the adverse scenarios in the allowance estimation. On to the balance sheet on page 3. We ended the quarter with a CET1 ratio of 15%, down 40 basis points versus the prior quarter, as net income was more than offset by capital distributions and higher RWA. This quarter's higher RWA is primarily driven by an increase in wholesale lending across both CIB Markets and Banking, and increase in other Markets activity, as well as an increase in Card loans. As you know, we completed CCAR a couple of weeks ago. Under the current rules, our indicative SCB is floored at 2.5% and goes into effect in 4Q25. Our new SCB also reflects the Board's intention to increase the dividend to $1.50 per share in the third quarter."
+          },
+          {
+            "label": "positive",
+            "score": 0.9999992847442627,
+            "tokens": 521,
+            "text": "Our new SCB also reflects the Board's intention to increase the dividend to $1.50 per share in the third quarter. Now, let's go to our businesses, starting with CCB. CCB reported net income of $5.2 billion on revenue of $18.8 billion, which was up 6% year- on-year. In Banking & Wealth Management, revenue was up 3%, largely driven by growth in Wealth Management revenue with deposit NII relatively flat. Average deposits were down 1% year-on-year and flat sequentially. Client investment assets were up 14% year-on-year, driven by market performance and continued healthy flows into managed products. In Home Lending, revenue was down 5% year-on-year, predominantly driven by lower NII. Turning to Card Services & Auto, revenue was up 15% year-on-year, predominantly driven by Card NII on higher revolving balances, as well as higher operating lease income in Auto. Card outstandings were up 9% due to strong account acquisition. In Auto, originations were up 5%, driven by higher lease volume. Expenses of $9.9 billion were up 5% year-on-year, largely driven by growth in technology and auto lease depreciation. Credit costs were $2.1 billion, reflecting net charge-offs of $2.1 billion, relatively flat year-on-year, in line with expectations. Next, the Commercial & Investment Bank. CIB reported net income of $6.7 billion on revenue of $19.5 billion, which was up 9% year-on-year. IB fees were up 7% year-on-year. We continue to rank number 1 with wallet share of 8.9%. In Advisory, fees were up 8%, benefiting from increased sponsor activity. Debt underwriting fees were up 12%, primarily driven by a few large deals. In equity underwriting, fees were down 6% year-on- year. Our pipeline remains robust, and the outlook, along with the market tone and sentiment, is notably more upbeat. Payments revenue was up 3% year-on-year, excluding equity investments, driven by higher deposit balances and fee growth, predominantly offset by deposit margin compression. Lending revenue was down 6% year-on-year, reflecting higher losses on hedges. Moving to Markets, total revenue was up 15% year-on-year. Fixed Income was up 14%, with improved performance in Currencies & Emerging Markets, Rates and Commodities. This was partially offset by fewer opportunities in Securitized Products and Fixed Income Financing."
+          },
+          {
+            "label": "positive",
+            "score": 0.999996542930603,
+            "tokens": 489,
+            "text": "This was partially offset by fewer opportunities in Securitized Products and Fixed Income Financing. Equities was up 15%. We continue to see strong performance across products, most notably in Derivatives. Securities Services revenue was up 12% year-on-year, driven by higher deposit balances and fee growth. Expenses of $9.6 billion were up 5% year-on-year, driven by higher compensation, brokerage and technology expense, partially offset by lower legal expense. Average Banking & Payments loans were down 2% year-on-year and up 2% quarter-on-quarter, with sequential growth primarily driven by new loans with larger corporates. Average client deposits were up 16% year-on-year and up 5% sequentially, reflecting increased activity across Payments and Securities Services. Finally, credit costs were $696 million, driven by builds in our C&I portfolio, including new lending activity and downgrades to a handful of names, partially offset by the scenario probability adjustment I mentioned upfront. Turning to Asset & Wealth Management to complete our lines of business. AWM reported net income of $1.5 billion with pre-tax margin of 34%. Revenue of $5.8 billion was up 10% year-on-year, driven by growth in management fees on strong net inflows and higher average market levels, as well as higher brokerage activity and higher deposit balances. Expenses of $3.7 billion, were up 5% year-on-year, driven by higher compensation, including revenue-related compensation, and continued growth in our private banking advisor teams, as well as higher distribution fees. Long-term net inflows were $31 billion for the quarter, led by Fixed Income and Equities. In liquidity, we saw net inflows of $5 billion. AUM of $4.3 trillion was up 18% year-on-year, and client assets of $6.4 trillion were up 19% year-on-year, driven by continued net inflows and higher market levels. And finally, loans were up 7% year-on-year and 3% quarter-on-quarter, and deposits were up 9% year-on-year and 2% sequentially. Turning to Corporate. Corporate reported net income of $1.7 billion and includes the tax item I mentioned upfront. Revenue was $1.5 billion for the quarter. NII was $1.5 billion, down $875 million year-on-year."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6330479979515076,
+            "tokens": 312,
+            "text": "NII was $1.5 billion, down $875 million year-on-year. NIR was a net gain of $49 million, up $148 million year-on-year, excluding the prior year's Visa-related gain. Expenses, $547 million, were down $32 million year-on-year, excluding the Foundation contribution from the prior year that I mentioned earlier. To finish up, I'll touch on the outlook. You'll recall that at Investor Day, I made a couple of comments previewing the potential evolution of the outlook. So now, let me formalize that and give you updated guidance. First, we now expect NII ex. Markets to be approximately $92 billion, with the increase driven by changes in the forward curve and strong deposit growth in Payments, Securities Services as well as balanced growth in Card. Total NII guidance is now about $95.5 billion, implying $3.5 billion of Markets NII. Second, on adjusted expense, we now expect it to be about $95.5 billion, primarily driven by the impact of the weaker dollar, which is largely bottom line neutral. And finally, on credit, we continue to expect the Card net charge-off rate to be approximately 3.6%. So reflecting on the quarter, while the environment remains extremely dynamic, in many ways navigating uncertainty is the norm for both us and our clients. And we're now happy to take your questions, so let's open the line for Q&A. QUESTION AND ANSWER SECTION"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9410616755485535,
+            "tokens": 7,
+            "text": "Welcome to the call. Yeah."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9997637867927551,
+            "tokens": 13,
+            "text": "Just wanted to welcome you to the call before we get started."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9991532564163208,
+            "tokens": 364,
+            "text": "Let me take the second part of that first. So, we have our centered capital hierarchy that we recite a lot, and I don't want to bore you by reciting it again. But I think it's important because it does serve as a guide in this context, right? So, we deploy our capital against organic and inorganic growth, and we ensure a sustainable dividend. And with what's left, we do buybacks. And so, we've talked about how excess capital's earnings in store. You saw this quarter that we actually had some financial resource usage that came through and actually meant that, despite keeping the buybacks relatively constant and having the organic capital generation be relatively constant, the CET1 ratio dropped a little bit as a function of increased usage organically showing up in RWA expansion. So, we're doing what we want to do. But clearly, it is a big amount of excess and that does mean that everything is on the table as it always is, and that includes potentially inorganic things. Now, obviously, that needs to be done carefully. I think acquisitions have a high bar, both financially, strategically, and importantly, in some cases, culturally. And we also need to think carefully about things that work outside the regulated perimeter, might not work inside the regulated perimeter as well. We have learned some lessons. We don't want to overlearn those lessons. But in the end, sometimes we lean in a little more, sometimes we lean in a little less, but we wouldn't be doing our jobs if we weren't thinking about it. I don't particularly think, other than fundamentally whether things are permissible or not, that the regulatory environment right now, particularly shapes our thinking on that front."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9042981863021851,
+            "tokens": 318,
+            "text": "And maybe sort of gone a bit long here, but just to expand and go into a little bit of detail there. I will note that Vice Chair Bowman, gave a speech on her vision having come into the new seat for ongoing work and regulation. And I think it's a speech that's pretty comprehensive and lays out some of what Jamie is saying in terms of like the to-do list. I think at the margin, we do understand the desire to sort of knock some things off the to-do list that have been on it for a long time and clearly need to be addressed like SLR. But at the same time that that happens, the holistic review done properly across not only capital, but also liquidity, resolution, et cetera, is clearly quite important. More narrowly, in the near term, I think we continue to feel very strongly that of all the things that are out there, one of the worst is G-SIB, in the sense of both the original gold plating, the sort of deep conceptual flaws in the framework itself, and the failure to recalibrate it for growth since it was put into effect. And I think one of the things that's maybe a little bit underdiscussed there is the extent to which it specifically creates strong disincentives for American banks to be strong and globally competitive. And that is, it seems to me, the exact opposite of what we want. So, that's really one of the ones that needs to get attacked pretty aggressively, I would say."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9825596809387207,
+            "tokens": 100,
+            "text": "I mean, we've talked about that a little bit over time. Obviously, we're not fundamentally capital constrained right now. So, I mean, in addition to the fact that capital isn't the only financial resource that we need to allocate, I would say, the larger point is that any good franchise business that it makes sense from a risk perspective and clears the cost of equity is going to get done, within reason, subject to obvious caveats. So..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8304303288459778,
+            "tokens": 3,
+            "text": "Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9466185569763184,
+            "tokens": 4,
+            "text": "Hey, Betsy."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9998118281364441,
+            "tokens": 36,
+            "text": "It's all of the above, Betsy, because we are the Switzerland of financing. We do everything, and we saw a lot of activity come in late in the quarter."
+          },
+          {
+            "label": "neutral",
+            "score": 0.963935911655426,
+            "tokens": 4,
+            "text": "Thanks, Betsy."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9979807734489441,
+            "tokens": 11,
+            "text": "Yeah. And I wouldn't..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9884678721427917,
+            "tokens": 105,
+            "text": "Yeah. And on the question of inorganic deployment, I would sort of blend my comments with Jamie's, right? In the end, I'm just asserting that, of course, we need to look at inorganic opportunities; and of course, that's a question that comes up given our current excess capital position. But Jamie said clearly that he doesn't think that's particularly likely for some of the reasons that you emphasized, it's not easy to imagine a deal that would actually make sense."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9944506883621216,
+            "tokens": 3,
+            "text": "Yeah.."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9946485161781311,
+            "tokens": 13,
+            "text": "No, no. Go ahead. Ask your follow-up."
+          },
+          {
+            "label": "negative",
+            "score": 0.9982666969299316,
+            "tokens": 203,
+            "text": "Yeah, right. Okay, because that's what I was going to try to clarify. Just wasn't sure if you were doing consumer, wholesale, or both. So, let's do consumer quickly. I think we talk about this every quarter. It's obviously a very important question. We look at it very closely. It obviously matters a lot for us as a company. But we continue to struggle to see signs of weakness. We just \u2013 the consumer basically seems to be fine. Now, a few things are true like if you look at indicators of stress, not surprisingly, you see a little bit more stress in the lower income bands than you see in the higher income bands, but that's always true. That's pretty much definitionally true. And nothing there is out of line with our expectations. Our delinquency rates are also in line with expectations. You saw that we kept our net charge-off guidance unchanged. So, all of that looks kind of fine."
+          },
+          {
+            "label": "negative",
+            "score": 0.9887627959251404,
+            "tokens": 223,
+            "text": "And to be honest, as we've said before, fundamentally, while there are nuances around the edges, consumer credit is primarily about the labor market. And in a world with 4.1% unemployment rate, it's just going to be hard, especially in our portfolio, to see a lot of weakness. Now, it is true that if you look at not our data, but the government's data, I think I was looking at this the other day like, first half real consumer spending of this year versus second half of last year is down. Now, it's still positive, it's still growing, but it's down. So it's kind of consistent, this sort of soft landing narrative, which is also consistent with the sort of the GDP outlook that our economists are publishing. Our own data looked sort of in nominal terms on a cohort basis, actually shows spending up a little bit over the same period. So, it's kind of the same narrative of things being fine with different signals pointing in slightly different directions, but nothing particularly concerning."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9998375177383423,
+            "tokens": 110,
+            "text": "I mean, basically, yes. You see some idiosyncratic things here and there. And on the point of tariffs, I guess, obviously you recall the slide that we did at Investor Day kind of highlighting that different sectors are going to have different experiences as a function of their margins, their sensitivity to input costs, their amount of pricing power, their amount of leverage, and where the rules actually land. But people are obviously getting some time to adjust, and we're watching it very closely. So, we'll see."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8665344715118408,
+            "tokens": 2,
+            "text": "Thanks."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7427952885627747,
+            "tokens": 92,
+            "text": "Yeah. Thanks for that, John. I'm glad to get a chance to clarify this. There is something technical which has to do with Home Lending customers in the LA area using our forbearance availability as a result of the wildfires. So, that is resulting in an uptick in the non-performing. But when you think about land value and the insurance there, the actual loss expectation is de minimis, I would say. So,..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9992743134498596,
+            "tokens": 14,
+            "text": "Exactly. So, that's what's driving that one."
+          },
+          {
+            "label": "neutral",
+            "score": 0.944617748260498,
+            "tokens": 6,
+            "text": "Thanks a lot, John."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9540212750434875,
+            "tokens": 177,
+            "text": "Yeah. Thanks, Mike. So on loan growth, as you know, it's useful to sort of break this down between what I would think of as like relationship lending that kind of drives the whole franchise and that we sometimes look at maybe as an indicator of the health of the corporate sector in some sense, and people like to look at it as a read across for smaller banks, et cetera. That part of the franchise remains fine, but sort of muted as customers have access to capital markets and revolver utilization is sort of flattish in general. But as I noted I think previously, and as you see coming through the IB fee performance, there was just quite a bit of deal activity in the second half of the quarter, a lot of which is well known and public, and some of that is on our balance sheet and we're very happy to have it there."
+          },
+          {
+            "label": "positive",
+            "score": 0.9999988079071045,
+            "tokens": 20,
+            "text": "No, I was literally going to say what Jamie just said. So, we're good."
+          },
+          {
+            "label": "positive",
+            "score": 0.9999996423721313,
+            "tokens": 132,
+            "text": "Yeah, exactly. And as we always say, Erika, right, like the market is very competitive and the returns are high. And you know this, but I would just refer you to the slide that I delivered at Investor Day about how, in some cases, it makes, all else equal, compared to buying back shares at these prices, doing healthy, well underwritten, compelling franchise business with a 14% return, we're definitely supposed to do that actually. And if we do a lot of that, it will dilute down the weighted-average ROTCE of the company in ways that are nonetheless clearly accretive to shareholders. So,..."
+          },
+          {
+            "label": "negative",
+            "score": 0.9995030164718628,
+            "tokens": 138,
+            "text": "Yeah. And my version of that, Erika, would be to say that you talked about certain of the tail risks getting taken completely off the table, and that's clearly not true, right. All the tail risks are all still there, quite prominently, and in many cases, in the daily news flow. Maybe at the margin the tails are a little bit less fat right now. I think it's also true that in terms of our \u2013 what the things that we've said about our Investment Banking pipeline have been consistently quite cautious. And at a certain point, when you have the type of outperformance that you have this quarter, it starts to make your cautiousness"
+          },
+          {
+            "label": "positive",
+            "score": 0.9989308714866638,
+            "tokens": 56,
+            "text": "seem less credible. So, we wanted to take a hard look at ourselves and say, what do we really think? And it's like, yeah, the sentiment is better. But as Jamie says like, that can change overnight and there are lot of risks out there."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9965715408325195,
+            "tokens": 2,
+            "text": "Yeah."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9986922144889832,
+            "tokens": 191,
+            "text": "All right. So, it's a good question, Jim. But yeah, as Jamie points out, just remember that to the extent that the market is efficient which maybe it's not, but you can't really hedge ahead of cuts that are already priced in, right. So, that\u2019s worth saying out loud. But, I mean, you can decrease volatility, but it's just a question of now or later. But having said that, on the question of decreasing volatility, we did in fact add some duration this quarter, with the usual mix of instruments and strategies, but primarily in the front end of the yield curve which was designed to essentially balance out the tails a little bit, so that we were a little bit less exposed to a classic recessionary type scenario with much lower rates in exchange for accepting a little bit less good outcomes and like higher rate scenarios, at least narrowly through the lens of NII."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8000945448875427,
+            "tokens": 110,
+            "text": "As we've talked about a little bit over time, though, I like the way you framed it in terms of like having the capacity. And I think the way to think about it there is that, in general, it's almost impossible to get your asset \u2013 for a bank like us, it's almost impossible to get your asset sensitivity \u2013 your actual asset sensitivity down to zero, because you wind up constrained by other things. So, we're in the corridor and we're okay with where we are right now."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9705265164375305,
+            "tokens": 445,
+            "text": "Yeah, it's a good question. You may recall, I actually got a version of this question at Investor Day, so I'll almost repeat my answer here which is that, as we know, fixing SLR has been on the list for a long time. It behaved very much not the way it was designed in the moment of big QE when it became binding and it had bad impacts on the system. It's the opposite of what we want for these backstop measures. And so, we don't want regulators to need to make unusual corrections amid crisis. It's just not the right way to run the railroad. I think everyone has agreed on that for a long time. And in that context, it's been sort of disappointing that something as obvious as this has taken as long as this to get fixed, but it's a good sign that it's now out there. And we\u2019d certainly support the proposal, there are some nuances that \u2013 or a comment had been requested, but at a high level, it's a good proposal, it's the right thing to do. And it's the right thing to do from the perspective of the resilience of the system for the next time that we've got that type of expansion in the size of the system that could make it binding in the wrong way for the wrong reasons. But yeah, as you note and as we've said, we're not really bound by it. I think other actors in the market may be a little bit more bound by it. There are also some nuances about impact on portfolio activity which I would expect to be very small, versus impact on low risk intermediation in the market making businesses, which may be where you would hope to see the effect. So, it's a good thing. Hopefully, it will help. Obviously, it's pretty fully priced in at this point, so I don't think you're going to see a big pop one way or the other as a function of it's eventually being finalized, because I think everyone's assuming it will go in roughly in its current form."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8665344715118408,
+            "tokens": 2,
+            "text": "Thanks."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9999347925186157,
+            "tokens": 22,
+            "text": "Yeah, sure. So, let me dispense with the question of how it's going for..."
+          },
+          {
+            "label": "positive",
+            "score": 1.0,
+            "tokens": 162,
+            "text": "Going fine. We're happy. In terms of the strategic aspects of this and the competitive landscape, I think the way we think about this is, as a normal course refresh of one of our important products and the way that all of our products get refreshed periodically. Obviously, this is a relatively high profile product. Many of us have the card, we see the ads everywhere. So, it sort of punches above its weight in that respect in terms of visibility. In terms of the competitive landscape, I think a thing that we feel really great about is the dramatic increase in the customer value proposition associated with the card. And in particular, one of the things that we look at is the ratio of the customer value to the annual fee which is clearly market leading at this point. So..."
+          },
+          {
+            "label": "positive",
+            "score": 0.9997847676277161,
+            "tokens": 72,
+            "text": "And then some. Theres a lot of value added. Yeah. And obviously, I mean, we're not going to talk too much about competitors. But as you know, the card space is very competitive and very dynamic. So, we exist in a competitive landscape, and this is our best foot forward on this product at this moment in time."
+          },
+          {
+            "label": "negative",
+            "score": 0.9531062245368958,
+            "tokens": 74,
+            "text": "Good question. Honestly, I think it's kind of all of the above, basically. No question that the tone shifted. Obviously, it shifted in Investment Banking. I think I personally was a little bit surprised by the resilience of the Markets revenues in the second half of the quarter, because I was sort of expecting a little bit of an offset between the two."
+          },
+          {
+            "label": "positive",
+            "score": 0.9878188371658325,
+            "tokens": 271,
+            "text": "Okay, there you have it. But it's not like I thought it would do badly, but it sort of did quite well in the volatility in the first half of the quarter, and then it got quiet, but despite that we still did nicely. And I think the point actually sort of to your question is that, yes, we are seeing opportunities to deploy capital and other resources; and yeah, maybe at the margin that does contribute a little bit to durability. We've talked over time about the Markets revenues and the dramatic increase. Obviously, 2019 is a long time ago at this point, and we should expect those revenues to grow with GDP anyway, but we worried a lot in certain moments about the revenues dropping back to some old run rate, and then we kind of stopped worrying about that. And now, of course, they've gone up to new highs, so maybe we should be worried again. But a thing I like to remind myself of, to your point is that, while the revenues have gone up a lot, the resource usage has also gone up a lot. So, we are deploying a lot of capital and other resources in this business, and we're earning good returns on it, but the revenue growth is not coming for free. So, it's us running the place, basically."
+          },
+          {
+            "label": "neutral",
+            "score": 0.735779881477356,
+            "tokens": 4,
+            "text": "Thanks a lot."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9980545043945312,
+            "tokens": 41,
+            "text": "Matt, you've got some major static on the line. I don't know if we're going to be able to hear you. Just give it a shot. Give it a shot."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9983794689178467,
+            "tokens": 14,
+            "text": "Not really, but let's try. Let's try."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9984695315361023,
+            "tokens": 15,
+            "text": "I think if I heard the question correctly, you were asking..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9985597729682922,
+            "tokens": 7,
+            "text": "The answer is no, yeah."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9990692734718323,
+            "tokens": 17,
+            "text": "I wish we could say more about it, but we think the answer is no."
+          },
+          {
+            "label": "neutral",
+            "score": 0.998309850692749,
+            "tokens": 61,
+            "text": "It's a competitive market, right? There is ongoing \u2013 deposits are very, very competitive, and there are always pricing conversations as there should be. It's hard to know in any given moment what's driving it, but I haven't heard anything to support a tariff linked narrative."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6598742604255676,
+            "tokens": 120,
+            "text": "Yeah. I think that's right in the IPO space at least for now. But I have heard some things to support some elements of your narrative Glenn, the effect of that \u2013 now, there is pressure to kind of recycle capital and get things done. And yeah, sure, after the initial shock of tariff policy changes, everyone kind of went on hold. But as we've noted in our comments a few times today, at a certain moment you just have to move on with life, and it does feel like some of that is happening just because you can't delay forever."
+          },
+          {
+            "label": "positive",
+            "score": 0.5077354311943054,
+            "tokens": 158,
+            "text": "Okay. Wait, I want to say a couple of things, and then I want to clarify an aspect of your question, Glenn. So first, on arresting the growth, what I actually said, not to nitpick on you, but I said arresting the growth of excess capital which I agree is reasonable to interpret as keeping a roughly constant CET1. As it happened this quarter, you see the CET1 actually dropping about 40 basis points, and that was in no small part a function of significant late quarter growth in RWA usage which we were frankly like very happy to see, in fact. So, that's all to the good in some sense. Now the other part of your question, can you just repeat it? I want to make sure I understand it."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9928164482116699,
+            "tokens": 63,
+            "text": "Meaning, would we go back to a moment of reducing buybacks and starting to build again if the stock gets even more expensive? I mean, I think that's the question for the boss, but I don't know, I guess, we always reserve the right to do whatever we want on buybacks basically."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9764425158500671,
+            "tokens": 4,
+            "text": "Thanks, Glenn."
+          },
+          {
+            "label": "positive",
+            "score": 0.9998916387557983,
+            "tokens": 325,
+            "text": "Yeah. And Gerard, I guess on your other question, it's an interesting question. I don't think the answer is really knowable, and I feel like it's kind of all of the above. Let me say what I mean. Like, on the one hand, I think if you look at the current market environment, it's hard to imagine a set of conditions that would be any better for us, right. Rates are at a good level for us, deal activity is high, capital markets are very strong, consumer credit is excellent, wholesale credit is excellent, wealth management, asset management, essentially every part of the company is firing. We're essentially firing on all cylinders, with some very minor exceptions of certain businesses that are extremely rate sensitive, like Home Lending, where they're still doing a great job in what is a very tough market. So when you see that, you're like, well, that's not normal. Normally, you would have some pockets doing a little better, some pockets doing a little worse; and that's part of what makes you think that some aspects of this are maybe not sustainable. On the other hand, it's also true that core elements of the strategy are working very well, and we've been investing for a long time very successfully and kind of leaning in even in moments where from the outside there wasn't that much appetite for us to be investing in all of the things that Jamie's talking about. Some of those investments in various ways are paying off. So..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9990842342376709,
+            "tokens": 27,
+            "text": "Yeah. I always have to go put new batteries in my HP 12C when you ask me that question. All right. Yeah."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9810918569564819,
+            "tokens": 14,
+            "text": "It's not true because if \u2013 can we not do that?"
+          },
+          {
+            "label": "positive",
+            "score": 0.999895453453064,
+            "tokens": 60,
+            "text": "Yeah, sure. I mean, it's just normal diversification inside the Markets business. Those businesses are doing great. But like at the margin, in the second half of the quarter, stuff was a little quieter relative to emerging markets and the macro space, which was a little bit better."
+          },
+          {
+            "label": "negative",
+            "score": 0.8968484401702881,
+            "tokens": 4,
+            "text": "Nothing too dramatic."
+          },
+          {
+            "label": "positive",
+            "score": 0.9917426705360413,
+            "tokens": 212,
+            "text": "Yeah. I mean, one thing I'll say is that there's no weird exceptional thing happening in this particular quarter driving the results. So, it's pretty broad based, and it's not particularly lumpy. And as I said, I think it is true, and I think we've shared some of this in different ways, including in my slide at Investor Day, that we are deploying quite a bit of capital and other resources like G-SIB capacity and liquidity in some cases to generate that revenue. And we're happy with the returns, but it's not just like growing without any inputs, essentially. So, I guess, on the one hand you might say that that's a bit more durable for that reason, but it is important to realize that it's coming with that use of resources, essentially. So, I mean, we've gotten, over time, a little bit more relaxed about talking about the Markets business as something that has relatively uncorrelated and reasonably recurring revenues."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9971510767936707,
+            "tokens": 100,
+            "text": "It's obviously extremely client centric, there's a lot of financing of various types that's being supplied, and it seems to, if anything, more often than not be counter-cyclical rather than pro-cyclical. But it's still Markets, right? Things can happen, it's volatile, there's risk taking involved, that's part of the point that we build. Sorry to hedge the answer, but that's kind of how we think about it."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9998447895050049,
+            "tokens": 100,
+            "text": "Yeah. I mean, the hedges are definitely part of it, and a lot of the assets came on the balance sheet quite late in the quarter, so I don't know, I might be missing something. There's probably some Markets it. There's Markets NII piece of it too. So, I don't know, Mikael can follow-up with you, but I think the loans thing is part of it, Markets NII is part of it, and late quarter\u2026"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8665344715118408,
+            "tokens": 2,
+            "text": "Thanks."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8625292778015137,
+            "tokens": 4,
+            "text": "Thanks very much."
+          }
+        ],
+        "positive": 12,
+        "negative": 5,
+        "neutral": 43,
+        "total_chunks": 60,
+        "total_tokens": 6689,
+        "positive_score": 0.9665260519877473,
+        "negative_score": 0.9893939464448769,
+        "ratio_score": 0.26309771912214486
+      },
+      "Christopher McGratty": {
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.9895790219306946,
+            "tokens": 28,
+            "text": "Great. Good morning. Thanks for the question. Jamie, relative to three months ago, there's a lot of optimism..."
+          },
+          {
+            "label": "positive",
+            "score": 0.8914312720298767,
+            "tokens": 7,
+            "text": "Great. Thanks for having me."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9964510202407837,
+            "tokens": 107,
+            "text": "Great. Thanks so much. Relative to three months ago, there's a lot of optimism on financial deregulation and really going to break in the bank's favor. I'm interested if you agree, number one, with this optimism and anything specifically you could point to? And secondarily, on capital. I'm interested in what's on or off the table in terms of uses of capital? What do you need to see from the macro, regulatory? And how should we be thinking about the timing? Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9947679042816162,
+            "tokens": 57,
+            "text": "I appreciate all the color. If could ask kind of a follow-up, the inorganic comments. I'm interested in capital allocation between your businesses, where you think \u2013 if that were to present an opportunity, which businesses would most likely be the use of that capital? Thanks."
+          },
+          {
+            "label": "positive",
+            "score": 0.7049776315689087,
+            "tokens": 6,
+            "text": "Great. Thanks, again."
+          }
+        ],
+        "positive": 3,
+        "negative": 0,
+        "neutral": 2,
+        "total_chunks": 5,
+        "total_tokens": 205,
+        "positive_score": 0.9311731050654155,
+        "negative_score": 0.0,
+        "ratio_score": 0.1862346210130831
+      },
+      "Jamie Dimon": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9983807802200317,
+            "tokens": 295,
+            "text": "Can I say just a broader point about regulations. I think it's very important that the regulators step back and kind of look at the big picture now, not just one picture. So, nothing's happened yet. I think they should be looking at all these things. But if you look at SLR, G-SIFI, CCAR, Basel III, FSRT, the overlap, the duplication, I actually believe that you can make the system simpler, cheaper, more effective, more transparent and safer. And the things like Silicon Valley Bank and First Republic did not need to happen if you just modify some things and you create more liquidity, more loans and a safer system. And that's really what they should be looking at, not just SLR. And so, I'm hoping that over time they do that. And the second thing I'd add to that which I think is even maybe more important is, they should ask the question, what do they actually want in our public markets versus our private markets, et cetera. We've gone from 8,000 public companies, I'm talking about like 25 years ago, to 4,000 today. That's happened overseas. Public markets overseas have gotten smaller and smaller. Obviously, I'm not against private credit; private credit is growing. And how do you really want to structure this? And why is it happening? Is that a good thing for America?"
+          },
+          {
+            "label": "positive",
+            "score": 0.9430259466171265,
+            "tokens": 89,
+            "text": "And so, I just \u2013 it is time that they take a step back. I hear sometimes from some pundits that there's been relaxing of rules and regulations, absolutely not. There's been nothing but increasing them for the better part of 15 years. They should take a deep breath, step back and look at the system and answer the question, how can we make it better and stronger for the economy and all involved."
+          },
+          {
+            "label": "positive",
+            "score": 1.0,
+            "tokens": 59,
+            "text": "Inorganic, it's a good discipline to always be looking. I wouldn\u2019t have high expectations that will be how we use a lot of capital. And I think it's a very big plus that we can grow organically in every business we're in without having to stretch."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9976339340209961,
+            "tokens": 180,
+            "text": "So, deposit token is effectively the same thing. You're moving money by token, you can pay interest. It's J.P. Morgan Deposit. And stablecoin \u2013 we're going to be involved in both J.P. Morgan Deposit coin and stablecoins to understand it, to be good at it. We don't know exactly \u2013 I think they're real, but I don't know why you'd want a stablecoin as opposed to just payment. But I do think you have fintech. These guys are very smart. They're trying to figure out a way to create bank accounts and get into payment systems and rewards programs. And we have to be cognizant of that. The way to be cognizant is to be involved. So, we're going to be in it and learning a lot, and a player."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9997192025184631,
+            "tokens": 313,
+            "text": "So, this is very important. So forget pricing for a second, we are in favor of the customer, but we think the customer has the right to if they want to share their information. What we ask people to do is, what do they \u2013 do they actually know what's being shared? What is actually being shared? It shouldn\u2019t be everything. It should be what their customer wants. It should have a time limit because some of these things went on for years. It should not be remarketed or resold to third parties. And so, we're kind of in favor of all that, done properly. And then the payment, it just costs a lot of money to set up the APIs and stuff like that to run the systems protection. So, we just think it should be done and done right. And that's the main part. It's not like you can't do it. The last thing is a liability shift. I mean, I don't think JPMorgan should be responsible if you've given your bank passcodes to third parties who market and do a whole bunch of stuff with it, and then you get scammed or fraud through them, they should be responsible. And we want real clarity about that. And if you see today, a lot of these scams and frauds run through third party social media and stuff like that, there should be a little more responsibility on their part so we can all do a better job for the customer. That's why."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9881616234779358,
+            "tokens": 44,
+            "text": "We use LLMs, and we're going to be agnostic about that, too. There's no reason for us to own one. At least we can't figure out why that would make sense."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9996774196624756,
+            "tokens": 20,
+            "text": "We will use it, and we will obviously be important in using our data to help our customers."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9999847412109375,
+            "tokens": 17,
+            "text": "We do a lot of small ones by the way, which you've seen."
+          },
+          {
+            "label": "neutral",
+            "score": 0.999176561832428,
+            "tokens": 18,
+            "text": "That's a great question and we\u2019ll leave it it remaining as a question."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9999260902404785,
+            "tokens": 53,
+            "text": "Well, Steven, you're raising a very important point about interoperability of stablecoins and deposits and movement of money and what problem you're trying to solve, but you're raising great points. You can assume we're thinking about all that."
+          },
+          {
+            "label": "positive",
+            "score": 0.9987516403198242,
+            "tokens": 135,
+            "text": "You [Jeremy] can answer the thing about the data, but very important, we love the Middle Market business. It drives a lot of business we\u2019ve built. I think 500 bankers in the Innovation Economy which is kind of new to us think of what Silicon Valley Bank used to do and things like that. We still have a huge addressable market in the Middle Market business. We provide not just lending, and that could be leverage lending, direct lending, but payment services, custody services, asset management services, FX services. So, we're going to grow that business regardless of what we predict the environment is going to be in the next six or nine months."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9463685750961304,
+            "tokens": 14,
+            "text": "We always do that for customers when they have a real difficult time."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7966843247413635,
+            "tokens": 429,
+            "text": "Yeah, sure. So, I think what you're referring to is a slide where Marianne talked about kind of the potential for 6% consumer deposit growth next year. And that's a nice number; and as you've written, that would produce some nice revenue consequences, all else being equal. The way I think about that number is to kind of build it up step-by-step. So, you start with, in general, the consumer deposit base in the system has grown probably slightly above nominal GDP. A thing that's been true for us recently is that as a result of our market position and our pricing choices, we've probably lost a little bit of share during the rate hiking cycle sort of in isolation from yield seeking flows. With the yield seeking flows having abated a little bit, that relative headwind is kind of behind us or increasingly behind us, and you've got some core growth reasserting itself. You saw us call out the growth in net new accounts in consumer checking this quarter, and that's one of the key drivers. And then, as you know well, when you look at the franchise, we kind of have: number one, ongoing expansion; number two, seasoning of the old expansion; and number three, deepening in the core markets. So when you put all that together and you look at sort of the history of the growth, macro environment, et cetera, that's how you get to that type of 6% number. And obviously, things could change quite dramatically to produce a different number, among other things. You'll recall that Marianne's slide also talked about a stress scenario with lower rates which, perhaps somewhat non-intuitively, would produce actually higher growth as a result of even less yield seeking flow and a higher consumer savings rate. But the flip side of that is also true which is, an unexpectedly high rate environment would probably lead to lower balance growth, all else equal, in Consumer. So, we like to say, those are all else being equal type numbers, but all else is never equal."
+          },
+          {
+            "label": "neutral",
+            "score": 0.999576985836029,
+            "tokens": 339,
+            "text": "To answer your other question, Mike. So, some of the \u2013 I'm going to give you some things that you can actually do. So, I think you should do them and reduce risk in the system. I'm only going to talk about how they increase lending for a second. And so, G-SIFI inhibits, if you look at it, both a little bit of lending and a little bit of market making. LCR inhibits both because it's a very rigid way of looking at a bank\u2019s balance sheet. It doesn't really give you credit for potential access to window and things like that. CCAR in some cases inhibit \u2013 people \u2013 we talk about \u2018CCAR-ness,\u2019 but there's a lot of \u2018CCAR-ness\u2019 from small business loans and stuff like that where people kind of hold that back a little bit because it creates too much volatility. And CCAR capital, the FSRT, the fundamental book. When you look at all these things, I think you can create more lending, more liquidity, more flexibility and reduce the risk in the system. And also just CET, just capital usage, et cetera. And the reducing the risk in the system, I think you also make it friendlier for community banks, which we do want to do. And so, if you look at like total loan to deposits, they used to be 100%, they\u2019re now 70%. That's a huge difference. That took place over 10 or 15 years. And can you get that back to 85% and have the banking system be just safe and sound? Absolutely."
+          },
+          {
+            "label": "negative",
+            "score": 0.687639057636261,
+            "tokens": 110,
+            "text": "Yes, and I would put securitizations in that category. We need a more active securitization market and all these things could reduce the actual cost of making a loan. I pointed out in the past that mortgages probably cost 30 or 40 or 50 basis points more because of excessive securitization, origination and servicing requirements. Those could be changed and would dramatically help mortgages, particularly for low- income individuals. And we just have failed to do it for 10 years, and it wouldn't create any additional risk. And we can show you data that shows that."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9964030981063843,
+            "tokens": 118,
+            "text": "I would say, it's not high on my list because we can do it ourselves and then you know buying people and comp plans. And I also think you may have seen peak private credit a little bit. I don't know that, but we already do it. So if it was the right people, the right price, the right \u2013 sure, we should look at it. I think, Mike, you should always be open minded when people come to you with something you hadn't thought about before. And you just get smarter by looking at these things."
+          },
+          {
+            "label": "neutral",
+            "score": 0.991795003414154,
+            "tokens": 97,
+            "text": "I've mentioned that credit spreads are very low. It's grown dramatically over time. And you have to pay up a lot for it. I'm not saying, it's not going to grow some more, but I would have a slight reluctance depending on who it was. But your bankers might come to us with something tomorrow that we just hadn't thought about that is a complete natural fit for us; natural fit being product and people and culture."
+          },
+          {
+            "label": "positive",
+            "score": 0.999790370464325,
+            "tokens": 148,
+            "text": "In a competitive world, it is irrational to think that \u2013 and when it applies to all the competitors \u2013 that everybody's just going to make a lot more money, you keep it as opposed to compete in the marketplace. Hopefully, we'll still have a good competitive position relative to everybody else. But no, I don't think you should automatically say, it's going to increase your returns. Remember, Jeff Bezos says, \u201cYour margin is my opportunity.\u201d That would be a huge opportunity for fintech, private credit, alternative players, et cetera. So, you have to be a little careful to think that would happen. I think it's a good thing for the system though."
+          },
+          {
+            "label": "neutral",
+            "score": 0.5104033946990967,
+            "tokens": 107,
+            "text": "And Jeremy showed you a little thing about business units that earn high returns to low returns. And not that you shouldn\u2019t do low return ones because they fit hand in glove with other stuff. If you didn't do it, you might lose the other. But there are some businesses out there with very high returns that we just grow. We deploy capital by adding bankers or branches or products, not directly by deploying capital. So, just think of branches. That does it or private banking or things like that."
+          },
+          {
+            "label": "negative",
+            "score": 0.9172957539558411,
+            "tokens": 122,
+            "text": "Jeremy, you might want to say \u2013 I'll just answer your question by saying, honestly, we don't know. And you've seen how rapidly whole pipelines can grow and shrink. And so, that lesson we've learned over and over, and it may stay wide open for a year and a half. Something may happen geopolitically, then all of a sudden that pipeline slows a little bit. And so, I'm always a little cautious to guess what that's going to be. But if it continues this way, yeah, you're going have very active buckets."
+          },
+          {
+            "label": "positive",
+            "score": 0.9999833106994629,
+            "tokens": 131,
+            "text": "I do think that extending the tax bill for businesses to know what their taxes are going to be, is a positive going forward. And that does reduce the risk that the bill didn't get done. I also think, when it comes to tariffs, I think the initial liberation day \u2013 now there's more talk, there's more things getting done, a couple have been announced, a couple have been delayed. That reduces that risk a little bit. And hopefully, they'll get done. There's still risk out there, but I am hopeful some of these frameworks are completed soon, at least before August 1."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9986023306846619,
+            "tokens": 17,
+            "text": "Now, before he goes on, what the market expects is almost what never happens."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9999779462814331,
+            "tokens": 106,
+            "text": "And I\u2019m like a broken record. It's not SLR, it's LCR, it's G-SIFI, it's CCAR, it's Basel IV, the gold plating. You really got to step back and look at all of them, and how you use the discount window, et cetera. And even how you measure liquidity which is different in one measure than it is in resolution recovery. They should look at all of that if they really want to fix the system."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9965729713439941,
+            "tokens": 3,
+            "text": "So far."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9994800686836243,
+            "tokens": 51,
+            "text": "I got a lot of comments that people \u2013 from friends of my kids and stuff like that, that man, you have got to raise the card but you have to keep it for the LaGuardia lounge; and that's the value added."
+          },
+          {
+            "label": "negative",
+            "score": 0.5982955694198608,
+            "tokens": 5,
+            "text": "I was not surprised."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9778604507446289,
+            "tokens": 17,
+            "text": "Are you offsetting tariff pressure with pressure on loans or deposits. The answer is no."
+          },
+          {
+            "label": "negative",
+            "score": 0.6175738573074341,
+            "tokens": 16,
+            "text": "No, I mean there's always pressure in some of those..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9976410865783691,
+            "tokens": 79,
+            "text": "I think it separates sponsor-owned companies from IPOs. There are companies going public, they're in the pipeline, they want to go public, et cetera. Sponsors are still, at least from what I can tell anecdotally, still reluctant to use the public markets. There obviously maybe more of it, but it hasn't been a mountain of stuff coming out."
+          },
+          {
+            "label": "neutral",
+            "score": 0.774705708026886,
+            "tokens": 136,
+            "text": "We reserve the right. We're not going to tell you. But obviously, as stock price \u2013 I mean, don't like buying back the stock at almost three times tangible book. No one's going to convince me that's a brilliant thing to do, but it is wise to use our balance sheet for customers, which we're doing, and we can possibly do more. And it is probably wise to not increase the excess capital anymore since we have plenty and it's going be going up. Look, I'm completely convinced if you take out of your mindset 12 months, we will use the capital wisely for shareholders."
+          },
+          {
+            "label": "positive",
+            "score": 0.967018723487854,
+            "tokens": 26,
+            "text": "The best way is organic growth, which I wouldn't rule out that we can find more ways to grow clients basically."
+          },
+          {
+            "label": "positive",
+            "score": 0.9992641806602478,
+            "tokens": 214,
+            "text": "Jeremy can answer this, but this will be an important point. The value to shareholders is that we can not just earn 17% ROTCE and that we can reinvest money at 17% ROTCE. That's the value. If you're just going to earn 17%, you\u2019re a bond. You will trade three times tangible book, but that's it for the rest of your life. And so, the goal is to find opportunities to grow and expand your business, which we are doing. If you look at it, we are doing that with branches and bankers and internationally. And when you look at the midcap business we're doing in Europe, it's been great. Innovation Economy has been great. We're gaining shares in lot of places, Chase Wealth Management and the Private Bank, the International Private Bank, payment systems. We\u2019re investing in all those things to grow our franchises and that's the best way to use your capital. And forget the timetable of that. That is the best way to use it."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7113732695579529,
+            "tokens": 192,
+            "text": "You have \u2013 all of our major bank competitors are back and growing and expanding. You have the fintech folks who are quite capable and quite smart who want to take big chunks of your business. Everything we do is kind of competitive around the world. So the notion that somehow we're not going deal with our competitors, which protects JPMorganChase, we don't get complacent, we don't get arrogant, we don't get bureaucratic. And we keep on finding that you got to have to fight for it every day. And so, we're quite cautious to just declare victory like somehow we're entitled to these returns forever. Also pointed out, if you could compound at 17%, actually I had Jeremy do his number one point, if you compounded 17% for 20 years, you probably would have a good chunk of the GDP of United States of America, for 40 years maybe."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9999494552612305,
+            "tokens": 17,
+            "text": "He just uses his big brain, he doesn't need the 12C."
+          },
+          {
+            "label": "positive",
+            "score": 0.6878675818443298,
+            "tokens": 4,
+            "text": "And thank you."
+          }
+        ],
+        "positive": 8,
+        "negative": 4,
+        "neutral": 23,
+        "total_chunks": 35,
+        "total_tokens": 3721,
+        "positive_score": 0.9906501997789141,
+        "negative_score": 0.7921859205004727,
+        "ratio_score": 0.16072051145799118
+      },
+      "Betsy L. Graseck": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6029175519943237,
+            "tokens": 5,
+            "text": "Hi, good morning."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9969292283058167,
+            "tokens": 90,
+            "text": "So, two questions. First on the RWA utilization via organic, as you described. I wanted to understand in wholesale lending where you highlighted, the CIB was a driver of much of this. Could you speak to the drivers of those drivers? In other words, is it private credit? Is it M&A financing? Is it inventory? What are you seeing in the market here that you're delivering on that's raising that lending profile?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9992530941963196,
+            "tokens": 94,
+            "text": "Okay. Oh, great. All right. Thank you. And then, Jamie, there's been a lot of discussion around stablecoin, how stablecoin is going to be impacting banks? And I believe you have an opinion on this. Would love to hear if you could highlight how JPM is thinking about utilizing, leveraging, competing with stablecoin, and how the JPMD deposit token feeds into all of this as well? Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9975132942199707,
+            "tokens": 64,
+            "text": "Okay. Super. And then, separately on the topic of open banking, I think that's on hold right now with the CFPB, on hold right now. But just wanted to understand, does this hold period gave you an opportunity to change how you're pricing for your open banking and fintech relationships here?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.6882684230804443,
+            "tokens": 11,
+            "text": "Excellent. Okay. Thank you so much for that."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 5,
+        "total_chunks": 5,
+        "total_tokens": 264,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Steven Alexopolous": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9998229146003723,
+            "tokens": 180,
+            "text": "Hey, good morning, everyone. I wanted to start, Jeremy, going back to your comments on inorganic things being on the table in terms of use of excess capital. So when I look at the company, so you're the largest U.S. bank by assets, you're also the largest in terms of the data you see every day. And you may or may not have seen that Apple's looking at possibly, there\u2019s chatter, getting into the AI game more by looking at a company such as a Perplexity. Just thinking out loud here, would it make sense for JPMorgan to consider acquiring an LLM, right? The last two quarters of buybacks are about the last valuation round for Perplexity, right. I'm thinking of you guys, you could become the LLM for the financial services industry. What are your thoughts on this?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9989720582962036,
+            "tokens": 118,
+            "text": "Yeah, yeah. Okay. And then going back, Jamie, to your answer to Betsy's question on the tokenized deposit. I get it how that makes sense in terms of the customers that are inside your walled garden, but it doesn't help them much in terms of dealing with customers outside of your garden. What's holding up you guys and the other banks getting together to issue something joint \u2013 similar somewhat to what you've done with Zelle, and prevent these stablecoin companies like Circle coming in offering a more convenient solution to your customers?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9917798638343811,
+            "tokens": 4,
+            "text": "Without an answer."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9739317893981934,
+            "tokens": 11,
+            "text": "Okay. Fair enough. Thanks for taking my questions."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 4,
+        "total_chunks": 4,
+        "total_tokens": 313,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Ebrahim Poonawala": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8003845810890198,
+            "tokens": 108,
+            "text": "Good morning. This almost sounds like a fintech and AI call. But maybe just switching gears, I think, Jamie, your comments in the press release. Give us a sense like when we think about middle market businesses in the U.S., what's the state of play there when we think about interest rates, tariffs, consumer spending slowing? Should we be concerned in terms of credit quality outlook looking out 6, 9, 12 months? Just what's your take based on all the data that you all look at?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9991533756256104,
+            "tokens": 14,
+            "text": "Got it. And I guess just as a follow on..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9833696484565735,
+            "tokens": 7,
+            "text": "Go ahead, Jeremy. Yeah."
+          },
+          {
+            "label": "negative",
+            "score": 0.6661132574081421,
+            "tokens": 62,
+            "text": "And I was just wondering in terms of your sense of just the state of play, the health of the balance sheets of these customers and also if you can expand that into the consumer, any areas of stress from a credit quality perspective that you are beginning to get more concerned today versus three or six months ago?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9996527433395386,
+            "tokens": 13,
+            "text": "That was helpful, and would you say the same about commercial?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8250821232795715,
+            "tokens": 5,
+            "text": "Helpful. Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 1,
+        "neutral": 5,
+        "total_chunks": 6,
+        "total_tokens": 209,
+        "positive_score": 0.0,
+        "negative_score": 0.6661132574081421,
+        "ratio_score": -0.1976029758818412
+      },
+      "John McDonald": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9795241951942444,
+            "tokens": 55,
+            "text": "Hi, good morning. Jeremy, quick follow-up on the consumer credit, broader comments taken there. But in terms of the NPAs, the non-accruals in consumers seem to have a bit of a jump. Is there something technical there? Maybe just talk to that."
+          },
+          {
+            "label": "neutral",
+            "score": 0.577963650226593,
+            "tokens": 70,
+            "text": "Okay. Great. And I wanted to ask for some more color on retail deposits, maybe in the context of Marianne's presentation from Investor Day. Could you remind us of what's given you incremental confidence in seeing some improvement in deposit margin and kind of producing that mid- to upper-single digit deposit growth that Marianne talked about?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8623639345169067,
+            "tokens": 8,
+            "text": "Got it. Great. Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 3,
+        "total_chunks": 3,
+        "total_tokens": 133,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Mike Mayo": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8271751403808594,
+            "tokens": 60,
+            "text": "Hi. Hey, Jeremy, can you talk about why commercial loan growth was much stronger in the second quarter and any strength by geography? And Jamie, can you address what regulators could do to potentially have banks lend more in the future, consistent with what the Treasury Secretary said is his goal? Thanks."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9853892922401428,
+            "tokens": 21,
+            "text": "You didn't mention the cost to make a loan. Is there a potential for streamlining there?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9996320009231567,
+            "tokens": 28,
+            "text": "And last one, when you say inorganic growth, would you buy a private credit firm? Is that something you'd at least consider?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9999524354934692,
+            "tokens": 33,
+            "text": "Actually I can\u2019t leave on that comment. Peak private credit, I can't leave on those three words. What do you mean by peak private credit?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9044575691223145,
+            "tokens": 4,
+            "text": "Sorry, Jeremy?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.6653609871864319,
+            "tokens": 6,
+            "text": "All right. Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 6,
+        "total_chunks": 6,
+        "total_tokens": 152,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Erika Najarian": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9985142350196838,
+            "tokens": 140,
+            "text": "Hey, good morning. Jamie and Jeremy, you've talked about simplifying the regulatory construct. And it seems like based on the progress so far, we'll mostly get there, particularly with Basel III Endgame and G-SIB, which impacts you so much. And to that end, if we do get a more simplified regulatory construct that addresses both the capital and liquidity constraints, does that move up JPMorgan's natural ROTCE? You talked, 17% through-the-cycle a lot. Obviously, perhaps we would optimize the denominator. Why wouldn't that be additive to your natural ROTCE? Or does this get passed back on to your clients in terms of pricing?"
+          },
+          {
+            "label": "negative",
+            "score": 0.5755718350410461,
+            "tokens": 169,
+            "text": "Yeah, for sure. And I think that's a big discussion point with investors in terms of talking about actually the EPS gains rather than just ROTCE improvement. And the second question I had is, you mentioned and clearly we saw it in the numbers, a late in the quarter pickup in activity levels. And I'm wondering as we think about sentiment and what this means for the second half, is it \u2013 did activity levels pick up because it felt like we were taking extreme outcomes from tariff policy off the table? Is it the tax bill certainty? I guess, I'm just wondering, has some of the issues that prevented activity levels or really stunted it in April and early May, have those fully been taken out of your clients' thinking as we think about the second half of the year and activity levels continuing from here?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8304303288459778,
+            "tokens": 3,
+            "text": "Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 1,
+        "neutral": 2,
+        "total_chunks": 3,
+        "total_tokens": 312,
+        "positive_score": 0.0,
+        "negative_score": 0.5755718350410461,
+        "ratio_score": -0.3117680773139
+      },
+      "Jim Mitchell": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9914570450782776,
+            "tokens": 117,
+            "text": "Hey, good morning. Thanks for taking the questions. Maybe just on \u2013 Jeremy, if I look at your 10-Q and 10-K rate sensitivity disclosures, it looks like you guys have done a lot to reduce your asset sensitivity to the short end of the curve. So, can you talk about what you've been doing to change the positioning of the balance sheet, whether extending duration or hedges? And is there more you can do to desensitize the balance sheet before rate cuts begin to kick in as, I guess, the markets expect later this year? Thanks."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9691150188446045,
+            "tokens": 3,
+            "text": "Fair enough."
+          },
+          {
+            "label": "neutral",
+            "score": 0.944786787033081,
+            "tokens": 108,
+            "text": "Okay. Thanks. And maybe just one more on the regulatory front. I think regulators look at reducing the SLR as a way to encourage banks or open up an avenue to expand your balance sheets into lower risk assets. Do you see that, is it really just a supply issue or how do you think about the demand-supply dynamic, and is there really opportunities for you to grow? I would imagine, I guess, with an SLR not being constrained, maybe it's better return in lower margin areas. Just your thoughts."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9563734531402588,
+            "tokens": 8,
+            "text": "All right. Thanks for the color."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 4,
+        "total_chunks": 4,
+        "total_tokens": 236,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Ken Usdin": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9858858585357666,
+            "tokens": 52,
+            "text": "Thanks. Good morning. First question is, I just wanted to ask you about the recent Sapphire price changes and just what you're seeing in terms of initial response and just how that fits in strategically with the competitive landscape on card and your growth opportunity."
+          },
+          {
+            "label": "positive",
+            "score": 0.6115193367004395,
+            "tokens": 99,
+            "text": "Got it. It is quite a nice lounge. On the trading side, just wondering how much \u2013 the strong results this quarter, the quarter changed a lot from April to June. And I'm just wondering, how much you think that was environmental? Has it calmed down at all? And also, how much is just your ability to kind of use the balance sheet to boost results also, could that make it more sustainable regardless of what the environment is doing? Thanks a lot."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9602048397064209,
+            "tokens": 7,
+            "text": "Okay. Thank you, Jeremy."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 2,
+        "total_chunks": 3,
+        "total_tokens": 158,
+        "positive_score": 0.6115193367004395,
+        "negative_score": 0.0,
+        "ratio_score": 0.3831671793249589
+      },
+      "Matt O\u2019Connor": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.7233303189277649,
+            "tokens": 9,
+            "text": "Good morning. Some regional banks..."
+          },
+          {
+            "label": "positive",
+            "score": 0.8224985599517822,
+            "tokens": 7,
+            "text": "Can you hear me better now?"
+          },
+          {
+            "label": "negative",
+            "score": 0.777656078338623,
+            "tokens": 52,
+            "text": "I just wanted to ask about any pressure from commercial and corporate customers to try to offset the tariff impact from regional banks that pointed to deposit pricing pressure on the commercial side, and if you're seeing any signs of that or more broadly speaking? Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9731819033622742,
+            "tokens": 5,
+            "text": "Okay. Thank you."
+          }
+        ],
+        "positive": 1,
+        "negative": 1,
+        "neutral": 2,
+        "total_chunks": 4,
+        "total_tokens": 73,
+        "positive_score": 0.8224985599517822,
+        "negative_score": 0.777656078338623,
+        "ratio_score": -0.47507707060199894
+      },
+      "Glenn Schorr": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8529006242752075,
+            "tokens": 150,
+            "text": "Hi, thanks. Just two quick follow ups. On the conversation about the noticeably upbeat robust pipelines, I know we've been here before and markets can giveth and taketh away, but there is a time value in there, meaning corporates and more importantly sponsors need to get stuff done. There is a ton of dry powder. So I'm curious if there's a higher level of confidence, meaning if the market doesn't take from us, is it really happening this time? We've been kind of waiting for these pipelines to come through in fuller force for a couple of years now. Does it feel more doable as long as the market doesn't take the rug out from under us?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9739558696746826,
+            "tokens": 101,
+            "text": "I hear you. The follow-up on the capital conversation, obviously impressive to see big returns on even higher capital bases. But there's more to come, and I think trend is your friend on dereg. So the question is, you keep making a lot of money, your capital base keeps rising. You've talked about arresting the growth of CET1 in the past, but I guess my blunt question is, is there any valuation limitation towards that arresting of CET1?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9798058867454529,
+            "tokens": 29,
+            "text": "I'm just curious if there's a valuation limitation to the thinking, meaning as valuation goes up, do you keep buying back stock?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.7594038248062134,
+            "tokens": 10,
+            "text": "You always do. All right. Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 4,
+        "total_chunks": 4,
+        "total_tokens": 290,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Gerard Cassidy": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9440299868583679,
+            "tokens": 200,
+            "text": "Hi, Jeremy. Hi, Jamie. I'd like to circle back to the return on tangible common equity topic that you guys have discussed. Obviously, you had a very strong number this quarter, 20% when you adjusted for the one-time effect. And you go back to your Investor Day and you pointed out 17% is what the targeted level is. And if you turn back the clock and go back to 2020, you had the same 17% goal for the ROTCE, but your CET1 ratio back then was \u2013 excuse me, guidance was 11.5% to 12%. So my question is, has the business for you folks changed so much that now it's just inherently a more profitable business? Or are there some one-time \u2013 not one-time items, but are there some tailwinds that are artificially \u2013 I hate to use that word, but are they inflating the ROTCE which is why you guys are very cautious about lifting that goal from 17%?"
+          },
+          {
+            "label": "positive",
+            "score": 0.899300754070282,
+            "tokens": 29,
+            "text": "Jeremy, I'm glad you're still using HP 12C, that's good. Just as a follow-up..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9997493624687195,
+            "tokens": 17,
+            "text": "Okay. As a quick follow-up for Jeremy, you touched on..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9334803223609924,
+            "tokens": 47,
+            "text": "Just as a quick follow-up Jeremy, in the Markets comment that you made, you said that there were fewer opportunities in Securitized Products and Fixed Income Financing. Can you expand upon that or give us any color there? Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8304303288459778,
+            "tokens": 3,
+            "text": "Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8304303288459778,
+            "tokens": 3,
+            "text": "Thank you."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 5,
+        "total_chunks": 6,
+        "total_tokens": 299,
+        "positive_score": 0.899300754070282,
+        "negative_score": 0.0,
+        "ratio_score": 0.08722315006032835
+      },
+      "Saul Martinez": {
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.9780510663986206,
+            "tokens": 172,
+            "text": "Hey, good morning. Thanks for taking my question. Just one for me. I just want to follow-up on Ken's question about sales and trading. And I think you kind of addressed this, Jeremy, but I just \u2013 you\u2019ve had another strong quarter there on the back of a pretty exceptional Q1 on the back of a really strong 2024. I mean, how are you thinking about how much of this really is the result of an exceptional trading environment versus something that's more durable and presumably less volatility, good for investment banking. But do you see \u2013 would you see some sort of normalization in sales and trading as a result? Or do you think there's still opportunities to grow certain businesses and take share? I'm just curious how much \u2013 how you think about what's exceptional versus what's more durable here."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6284389495849609,
+            "tokens": 11,
+            "text": "That's fine. Thanks a lot, guys."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 2,
+        "total_tokens": 183,
+        "positive_score": 0.9780510663986206,
+        "negative_score": 0.0,
+        "ratio_score": 0.9192611115877746
+      },
+      "Chris Kotowski": {
+        "chunks": [
+          {
+            "label": "negative",
+            "score": 0.9987032413482666,
+            "tokens": 96,
+            "text": "had this extraordinary growth this quarter, $33 billion in average and more than 6% quarter-over-quarter. But then, when we look at the P&L in the Commercial & Investment bank, net interest income is down 2% and lending income is down 4%. And I know there's hedges and other complicated things, but it just kind of doesn't compute that you'd have such strong loan growth and not have revenue growth associated with that."
+          },
+          {
+            "label": "neutral",
+            "score": 0.977816104888916,
+            "tokens": 8,
+            "text": "Okay. All right. Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 1,
+        "neutral": 1,
+        "total_chunks": 2,
+        "total_tokens": 104,
+        "positive_score": 0.0,
+        "negative_score": 0.9987032413482666,
+        "ratio_score": -0.9218799150907077
+      },
+      "Hedging": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9895472526550293,
+            "tokens": 5,
+            "text": "Hedges for sure. Yeah"
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      }
+    },
+    "ProsusAI/finbert": {
+      "Operator": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9480109810829163,
+            "tokens": 127,
+            "text": "Good morning, ladies and gentlemen. Welcome to JPMorganChase's Second Quarter 2025 Earnings Call. This call is being recorded. Your line will be muted for the duration of the call. We will now go live to the presentation. The presentation is available on JPMorganChase's website. Please refer to the disclaimer in the back concerning forward-looking statements. Please stand by. At this time, I would like to turn the call over to JPMorganChase's Chairman and CEO, Jamie Dimon; and Chief Financial Officer, Jeremy Barnum. Mr. Barnum, please go ahead."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9345681667327881,
+            "tokens": 26,
+            "text": "Thank you. Please standby. Our first question will come from Christopher McGratty with KBW. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9467793703079224,
+            "tokens": 23,
+            "text": "Thank you. Next we will go to the line of Betsy Graseck from Morgan Stanley. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9443681836128235,
+            "tokens": 24,
+            "text": "Thank you. Next we will go to the line of Steven Alexopoulos from TD Cowen. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9465343952178955,
+            "tokens": 29,
+            "text": "Thank you. Next, we will go to the line of Ebrahim Poonawala from Bank of America Merrill Lynch. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9281465411186218,
+            "tokens": 24,
+            "text": "Thank you. Thank you. Our next question comes from John McDonald with Truist Securities. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9317582249641418,
+            "tokens": 23,
+            "text": "Thank you. Next, we will go to the line of Mike Mayo with Wells Fargo. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9417957067489624,
+            "tokens": 23,
+            "text": "Thank you. Next we will go to the line of Erika Najarian with UBS. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9402559399604797,
+            "tokens": 24,
+            "text": "Thank you. Next we will go to the line of Jim Mitchell with Seaport Global Securities. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.94359290599823,
+            "tokens": 21,
+            "text": "Thank you. Next we will go to the line of Ken Usdin from Autonomous. You may proceed."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9323028326034546,
+            "tokens": 24,
+            "text": "Thank you. Next we will go to the line of Matt O'Connor with Deutsche Bank. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.909633457660675,
+            "tokens": 24,
+            "text": "Thank you. Next we will go to the line of Glenn Schorr with Evercore. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9217329621315002,
+            "tokens": 21,
+            "text": "Thank you. Our next question comes from Gerard Cassidy with RBC Capital Markets. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9141284227371216,
+            "tokens": 19,
+            "text": "Thank you. Our next question comes from Saul Martinez with HSBC. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.894079864025116,
+            "tokens": 22,
+            "text": "Thank you. Our final question comes from Chris Kotowski with Oppenheimer. Your line is open."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9299832582473755,
+            "tokens": 9,
+            "text": "Thank you. We have no further questions."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9177591800689697,
+            "tokens": 11,
+            "text": "Operator: Thank you. We have no further questions."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 17,
+        "total_chunks": 17,
+        "total_tokens": 474,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Jeremy Barnum": {
+        "chunks": [
+          {
+            "label": "negative",
+            "score": 0.9569568037986755,
+            "tokens": 470,
+            "text": "Thank you very much and good morning, everyone. This quarter, the Firm reported net income of $15 billion, EPS of $5.24 on revenue of $45.7 billion, with an ROTCE of 21%. These results included an income tax benefit of $774 million, which we described in more detail in the earnings press release. On the next page, we have some more detail. The Firm reported revenue of $45.7 billion, down $5.3 billion, or 10% year-on-year. NII ex. Markets was down $185 million or 1%, driven by the impact of lower rates and deposit margin compression, predominantly offset by higher wholesale deposits, higher revolving balances in Card, as well as the impact of securities activity, including from prior quarters. NIR ex. Markets was down $6.3 billion or 31%, and excluding the net gain related to Visa shares and net investment securities losses in the prior year, was up $1 billion or 8%, driven by higher asset management fees, higher auto lease income, higher investment banking fees, and higher Payments fees; and Markets revenue was up $1.1 billion, or 15%. Expenses of $23.8 billion were up $66 million; and excluding last year's Visa stock contribution to the Firm's foundation, was up $1.1 billion or 5%, primarily driven by compensation, higher brokerage and distribution fees, as well as higher auto lease depreciation. And credit costs were $2.8 billion, with net charge-offs of $2.4 billion and a net reserve build of $439 million. The build was driven by new lending activity, largely offset by a decrease in the probabilities that we attached to the adverse scenarios in the allowance estimation. On to the balance sheet on page 3. We ended the quarter with a CET1 ratio of 15%, down 40 basis points versus the prior quarter, as net income was more than offset by capital distributions and higher RWA. This quarter's higher RWA is primarily driven by an increase in wholesale lending across both CIB Markets and Banking, and increase in other Markets activity, as well as an increase in Card loans. As you know, we completed CCAR a couple of weeks ago."
+          },
+          {
+            "label": "positive",
+            "score": 0.7463570237159729,
+            "tokens": 452,
+            "text": "As you know, we completed CCAR a couple of weeks ago. Under the current rules, our indicative SCB is floored at 2.5% and goes into effect in 4Q25. Our new SCB also reflects the Board's intention to increase the dividend to $1.50 per share in the third quarter. Now, let's go to our businesses, starting with CCB. CCB reported net income of $5.2 billion on revenue of $18.8 billion, which was up 6% year- on-year. In Banking & Wealth Management, revenue was up 3%, largely driven by growth in Wealth Management revenue with deposit NII relatively flat. Average deposits were down 1% year-on-year and flat sequentially. Client investment assets were up 14% year-on-year, driven by market performance and continued healthy flows into managed products. In Home Lending, revenue was down 5% year-on-year, predominantly driven by lower NII. Turning to Card Services & Auto, revenue was up 15% year-on-year, predominantly driven by Card NII on higher revolving balances, as well as higher operating lease income in Auto. Card outstandings were up 9% due to strong account acquisition. In Auto, originations were up 5%, driven by higher lease volume. Expenses of $9.9 billion were up 5% year-on-year, largely driven by growth in technology and auto lease depreciation. Credit costs were $2.1 billion, reflecting net charge-offs of $2.1 billion, relatively flat year-on-year, in line with expectations. Next, the Commercial & Investment Bank. CIB reported net income of $6.7 billion on revenue of $19.5 billion, which was up 9% year-on-year. IB fees were up 7% year-on-year. We continue to rank number 1 with wallet share of 8.9%. In Advisory, fees were up 8%, benefiting from increased sponsor activity. Debt underwriting fees were up 12%, primarily driven by a few large deals. In equity underwriting, fees were down 6% year-on- year."
+          },
+          {
+            "label": "positive",
+            "score": 0.8337971568107605,
+            "tokens": 462,
+            "text": "In equity underwriting, fees were down 6% year-on- year. Our pipeline remains robust, and the outlook, along with the market tone and sentiment, is notably more upbeat. Payments revenue was up 3% year-on-year, excluding equity investments, driven by higher deposit balances and fee growth, predominantly offset by deposit margin compression. Lending revenue was down 6% year-on-year, reflecting higher losses on hedges. Moving to Markets, total revenue was up 15% year-on-year. Fixed Income was up 14%, with improved performance in Currencies & Emerging Markets, Rates and Commodities. This was partially offset by fewer opportunities in Securitized Products and Fixed Income Financing. Equities was up 15%. We continue to see strong performance across products, most notably in Derivatives. Securities Services revenue was up 12% year-on-year, driven by higher deposit balances and fee growth. Expenses of $9.6 billion were up 5% year-on-year, driven by higher compensation, brokerage and technology expense, partially offset by lower legal expense. Average Banking & Payments loans were down 2% year-on-year and up 2% quarter-on-quarter, with sequential growth primarily driven by new loans with larger corporates. Average client deposits were up 16% year-on-year and up 5% sequentially, reflecting increased activity across Payments and Securities Services. Finally, credit costs were $696 million, driven by builds in our C&I portfolio, including new lending activity and downgrades to a handful of names, partially offset by the scenario probability adjustment I mentioned upfront. Turning to Asset & Wealth Management to complete our lines of business. AWM reported net income of $1.5 billion with pre-tax margin of 34%. Revenue of $5.8 billion was up 10% year-on-year, driven by growth in management fees on strong net inflows and higher average market levels, as well as higher brokerage activity and higher deposit balances. Expenses of $3.7 billion, were up 5% year-on-year, driven by higher compensation, including revenue-related compensation, and continued growth in our private banking advisor teams, as well as higher distribution fees."
+          },
+          {
+            "label": "positive",
+            "score": 0.8554686903953552,
+            "tokens": 499,
+            "text": "Expenses of $3.7 billion, were up 5% year-on-year, driven by higher compensation, including revenue-related compensation, and continued growth in our private banking advisor teams, as well as higher distribution fees. Long-term net inflows were $31 billion for the quarter, led by Fixed Income and Equities. In liquidity, we saw net inflows of $5 billion. AUM of $4.3 trillion was up 18% year-on-year, and client assets of $6.4 trillion were up 19% year-on-year, driven by continued net inflows and higher market levels. And finally, loans were up 7% year-on-year and 3% quarter-on-quarter, and deposits were up 9% year-on-year and 2% sequentially. Turning to Corporate. Corporate reported net income of $1.7 billion and includes the tax item I mentioned upfront. Revenue was $1.5 billion for the quarter. NII was $1.5 billion, down $875 million year-on-year. NIR was a net gain of $49 million, up $148 million year-on-year, excluding the prior year's Visa-related gain. Expenses, $547 million, were down $32 million year-on-year, excluding the Foundation contribution from the prior year that I mentioned earlier. To finish up, I'll touch on the outlook. You'll recall that at Investor Day, I made a couple of comments previewing the potential evolution of the outlook. So now, let me formalize that and give you updated guidance. First, we now expect NII ex. Markets to be approximately $92 billion, with the increase driven by changes in the forward curve and strong deposit growth in Payments, Securities Services as well as balanced growth in Card. Total NII guidance is now about $95.5 billion, implying $3.5 billion of Markets NII. Second, on adjusted expense, we now expect it to be about $95.5 billion, primarily driven by the impact of the weaker dollar, which is largely bottom line neutral. And finally, on credit, we continue to expect the Card net charge-off rate to be approximately 3.6%. So reflecting on the quarter, while the environment remains extremely dynamic, in many ways navigating uncertainty is the norm for both us and our clients."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9192217588424683,
+            "tokens": 57,
+            "text": "So reflecting on the quarter, while the environment remains extremely dynamic, in many ways navigating uncertainty is the norm for both us and our clients. And we're now happy to take your questions, so let's open the line for Q&A. QUESTION AND ANSWER SECTION"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8605146408081055,
+            "tokens": 7,
+            "text": "Welcome to the call. Yeah."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8482468128204346,
+            "tokens": 13,
+            "text": "Just wanted to welcome you to the call before we get started."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6741377115249634,
+            "tokens": 363,
+            "text": "Let me take the second part of that first. So, we have our centered capital hierarchy that we recite a lot, and I don't want to bore you by reciting it again. But I think it's important because it does serve as a guide in this context, right? So, we deploy our capital against organic and inorganic growth, and we ensure a sustainable dividend. And with what's left, we do buybacks. And so, we've talked about how excess capital's earnings in store. You saw this quarter that we actually had some financial resource usage that came through and actually meant that, despite keeping the buybacks relatively constant and having the organic capital generation be relatively constant, the CET1 ratio dropped a little bit as a function of increased usage organically showing up in RWA expansion. So, we're doing what we want to do. But clearly, it is a big amount of excess and that does mean that everything is on the table as it always is, and that includes potentially inorganic things. Now, obviously, that needs to be done carefully. I think acquisitions have a high bar, both financially, strategically, and importantly, in some cases, culturally. And we also need to think carefully about things that work outside the regulated perimeter, might not work inside the regulated perimeter as well. We have learned some lessons. We don't want to overlearn those lessons. But in the end, sometimes we lean in a little more, sometimes we lean in a little less, but we wouldn't be doing our jobs if we weren't thinking about it. I don't particularly think, other than fundamentally whether things are permissible or not, that the regulatory environment right now, particularly shapes our thinking on that front."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8520335555076599,
+            "tokens": 316,
+            "text": "And maybe sort of gone a bit long here, but just to expand and go into a little bit of detail there. I will note that Vice Chair Bowman, gave a speech on her vision having come into the new seat for ongoing work and regulation. And I think it's a speech that's pretty comprehensive and lays out some of what Jamie is saying in terms of like the to-do list. I think at the margin, we do understand the desire to sort of knock some things off the to-do list that have been on it for a long time and clearly need to be addressed like SLR. But at the same time that that happens, the holistic review done properly across not only capital, but also liquidity, resolution, et cetera, is clearly quite important. More narrowly, in the near term, I think we continue to feel very strongly that of all the things that are out there, one of the worst is G-SIB, in the sense of both the original gold plating, the sort of deep conceptual flaws in the framework itself, and the failure to recalibrate it for growth since it was put into effect. And I think one of the things that's maybe a little bit underdiscussed there is the extent to which it specifically creates strong disincentives for American banks to be strong and globally competitive. And that is, it seems to me, the exact opposite of what we want. So, that's really one of the ones that needs to get attacked pretty aggressively, I would say."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8461379408836365,
+            "tokens": 100,
+            "text": "I mean, we've talked about that a little bit over time. Obviously, we're not fundamentally capital constrained right now. So, I mean, in addition to the fact that capital isn't the only financial resource that we need to allocate, I would say, the larger point is that any good franchise business that it makes sense from a risk perspective and clears the cost of equity is going to get done, within reason, subject to obvious caveats. So..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8234814405441284,
+            "tokens": 3,
+            "text": "Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.801632285118103,
+            "tokens": 4,
+            "text": "Hey, Betsy."
+          },
+          {
+            "label": "neutral",
+            "score": 0.782451868057251,
+            "tokens": 36,
+            "text": "It's all of the above, Betsy, because we are the Switzerland of financing. We do everything, and we saw a lot of activity come in late in the quarter."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7139290571212769,
+            "tokens": 4,
+            "text": "Thanks, Betsy."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8527466058731079,
+            "tokens": 10,
+            "text": "Yeah. And I wouldn't..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9004715085029602,
+            "tokens": 104,
+            "text": "Yeah. And on the question of inorganic deployment, I would sort of blend my comments with Jamie's, right? In the end, I'm just asserting that, of course, we need to look at inorganic opportunities; and of course, that's a question that comes up given our current excess capital position. But Jamie said clearly that he doesn't think that's particularly likely for some of the reasons that you emphasized, it's not easy to imagine a deal that would actually make sense."
+          },
+          {
+            "label": "neutral",
+            "score": 0.4849094748497009,
+            "tokens": 3,
+            "text": "Yeah.."
+          },
+          {
+            "label": "neutral",
+            "score": 0.930124819278717,
+            "tokens": 13,
+            "text": "No, no. Go ahead. Ask your follow-up."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6827763319015503,
+            "tokens": 205,
+            "text": "Yeah, right. Okay, because that's what I was going to try to clarify. Just wasn't sure if you were doing consumer, wholesale, or both. So, let's do consumer quickly. I think we talk about this every quarter. It's obviously a very important question. We look at it very closely. It obviously matters a lot for us as a company. But we continue to struggle to see signs of weakness. We just \u2013 the consumer basically seems to be fine. Now, a few things are true like if you look at indicators of stress, not surprisingly, you see a little bit more stress in the lower income bands than you see in the higher income bands, but that's always true. That's pretty much definitionally true. And nothing there is out of line with our expectations. Our delinquency rates are also in line with expectations. You saw that we kept our net charge-off guidance unchanged. So, all of that looks kind of fine."
+          },
+          {
+            "label": "negative",
+            "score": 0.9271745681762695,
+            "tokens": 222,
+            "text": "And to be honest, as we've said before, fundamentally, while there are nuances around the edges, consumer credit is primarily about the labor market. And in a world with 4.1% unemployment rate, it's just going to be hard, especially in our portfolio, to see a lot of weakness. Now, it is true that if you look at not our data, but the government's data, I think I was looking at this the other day like, first half real consumer spending of this year versus second half of last year is down. Now, it's still positive, it's still growing, but it's down. So it's kind of consistent, this sort of soft landing narrative, which is also consistent with the sort of the GDP outlook that our economists are publishing. Our own data looked sort of in nominal terms on a cohort basis, actually shows spending up a little bit over the same period. So, it's kind of the same narrative of things being fine with different signals pointing in slightly different directions, but nothing particularly concerning."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9050087928771973,
+            "tokens": 109,
+            "text": "I mean, basically, yes. You see some idiosyncratic things here and there. And on the point of tariffs, I guess, obviously you recall the slide that we did at Investor Day kind of highlighting that different sectors are going to have different experiences as a function of their margins, their sensitivity to input costs, their amount of pricing power, their amount of leverage, and where the rules actually land. But people are obviously getting some time to adjust, and we're watching it very closely. So, we'll see."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8105388879776001,
+            "tokens": 2,
+            "text": "Thanks."
+          },
+          {
+            "label": "negative",
+            "score": 0.6577012538909912,
+            "tokens": 96,
+            "text": "Yeah. Thanks for that, John. I'm glad to get a chance to clarify this. There is something technical which has to do with Home Lending customers in the LA area using our forbearance availability as a result of the wildfires. So, that is resulting in an uptick in the non-performing. But when you think about land value and the insurance there, the actual loss expectation is de minimis, I would say. So,..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9132154583930969,
+            "tokens": 14,
+            "text": "Exactly. So, that's what's driving that one."
+          },
+          {
+            "label": "positive",
+            "score": 0.5528934597969055,
+            "tokens": 6,
+            "text": "Thanks a lot, John."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7770848870277405,
+            "tokens": 178,
+            "text": "Yeah. Thanks, Mike. So on loan growth, as you know, it's useful to sort of break this down between what I would think of as like relationship lending that kind of drives the whole franchise and that we sometimes look at maybe as an indicator of the health of the corporate sector in some sense, and people like to look at it as a read across for smaller banks, et cetera. That part of the franchise remains fine, but sort of muted as customers have access to capital markets and revolver utilization is sort of flattish in general. But as I noted I think previously, and as you see coming through the IB fee performance, there was just quite a bit of deal activity in the second half of the quarter, a lot of which is well known and public, and some of that is on our balance sheet and we're very happy to have it there."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6926831603050232,
+            "tokens": 20,
+            "text": "No, I was literally going to say what Jamie just said. So, we're good."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6641749143600464,
+            "tokens": 135,
+            "text": "Yeah, exactly. And as we always say, Erika, right, like the market is very competitive and the returns are high. And you know this, but I would just refer you to the slide that I delivered at Investor Day about how, in some cases, it makes, all else equal, compared to buying back shares at these prices, doing healthy, well underwritten, compelling franchise business with a 14% return, we're definitely supposed to do that actually. And if we do a lot of that, it will dilute down the weighted-average ROTCE of the company in ways that are nonetheless clearly accretive to shareholders. So,..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.585448145866394,
+            "tokens": 139,
+            "text": "Yeah. And my version of that, Erika, would be to say that you talked about certain of the tail risks getting taken completely off the table, and that's clearly not true, right. All the tail risks are all still there, quite prominently, and in many cases, in the daily news flow. Maybe at the margin the tails are a little bit less fat right now. I think it's also true that in terms of our \u2013 what the things that we've said about our Investment Banking pipeline have been consistently quite cautious. And at a certain point, when you have the type of outperformance that you have this quarter, it starts to make your cautiousness"
+          },
+          {
+            "label": "neutral",
+            "score": 0.6939252018928528,
+            "tokens": 56,
+            "text": "seem less credible. So, we wanted to take a hard look at ourselves and say, what do we really think? And it's like, yeah, the sentiment is better. But as Jamie says like, that can change overnight and there are lot of risks out there."
+          },
+          {
+            "label": "neutral",
+            "score": 0.845709502696991,
+            "tokens": 2,
+            "text": "Yeah."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8231785297393799,
+            "tokens": 194,
+            "text": "All right. So, it's a good question, Jim. But yeah, as Jamie points out, just remember that to the extent that the market is efficient which maybe it's not, but you can't really hedge ahead of cuts that are already priced in, right. So, that\u2019s worth saying out loud. But, I mean, you can decrease volatility, but it's just a question of now or later. But having said that, on the question of decreasing volatility, we did in fact add some duration this quarter, with the usual mix of instruments and strategies, but primarily in the front end of the yield curve which was designed to essentially balance out the tails a little bit, so that we were a little bit less exposed to a classic recessionary type scenario with much lower rates in exchange for accepting a little bit less good outcomes and like higher rate scenarios, at least narrowly through the lens of NII."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8564057946205139,
+            "tokens": 109,
+            "text": "As we've talked about a little bit over time, though, I like the way you framed it in terms of like having the capacity. And I think the way to think about it there is that, in general, it's almost impossible to get your asset \u2013 for a bank like us, it's almost impossible to get your asset sensitivity \u2013 your actual asset sensitivity down to zero, because you wind up constrained by other things. So, we're in the corridor and we're okay with where we are right now."
+          },
+          {
+            "label": "neutral",
+            "score": 0.81755131483078,
+            "tokens": 445,
+            "text": "Yeah, it's a good question. You may recall, I actually got a version of this question at Investor Day, so I'll almost repeat my answer here which is that, as we know, fixing SLR has been on the list for a long time. It behaved very much not the way it was designed in the moment of big QE when it became binding and it had bad impacts on the system. It's the opposite of what we want for these backstop measures. And so, we don't want regulators to need to make unusual corrections amid crisis. It's just not the right way to run the railroad. I think everyone has agreed on that for a long time. And in that context, it's been sort of disappointing that something as obvious as this has taken as long as this to get fixed, but it's a good sign that it's now out there. And we\u2019d certainly support the proposal, there are some nuances that \u2013 or a comment had been requested, but at a high level, it's a good proposal, it's the right thing to do. And it's the right thing to do from the perspective of the resilience of the system for the next time that we've got that type of expansion in the size of the system that could make it binding in the wrong way for the wrong reasons. But yeah, as you note and as we've said, we're not really bound by it. I think other actors in the market may be a little bit more bound by it. There are also some nuances about impact on portfolio activity which I would expect to be very small, versus impact on low risk intermediation in the market making businesses, which may be where you would hope to see the effect. So, it's a good thing. Hopefully, it will help. Obviously, it's pretty fully priced in at this point, so I don't think you're going to see a big pop one way or the other as a function of it's eventually being finalized, because I think everyone's assuming it will go in roughly in its current form."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8105388879776001,
+            "tokens": 2,
+            "text": "Thanks."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9062396287918091,
+            "tokens": 24,
+            "text": "Yeah, sure. So, let me dispense with the question of how it's going for..."
+          },
+          {
+            "label": "positive",
+            "score": 0.5495765805244446,
+            "tokens": 164,
+            "text": "Going fine. We're happy. In terms of the strategic aspects of this and the competitive landscape, I think the way we think about this is, as a normal course refresh of one of our important products and the way that all of our products get refreshed periodically. Obviously, this is a relatively high profile product. Many of us have the card, we see the ads everywhere. So, it sort of punches above its weight in that respect in terms of visibility. In terms of the competitive landscape, I think a thing that we feel really great about is the dramatic increase in the customer value proposition associated with the card. And in particular, one of the things that we look at is the ratio of the customer value to the annual fee which is clearly market leading at this point. So..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7994205951690674,
+            "tokens": 72,
+            "text": "And then some. Theres a lot of value added. Yeah. And obviously, I mean, we're not going to talk too much about competitors. But as you know, the card space is very competitive and very dynamic. So, we exist in a competitive landscape, and this is our best foot forward on this product at this moment in time."
+          },
+          {
+            "label": "positive",
+            "score": 0.5969892144203186,
+            "tokens": 76,
+            "text": "Good question. Honestly, I think it's kind of all of the above, basically. No question that the tone shifted. Obviously, it shifted in Investment Banking. I think I personally was a little bit surprised by the resilience of the Markets revenues in the second half of the quarter, because I was sort of expecting a little bit of an offset between the two."
+          },
+          {
+            "label": "positive",
+            "score": 0.6984689831733704,
+            "tokens": 274,
+            "text": "Okay, there you have it. But it's not like I thought it would do badly, but it sort of did quite well in the volatility in the first half of the quarter, and then it got quiet, but despite that we still did nicely. And I think the point actually sort of to your question is that, yes, we are seeing opportunities to deploy capital and other resources; and yeah, maybe at the margin that does contribute a little bit to durability. We've talked over time about the Markets revenues and the dramatic increase. Obviously, 2019 is a long time ago at this point, and we should expect those revenues to grow with GDP anyway, but we worried a lot in certain moments about the revenues dropping back to some old run rate, and then we kind of stopped worrying about that. And now, of course, they've gone up to new highs, so maybe we should be worried again. But a thing I like to remind myself of, to your point is that, while the revenues have gone up a lot, the resource usage has also gone up a lot. So, we are deploying a lot of capital and other resources in this business, and we're earning good returns on it, but the revenue growth is not coming for free. So, it's us running the place, basically."
+          },
+          {
+            "label": "neutral",
+            "score": 0.691907525062561,
+            "tokens": 4,
+            "text": "Thanks a lot."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8046542406082153,
+            "tokens": 41,
+            "text": "Matt, you've got some major static on the line. I don't know if we're going to be able to hear you. Just give it a shot. Give it a shot."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8605222702026367,
+            "tokens": 14,
+            "text": "Not really, but let's try. Let's try."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8447253108024597,
+            "tokens": 15,
+            "text": "I think if I heard the question correctly, you were asking..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8730101585388184,
+            "tokens": 7,
+            "text": "The answer is no, yeah."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8358602523803711,
+            "tokens": 17,
+            "text": "I wish we could say more about it, but we think the answer is no."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8351266980171204,
+            "tokens": 61,
+            "text": "It's a competitive market, right? There is ongoing \u2013 deposits are very, very competitive, and there are always pricing conversations as there should be. It's hard to know in any given moment what's driving it, but I haven't heard anything to support a tariff linked narrative."
+          },
+          {
+            "label": "neutral",
+            "score": 0.710770308971405,
+            "tokens": 122,
+            "text": "Yeah. I think that's right in the IPO space at least for now. But I have heard some things to support some elements of your narrative Glenn, the effect of that \u2013 now, there is pressure to kind of recycle capital and get things done. And yeah, sure, after the initial shock of tariff policy changes, everyone kind of went on hold. But as we've noted in our comments a few times today, at a certain moment you just have to move on with life, and it does feel like some of that is happening just because you can't delay forever."
+          },
+          {
+            "label": "neutral",
+            "score": 0.49199262261390686,
+            "tokens": 159,
+            "text": "Okay. Wait, I want to say a couple of things, and then I want to clarify an aspect of your question, Glenn. So first, on arresting the growth, what I actually said, not to nitpick on you, but I said arresting the growth of excess capital which I agree is reasonable to interpret as keeping a roughly constant CET1. As it happened this quarter, you see the CET1 actually dropping about 40 basis points, and that was in no small part a function of significant late quarter growth in RWA usage which we were frankly like very happy to see, in fact. So, that's all to the good in some sense. Now the other part of your question, can you just repeat it? I want to make sure I understand it."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8824465870857239,
+            "tokens": 65,
+            "text": "Meaning, would we go back to a moment of reducing buybacks and starting to build again if the stock gets even more expensive? I mean, I think that's the question for the boss, but I don't know, I guess, we always reserve the right to do whatever we want on buybacks basically."
+          },
+          {
+            "label": "positive",
+            "score": 0.5503315925598145,
+            "tokens": 4,
+            "text": "Thanks, Glenn."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6656811833381653,
+            "tokens": 321,
+            "text": "Yeah. And Gerard, I guess on your other question, it's an interesting question. I don't think the answer is really knowable, and I feel like it's kind of all of the above. Let me say what I mean. Like, on the one hand, I think if you look at the current market environment, it's hard to imagine a set of conditions that would be any better for us, right. Rates are at a good level for us, deal activity is high, capital markets are very strong, consumer credit is excellent, wholesale credit is excellent, wealth management, asset management, essentially every part of the company is firing. We're essentially firing on all cylinders, with some very minor exceptions of certain businesses that are extremely rate sensitive, like Home Lending, where they're still doing a great job in what is a very tough market. So when you see that, you're like, well, that's not normal. Normally, you would have some pockets doing a little better, some pockets doing a little worse; and that's part of what makes you think that some aspects of this are maybe not sustainable. On the other hand, it's also true that core elements of the strategy are working very well, and we've been investing for a long time very successfully and kind of leaning in even in moments where from the outside there wasn't that much appetite for us to be investing in all of the things that Jamie's talking about. Some of those investments in various ways are paying off. So..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.905584454536438,
+            "tokens": 27,
+            "text": "Yeah. I always have to go put new batteries in my HP 12C when you ask me that question. All right. Yeah."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8150438070297241,
+            "tokens": 14,
+            "text": "It's not true because if \u2013 can we not do that?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.49967142939567566,
+            "tokens": 60,
+            "text": "Yeah, sure. I mean, it's just normal diversification inside the Markets business. Those businesses are doing great. But like at the margin, in the second half of the quarter, stuff was a little quieter relative to emerging markets and the macro space, which was a little bit better."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9217998385429382,
+            "tokens": 4,
+            "text": "Nothing too dramatic."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6732285618782043,
+            "tokens": 214,
+            "text": "Yeah. I mean, one thing I'll say is that there's no weird exceptional thing happening in this particular quarter driving the results. So, it's pretty broad based, and it's not particularly lumpy. And as I said, I think it is true, and I think we've shared some of this in different ways, including in my slide at Investor Day, that we are deploying quite a bit of capital and other resources like G-SIB capacity and liquidity in some cases to generate that revenue. And we're happy with the returns, but it's not just like growing without any inputs, essentially. So, I guess, on the one hand you might say that that's a bit more durable for that reason, but it is important to realize that it's coming with that use of resources, essentially. So, I mean, we've gotten, over time, a little bit more relaxed about talking about the Markets business as something that has relatively uncorrelated and reasonably recurring revenues."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9165058732032776,
+            "tokens": 103,
+            "text": "It's obviously extremely client centric, there's a lot of financing of various types that's being supplied, and it seems to, if anything, more often than not be counter-cyclical rather than pro-cyclical. But it's still Markets, right? Things can happen, it's volatile, there's risk taking involved, that's part of the point that we build. Sorry to hedge the answer, but that's kind of how we think about it."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8641082048416138,
+            "tokens": 102,
+            "text": "Yeah. I mean, the hedges are definitely part of it, and a lot of the assets came on the balance sheet quite late in the quarter, so I don't know, I might be missing something. There's probably some Markets it. There's Markets NII piece of it too. So, I don't know, Mikael can follow-up with you, but I think the loans thing is part of it, Markets NII is part of it, and late quarter\u2026"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8105388879776001,
+            "tokens": 2,
+            "text": "Thanks."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6736485362052917,
+            "tokens": 4,
+            "text": "Thanks very much."
+          }
+        ],
+        "positive": 8,
+        "negative": 3,
+        "neutral": 50,
+        "total_chunks": 61,
+        "total_tokens": 6820,
+        "positive_score": 0.6729853376746178,
+        "negative_score": 0.8472775419553121,
+        "ratio_score": 0.04659098484477059
+      },
+      "Christopher McGratty": {
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.666016697883606,
+            "tokens": 28,
+            "text": "Great. Good morning. Thanks for the question. Jamie, relative to three months ago, there's a lot of optimism..."
+          },
+          {
+            "label": "positive",
+            "score": 0.7962831258773804,
+            "tokens": 7,
+            "text": "Great. Thanks for having me."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8727313280105591,
+            "tokens": 111,
+            "text": "Great. Thanks so much. Relative to three months ago, there's a lot of optimism on financial deregulation and really going to break in the bank's favor. I'm interested if you agree, number one, with this optimism and anything specifically you could point to? And secondarily, on capital. I'm interested in what's on or off the table in terms of uses of capital? What do you need to see from the macro, regulatory? And how should we be thinking about the timing? Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8917250037193298,
+            "tokens": 57,
+            "text": "I appreciate all the color. If could ask kind of a follow-up, the inorganic comments. I'm interested in capital allocation between your businesses, where you think \u2013 if that were to present an opportunity, which businesses would most likely be the use of that capital? Thanks."
+          },
+          {
+            "label": "positive",
+            "score": 0.8567979335784912,
+            "tokens": 6,
+            "text": "Great. Thanks, again."
+          }
+        ],
+        "positive": 3,
+        "negative": 0,
+        "neutral": 2,
+        "total_chunks": 5,
+        "total_tokens": 209,
+        "positive_score": 0.7730325857798258,
+        "negative_score": 0.0,
+        "ratio_score": 0.4638195514678955
+      },
+      "Jamie Dimon": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8802142143249512,
+            "tokens": 298,
+            "text": "Can I say just a broader point about regulations. I think it's very important that the regulators step back and kind of look at the big picture now, not just one picture. So, nothing's happened yet. I think they should be looking at all these things. But if you look at SLR, G-SIFI, CCAR, Basel III, FSRT, the overlap, the duplication, I actually believe that you can make the system simpler, cheaper, more effective, more transparent and safer. And the things like Silicon Valley Bank and First Republic did not need to happen if you just modify some things and you create more liquidity, more loans and a safer system. And that's really what they should be looking at, not just SLR. And so, I'm hoping that over time they do that. And the second thing I'd add to that which I think is even maybe more important is, they should ask the question, what do they actually want in our public markets versus our private markets, et cetera. We've gone from 8,000 public companies, I'm talking about like 25 years ago, to 4,000 today. That's happened overseas. Public markets overseas have gotten smaller and smaller. Obviously, I'm not against private credit; private credit is growing. And how do you really want to structure this? And why is it happening? Is that a good thing for America?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8195561766624451,
+            "tokens": 88,
+            "text": "And so, I just \u2013 it is time that they take a step back. I hear sometimes from some pundits that there's been relaxing of rules and regulations, absolutely not. There's been nothing but increasing them for the better part of 15 years. They should take a deep breath, step back and look at the system and answer the question, how can we make it better and stronger for the economy and all involved."
+          },
+          {
+            "label": "neutral",
+            "score": 0.5830829739570618,
+            "tokens": 59,
+            "text": "Inorganic, it's a good discipline to always be looking. I wouldn\u2019t have high expectations that will be how we use a lot of capital. And I think it's a very big plus that we can grow organically in every business we're in without having to stretch."
+          },
+          {
+            "label": "neutral",
+            "score": 0.893622636795044,
+            "tokens": 184,
+            "text": "So, deposit token is effectively the same thing. You're moving money by token, you can pay interest. It's J.P. Morgan Deposit. And stablecoin \u2013 we're going to be involved in both J.P. Morgan Deposit coin and stablecoins to understand it, to be good at it. We don't know exactly \u2013 I think they're real, but I don't know why you'd want a stablecoin as opposed to just payment. But I do think you have fintech. These guys are very smart. They're trying to figure out a way to create bank accounts and get into payment systems and rewards programs. And we have to be cognizant of that. The way to be cognizant is to be involved. So, we're going to be in it and learning a lot, and a player."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8918454051017761,
+            "tokens": 313,
+            "text": "So, this is very important. So forget pricing for a second, we are in favor of the customer, but we think the customer has the right to if they want to share their information. What we ask people to do is, what do they \u2013 do they actually know what's being shared? What is actually being shared? It shouldn\u2019t be everything. It should be what their customer wants. It should have a time limit because some of these things went on for years. It should not be remarketed or resold to third parties. And so, we're kind of in favor of all that, done properly. And then the payment, it just costs a lot of money to set up the APIs and stuff like that to run the systems protection. So, we just think it should be done and done right. And that's the main part. It's not like you can't do it. The last thing is a liability shift. I mean, I don't think JPMorgan should be responsible if you've given your bank passcodes to third parties who market and do a whole bunch of stuff with it, and then you get scammed or fraud through them, they should be responsible. And we want real clarity about that. And if you see today, a lot of these scams and frauds run through third party social media and stuff like that, there should be a little more responsibility on their part so we can all do a better job for the customer. That's why."
+          },
+          {
+            "label": "neutral",
+            "score": 0.856328010559082,
+            "tokens": 44,
+            "text": "We use LLMs, and we're going to be agnostic about that, too. There's no reason for us to own one. At least we can't figure out why that would make sense."
+          },
+          {
+            "label": "positive",
+            "score": 0.6330451369285583,
+            "tokens": 20,
+            "text": "We will use it, and we will obviously be important in using our data to help our customers."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9164924621582031,
+            "tokens": 17,
+            "text": "We do a lot of small ones by the way, which you've seen."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9260879158973694,
+            "tokens": 18,
+            "text": "That's a great question and we\u2019ll leave it it remaining as a question."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8460710048675537,
+            "tokens": 55,
+            "text": "Well, Steven, you're raising a very important point about interoperability of stablecoins and deposits and movement of money and what problem you're trying to solve, but you're raising great points. You can assume we're thinking about all that."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8350430727005005,
+            "tokens": 136,
+            "text": "You [Jeremy] can answer the thing about the data, but very important, we love the Middle Market business. It drives a lot of business we\u2019ve built. I think 500 bankers in the Innovation Economy which is kind of new to us think of what Silicon Valley Bank used to do and things like that. We still have a huge addressable market in the Middle Market business. We provide not just lending, and that could be leverage lending, direct lending, but payment services, custody services, asset management services, FX services. So, we're going to grow that business regardless of what we predict the environment is going to be in the next six or nine months."
+          },
+          {
+            "label": "neutral",
+            "score": 0.714867889881134,
+            "tokens": 14,
+            "text": "We always do that for customers when they have a real difficult time."
+          },
+          {
+            "label": "neutral",
+            "score": 0.5841765999794006,
+            "tokens": 428,
+            "text": "Yeah, sure. So, I think what you're referring to is a slide where Marianne talked about kind of the potential for 6% consumer deposit growth next year. And that's a nice number; and as you've written, that would produce some nice revenue consequences, all else being equal. The way I think about that number is to kind of build it up step-by-step. So, you start with, in general, the consumer deposit base in the system has grown probably slightly above nominal GDP. A thing that's been true for us recently is that as a result of our market position and our pricing choices, we've probably lost a little bit of share during the rate hiking cycle sort of in isolation from yield seeking flows. With the yield seeking flows having abated a little bit, that relative headwind is kind of behind us or increasingly behind us, and you've got some core growth reasserting itself. You saw us call out the growth in net new accounts in consumer checking this quarter, and that's one of the key drivers. And then, as you know well, when you look at the franchise, we kind of have: number one, ongoing expansion; number two, seasoning of the old expansion; and number three, deepening in the core markets. So when you put all that together and you look at sort of the history of the growth, macro environment, et cetera, that's how you get to that type of 6% number. And obviously, things could change quite dramatically to produce a different number, among other things. You'll recall that Marianne's slide also talked about a stress scenario with lower rates which, perhaps somewhat non-intuitively, would produce actually higher growth as a result of even less yield seeking flow and a higher consumer savings rate. But the flip side of that is also true which is, an unexpectedly high rate environment would probably lead to lower balance growth, all else equal, in Consumer. So, we like to say, those are all else being equal type numbers, but all else is never equal."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8727285861968994,
+            "tokens": 341,
+            "text": "To answer your other question, Mike. So, some of the \u2013 I'm going to give you some things that you can actually do. So, I think you should do them and reduce risk in the system. I'm only going to talk about how they increase lending for a second. And so, G-SIFI inhibits, if you look at it, both a little bit of lending and a little bit of market making. LCR inhibits both because it's a very rigid way of looking at a bank\u2019s balance sheet. It doesn't really give you credit for potential access to window and things like that. CCAR in some cases inhibit \u2013 people \u2013 we talk about \u2018CCAR-ness,\u2019 but there's a lot of \u2018CCAR-ness\u2019 from small business loans and stuff like that where people kind of hold that back a little bit because it creates too much volatility. And CCAR capital, the FSRT, the fundamental book. When you look at all these things, I think you can create more lending, more liquidity, more flexibility and reduce the risk in the system. And also just CET, just capital usage, et cetera. And the reducing the risk in the system, I think you also make it friendlier for community banks, which we do want to do. And so, if you look at like total loan to deposits, they used to be 100%, they\u2019re now 70%. That's a huge difference. That took place over 10 or 15 years. And can you get that back to 85% and have the banking system be just safe and sound? Absolutely."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7609111666679382,
+            "tokens": 122,
+            "text": "Yes, and I would put securitizations in that category. We need a more active securitization market and all these things could reduce the actual cost of making a loan. I pointed out in the past that mortgages probably cost 30 or 40 or 50 basis points more because of excessive securitization, origination and servicing requirements. Those could be changed and would dramatically help mortgages, particularly for low- income individuals. And we just have failed to do it for 10 years, and it wouldn't create any additional risk. And we can show you data that shows that."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8944345116615295,
+            "tokens": 117,
+            "text": "I would say, it's not high on my list because we can do it ourselves and then you know buying people and comp plans. And I also think you may have seen peak private credit a little bit. I don't know that, but we already do it. So if it was the right people, the right price, the right \u2013 sure, we should look at it. I think, Mike, you should always be open minded when people come to you with something you hadn't thought about before. And you just get smarter by looking at these things."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8761534094810486,
+            "tokens": 95,
+            "text": "I've mentioned that credit spreads are very low. It's grown dramatically over time. And you have to pay up a lot for it. I'm not saying, it's not going to grow some more, but I would have a slight reluctance depending on who it was. But your bankers might come to us with something tomorrow that we just hadn't thought about that is a complete natural fit for us; natural fit being product and people and culture."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6747167110443115,
+            "tokens": 146,
+            "text": "In a competitive world, it is irrational to think that \u2013 and when it applies to all the competitors \u2013 that everybody's just going to make a lot more money, you keep it as opposed to compete in the marketplace. Hopefully, we'll still have a good competitive position relative to everybody else. But no, I don't think you should automatically say, it's going to increase your returns. Remember, Jeff Bezos says, \u201cYour margin is my opportunity.\u201d That would be a huge opportunity for fintech, private credit, alternative players, et cetera. So, you have to be a little careful to think that would happen. I think it's a good thing for the system though."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9156001806259155,
+            "tokens": 105,
+            "text": "And Jeremy showed you a little thing about business units that earn high returns to low returns. And not that you shouldn\u2019t do low return ones because they fit hand in glove with other stuff. If you didn't do it, you might lose the other. But there are some businesses out there with very high returns that we just grow. We deploy capital by adding bankers or branches or products, not directly by deploying capital. So, just think of branches. That does it or private banking or things like that."
+          },
+          {
+            "label": "negative",
+            "score": 0.5460748076438904,
+            "tokens": 127,
+            "text": "Jeremy, you might want to say \u2013 I'll just answer your question by saying, honestly, we don't know. And you've seen how rapidly whole pipelines can grow and shrink. And so, that lesson we've learned over and over, and it may stay wide open for a year and a half. Something may happen geopolitically, then all of a sudden that pipeline slows a little bit. And so, I'm always a little cautious to guess what that's going to be. But if it continues this way, yeah, you're going have very active buckets."
+          },
+          {
+            "label": "positive",
+            "score": 0.6791133284568787,
+            "tokens": 129,
+            "text": "I do think that extending the tax bill for businesses to know what their taxes are going to be, is a positive going forward. And that does reduce the risk that the bill didn't get done. I also think, when it comes to tariffs, I think the initial liberation day \u2013 now there's more talk, there's more things getting done, a couple have been announced, a couple have been delayed. That reduces that risk a little bit. And hopefully, they'll get done. There's still risk out there, but I am hopeful some of these frameworks are completed soon, at least before August 1."
+          },
+          {
+            "label": "neutral",
+            "score": 0.900465726852417,
+            "tokens": 17,
+            "text": "Now, before he goes on, what the market expects is almost what never happens."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8635942339897156,
+            "tokens": 108,
+            "text": "And I\u2019m like a broken record. It's not SLR, it's LCR, it's G-SIFI, it's CCAR, it's Basel IV, the gold plating. You really got to step back and look at all of them, and how you use the discount window, et cetera. And even how you measure liquidity which is different in one measure than it is in resolution recovery. They should look at all of that if they really want to fix the system."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7667539715766907,
+            "tokens": 3,
+            "text": "So far."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8949147462844849,
+            "tokens": 50,
+            "text": "I got a lot of comments that people \u2013 from friends of my kids and stuff like that, that man, you have got to raise the card but you have to keep it for the LaGuardia lounge; and that's the value added."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8518420457839966,
+            "tokens": 5,
+            "text": "I was not surprised."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6939225792884827,
+            "tokens": 18,
+            "text": "Are you offsetting tariff pressure with pressure on loans or deposits. The answer is no."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6892433166503906,
+            "tokens": 16,
+            "text": "No, I mean there's always pressure in some of those..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6884467005729675,
+            "tokens": 79,
+            "text": "I think it separates sponsor-owned companies from IPOs. There are companies going public, they're in the pipeline, they want to go public, et cetera. Sponsors are still, at least from what I can tell anecdotally, still reluctant to use the public markets. There obviously maybe more of it, but it hasn't been a mountain of stuff coming out."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7230385541915894,
+            "tokens": 134,
+            "text": "We reserve the right. We're not going to tell you. But obviously, as stock price \u2013 I mean, don't like buying back the stock at almost three times tangible book. No one's going to convince me that's a brilliant thing to do, but it is wise to use our balance sheet for customers, which we're doing, and we can possibly do more. And it is probably wise to not increase the excess capital anymore since we have plenty and it's going be going up. Look, I'm completely convinced if you take out of your mindset 12 months, we will use the capital wisely for shareholders."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6855793595314026,
+            "tokens": 25,
+            "text": "The best way is organic growth, which I wouldn't rule out that we can find more ways to grow clients basically."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8453094959259033,
+            "tokens": 217,
+            "text": "Jeremy can answer this, but this will be an important point. The value to shareholders is that we can not just earn 17% ROTCE and that we can reinvest money at 17% ROTCE. That's the value. If you're just going to earn 17%, you\u2019re a bond. You will trade three times tangible book, but that's it for the rest of your life. And so, the goal is to find opportunities to grow and expand your business, which we are doing. If you look at it, we are doing that with branches and bankers and internationally. And when you look at the midcap business we're doing in Europe, it's been great. Innovation Economy has been great. We're gaining shares in lot of places, Chase Wealth Management and the Private Bank, the International Private Bank, payment systems. We\u2019re investing in all those things to grow our franchises and that's the best way to use your capital. And forget the timetable of that. That is the best way to use it."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8696256279945374,
+            "tokens": 190,
+            "text": "You have \u2013 all of our major bank competitors are back and growing and expanding. You have the fintech folks who are quite capable and quite smart who want to take big chunks of your business. Everything we do is kind of competitive around the world. So the notion that somehow we're not going deal with our competitors, which protects JPMorganChase, we don't get complacent, we don't get arrogant, we don't get bureaucratic. And we keep on finding that you got to have to fight for it every day. And so, we're quite cautious to just declare victory like somehow we're entitled to these returns forever. Also pointed out, if you could compound at 17%, actually I had Jeremy do his number one point, if you compounded 17% for 20 years, you probably would have a good chunk of the GDP of United States of America, for 40 years maybe."
+          },
+          {
+            "label": "neutral",
+            "score": 0.9363159537315369,
+            "tokens": 16,
+            "text": "He just uses his big brain, he doesn't need the 12C."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6859453916549683,
+            "tokens": 4,
+            "text": "And thank you."
+          }
+        ],
+        "positive": 2,
+        "negative": 1,
+        "neutral": 32,
+        "total_chunks": 35,
+        "total_tokens": 3738,
+        "positive_score": 0.6560792326927185,
+        "negative_score": 0.5460748076438904,
+        "ratio_score": 0.021888104506901332
+      },
+      "Betsy L. Graseck": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.7369074821472168,
+            "tokens": 5,
+            "text": "Hi, good morning."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8937805891036987,
+            "tokens": 92,
+            "text": "So, two questions. First on the RWA utilization via organic, as you described. I wanted to understand in wholesale lending where you highlighted, the CIB was a driver of much of this. Could you speak to the drivers of those drivers? In other words, is it private credit? Is it M&A financing? Is it inventory? What are you seeing in the market here that you're delivering on that's raising that lending profile?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8537489771842957,
+            "tokens": 95,
+            "text": "Okay. Oh, great. All right. Thank you. And then, Jamie, there's been a lot of discussion around stablecoin, how stablecoin is going to be impacting banks? And I believe you have an opinion on this. Would love to hear if you could highlight how JPM is thinking about utilizing, leveraging, competing with stablecoin, and how the JPMD deposit token feeds into all of this as well? Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8982633352279663,
+            "tokens": 66,
+            "text": "Okay. Super. And then, separately on the topic of open banking, I think that's on hold right now with the CFPB, on hold right now. But just wanted to understand, does this hold period gave you an opportunity to change how you're pricing for your open banking and fintech relationships here?"
+          },
+          {
+            "label": "positive",
+            "score": 0.7779870629310608,
+            "tokens": 11,
+            "text": "Excellent. Okay. Thank you so much for that."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 4,
+        "total_chunks": 5,
+        "total_tokens": 269,
+        "positive_score": 0.7779870629310608,
+        "negative_score": 0.0,
+        "ratio_score": 0.15559741258621215
+      },
+      "Steven Alexopolous": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9315274953842163,
+            "tokens": 181,
+            "text": "Hey, good morning, everyone. I wanted to start, Jeremy, going back to your comments on inorganic things being on the table in terms of use of excess capital. So when I look at the company, so you're the largest U.S. bank by assets, you're also the largest in terms of the data you see every day. And you may or may not have seen that Apple's looking at possibly, there\u2019s chatter, getting into the AI game more by looking at a company such as a Perplexity. Just thinking out loud here, would it make sense for JPMorgan to consider acquiring an LLM, right? The last two quarters of buybacks are about the last valuation round for Perplexity, right. I'm thinking of you guys, you could become the LLM for the financial services industry. What are your thoughts on this?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8489557504653931,
+            "tokens": 115,
+            "text": "Yeah, yeah. Okay. And then going back, Jamie, to your answer to Betsy's question on the tokenized deposit. I get it how that makes sense in terms of the customers that are inside your walled garden, but it doesn't help them much in terms of dealing with customers outside of your garden. What's holding up you guys and the other banks getting together to issue something joint \u2013 similar somewhat to what you've done with Zelle, and prevent these stablecoin companies like Circle coming in offering a more convenient solution to your customers?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.7477285265922546,
+            "tokens": 4,
+            "text": "Without an answer."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7568167448043823,
+            "tokens": 11,
+            "text": "Okay. Fair enough. Thanks for taking my questions."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 4,
+        "total_chunks": 4,
+        "total_tokens": 311,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Ebrahim Poonawala": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9088498950004578,
+            "tokens": 108,
+            "text": "Good morning. This almost sounds like a fintech and AI call. But maybe just switching gears, I think, Jamie, your comments in the press release. Give us a sense like when we think about middle market businesses in the U.S., what's the state of play there when we think about interest rates, tariffs, consumer spending slowing? Should we be concerned in terms of credit quality outlook looking out 6, 9, 12 months? Just what's your take based on all the data that you all look at?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8354281187057495,
+            "tokens": 14,
+            "text": "Got it. And I guess just as a follow on..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8634396195411682,
+            "tokens": 7,
+            "text": "Go ahead, Jeremy. Yeah."
+          },
+          {
+            "label": "neutral",
+            "score": 0.761699914932251,
+            "tokens": 62,
+            "text": "And I was just wondering in terms of your sense of just the state of play, the health of the balance sheets of these customers and also if you can expand that into the consumer, any areas of stress from a credit quality perspective that you are beginning to get more concerned today versus three or six months ago?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8780620694160461,
+            "tokens": 13,
+            "text": "That was helpful, and would you say the same about commercial?"
+          },
+          {
+            "label": "positive",
+            "score": 0.618972659111023,
+            "tokens": 5,
+            "text": "Helpful. Thank you."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 5,
+        "total_chunks": 6,
+        "total_tokens": 209,
+        "positive_score": 0.618972659111023,
+        "negative_score": 0.0,
+        "ratio_score": 0.10316210985183716
+      },
+      "John McDonald": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8373726010322571,
+            "tokens": 58,
+            "text": "Hi, good morning. Jeremy, quick follow-up on the consumer credit, broader comments taken there. But in terms of the NPAs, the non-accruals in consumers seem to have a bit of a jump. Is there something technical there? Maybe just talk to that."
+          },
+          {
+            "label": "positive",
+            "score": 0.51839679479599,
+            "tokens": 70,
+            "text": "Okay. Great. And I wanted to ask for some more color on retail deposits, maybe in the context of Marianne's presentation from Investor Day. Could you remind us of what's given you incremental confidence in seeing some improvement in deposit margin and kind of producing that mid- to upper-single digit deposit growth that Marianne talked about?"
+          },
+          {
+            "label": "positive",
+            "score": 0.745762825012207,
+            "tokens": 8,
+            "text": "Got it. Great. Thank you."
+          }
+        ],
+        "positive": 2,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 3,
+        "total_tokens": 136,
+        "positive_score": 0.6320798099040985,
+        "negative_score": 0.0,
+        "ratio_score": 0.4213865399360657
+      },
+      "Mike Mayo": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6447542905807495,
+            "tokens": 60,
+            "text": "Hi. Hey, Jeremy, can you talk about why commercial loan growth was much stronger in the second quarter and any strength by geography? And Jamie, can you address what regulators could do to potentially have banks lend more in the future, consistent with what the Treasury Secretary said is his goal? Thanks."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8530572652816772,
+            "tokens": 21,
+            "text": "You didn't mention the cost to make a loan. Is there a potential for streamlining there?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.9305236339569092,
+            "tokens": 28,
+            "text": "And last one, when you say inorganic growth, would you buy a private credit firm? Is that something you'd at least consider?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8436578512191772,
+            "tokens": 33,
+            "text": "Actually I can\u2019t leave on that comment. Peak private credit, I can't leave on those three words. What do you mean by peak private credit?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.671558141708374,
+            "tokens": 4,
+            "text": "Sorry, Jeremy?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.6943709254264832,
+            "tokens": 6,
+            "text": "All right. Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 6,
+        "total_chunks": 6,
+        "total_tokens": 152,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Erika Najarian": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8303825855255127,
+            "tokens": 148,
+            "text": "Hey, good morning. Jamie and Jeremy, you've talked about simplifying the regulatory construct. And it seems like based on the progress so far, we'll mostly get there, particularly with Basel III Endgame and G-SIB, which impacts you so much. And to that end, if we do get a more simplified regulatory construct that addresses both the capital and liquidity constraints, does that move up JPMorgan's natural ROTCE? You talked, 17% through-the-cycle a lot. Obviously, perhaps we would optimize the denominator. Why wouldn't that be additive to your natural ROTCE? Or does this get passed back on to your clients in terms of pricing?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.614829957485199,
+            "tokens": 169,
+            "text": "Yeah, for sure. And I think that's a big discussion point with investors in terms of talking about actually the EPS gains rather than just ROTCE improvement. And the second question I had is, you mentioned and clearly we saw it in the numbers, a late in the quarter pickup in activity levels. And I'm wondering as we think about sentiment and what this means for the second half, is it \u2013 did activity levels pick up because it felt like we were taking extreme outcomes from tariff policy off the table? Is it the tax bill certainty? I guess, I'm just wondering, has some of the issues that prevented activity levels or really stunted it in April and early May, have those fully been taken out of your clients' thinking as we think about the second half of the year and activity levels continuing from here?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8234814405441284,
+            "tokens": 3,
+            "text": "Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 3,
+        "total_chunks": 3,
+        "total_tokens": 320,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Jim Mitchell": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.7677180767059326,
+            "tokens": 119,
+            "text": "Hey, good morning. Thanks for taking the questions. Maybe just on \u2013 Jeremy, if I look at your 10-Q and 10-K rate sensitivity disclosures, it looks like you guys have done a lot to reduce your asset sensitivity to the short end of the curve. So, can you talk about what you've been doing to change the positioning of the balance sheet, whether extending duration or hedges? And is there more you can do to desensitize the balance sheet before rate cuts begin to kick in as, I guess, the markets expect later this year? Thanks."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8290911316871643,
+            "tokens": 3,
+            "text": "Fair enough."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8760334253311157,
+            "tokens": 108,
+            "text": "Okay. Thanks. And maybe just one more on the regulatory front. I think regulators look at reducing the SLR as a way to encourage banks or open up an avenue to expand your balance sheets into lower risk assets. Do you see that, is it really just a supply issue or how do you think about the demand-supply dynamic, and is there really opportunities for you to grow? I would imagine, I guess, with an SLR not being constrained, maybe it's better return in lower margin areas. Just your thoughts."
+          },
+          {
+            "label": "positive",
+            "score": 0.6328080296516418,
+            "tokens": 8,
+            "text": "All right. Thanks for the color."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 3,
+        "total_chunks": 4,
+        "total_tokens": 238,
+        "positive_score": 0.6328080296516418,
+        "negative_score": 0.0,
+        "ratio_score": 0.15820200741291046
+      },
+      "Ken Usdin": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8483638167381287,
+            "tokens": 51,
+            "text": "Thanks. Good morning. First question is, I just wanted to ask you about the recent Sapphire price changes and just what you're seeing in terms of initial response and just how that fits in strategically with the competitive landscape on card and your growth opportunity."
+          },
+          {
+            "label": "neutral",
+            "score": 0.5578635931015015,
+            "tokens": 97,
+            "text": "Got it. It is quite a nice lounge. On the trading side, just wondering how much \u2013 the strong results this quarter, the quarter changed a lot from April to June. And I'm just wondering, how much you think that was environmental? Has it calmed down at all? And also, how much is just your ability to kind of use the balance sheet to boost results also, could that make it more sustainable regardless of what the environment is doing? Thanks a lot."
+          },
+          {
+            "label": "positive",
+            "score": 0.6053293347358704,
+            "tokens": 7,
+            "text": "Okay. Thank you, Jeremy."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 2,
+        "total_chunks": 3,
+        "total_tokens": 155,
+        "positive_score": 0.6053293347358704,
+        "negative_score": 0.0,
+        "ratio_score": 0.2017764449119568
+      },
+      "Matt O\u2019Connor": {
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.4903686046600342,
+            "tokens": 9,
+            "text": "Good morning. Some regional banks..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8329405784606934,
+            "tokens": 7,
+            "text": "Can you hear me better now?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.5169851779937744,
+            "tokens": 52,
+            "text": "I just wanted to ask about any pressure from commercial and corporate customers to try to offset the tariff impact from regional banks that pointed to deposit pricing pressure on the commercial side, and if you're seeing any signs of that or more broadly speaking? Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6321184635162354,
+            "tokens": 5,
+            "text": "Okay. Thank you."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 3,
+        "total_chunks": 4,
+        "total_tokens": 73,
+        "positive_score": 0.4903686046600342,
+        "negative_score": 0.0,
+        "ratio_score": 0.12259215116500854
+      },
+      "Glenn Schorr": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8431010842323303,
+            "tokens": 148,
+            "text": "Hi, thanks. Just two quick follow ups. On the conversation about the noticeably upbeat robust pipelines, I know we've been here before and markets can giveth and taketh away, but there is a time value in there, meaning corporates and more importantly sponsors need to get stuff done. There is a ton of dry powder. So I'm curious if there's a higher level of confidence, meaning if the market doesn't take from us, is it really happening this time? We've been kind of waiting for these pipelines to come through in fuller force for a couple of years now. Does it feel more doable as long as the market doesn't take the rug out from under us?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.8174859285354614,
+            "tokens": 100,
+            "text": "I hear you. The follow-up on the capital conversation, obviously impressive to see big returns on even higher capital bases. But there's more to come, and I think trend is your friend on dereg. So the question is, you keep making a lot of money, your capital base keeps rising. You've talked about arresting the growth of CET1 in the past, but I guess my blunt question is, is there any valuation limitation towards that arresting of CET1?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.7985748052597046,
+            "tokens": 29,
+            "text": "I'm just curious if there's a valuation limitation to the thinking, meaning as valuation goes up, do you keep buying back stock?"
+          },
+          {
+            "label": "neutral",
+            "score": 0.794833779335022,
+            "tokens": 10,
+            "text": "You always do. All right. Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 4,
+        "total_chunks": 4,
+        "total_tokens": 287,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      },
+      "Gerard Cassidy": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8478536605834961,
+            "tokens": 205,
+            "text": "Hi, Jeremy. Hi, Jamie. I'd like to circle back to the return on tangible common equity topic that you guys have discussed. Obviously, you had a very strong number this quarter, 20% when you adjusted for the one-time effect. And you go back to your Investor Day and you pointed out 17% is what the targeted level is. And if you turn back the clock and go back to 2020, you had the same 17% goal for the ROTCE, but your CET1 ratio back then was \u2013 excuse me, guidance was 11.5% to 12%. So my question is, has the business for you folks changed so much that now it's just inherently a more profitable business? Or are there some one-time \u2013 not one-time items, but are there some tailwinds that are artificially \u2013 I hate to use that word, but are they inflating the ROTCE which is why you guys are very cautious about lifting that goal from 17%?"
+          },
+          {
+            "label": "positive",
+            "score": 0.6633461713790894,
+            "tokens": 29,
+            "text": "Jeremy, I'm glad you're still using HP 12C, that's good. Just as a follow-up..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.7003620266914368,
+            "tokens": 17,
+            "text": "Okay. As a quick follow-up for Jeremy, you touched on..."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8229987621307373,
+            "tokens": 49,
+            "text": "Just as a quick follow-up Jeremy, in the Markets comment that you made, you said that there were fewer opportunities in Securitized Products and Fixed Income Financing. Can you expand upon that or give us any color there? Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8234814405441284,
+            "tokens": 3,
+            "text": "Thank you."
+          },
+          {
+            "label": "neutral",
+            "score": 0.8234814405441284,
+            "tokens": 3,
+            "text": "Thank you."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 5,
+        "total_chunks": 6,
+        "total_tokens": 306,
+        "positive_score": 0.6633461713790894,
+        "negative_score": 0.0,
+        "ratio_score": 0.11055769522984822
+      },
+      "Saul Martinez": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.807884156703949,
+            "tokens": 177,
+            "text": "Hey, good morning. Thanks for taking my question. Just one for me. I just want to follow-up on Ken's question about sales and trading. And I think you kind of addressed this, Jeremy, but I just \u2013 you\u2019ve had another strong quarter there on the back of a pretty exceptional Q1 on the back of a really strong 2024. I mean, how are you thinking about how much of this really is the result of an exceptional trading environment versus something that's more durable and presumably less volatility, good for investment banking. But do you see \u2013 would you see some sort of normalization in sales and trading as a result? Or do you think there's still opportunities to grow certain businesses and take share? I'm just curious how much \u2013 how you think about what's exceptional versus what's more durable here."
+          },
+          {
+            "label": "positive",
+            "score": 0.7487320303916931,
+            "tokens": 11,
+            "text": "That's fine. Thanks a lot, guys."
+          }
+        ],
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 2,
+        "total_tokens": 188,
+        "positive_score": 0.7487320303916931,
+        "negative_score": 0.0,
+        "ratio_score": 0.37436601519584656
+      },
+      "Chris Kotowski": {
+        "chunks": [
+          {
+            "label": "negative",
+            "score": 0.9623004794120789,
+            "tokens": 95,
+            "text": "had this extraordinary growth this quarter, $33 billion in average and more than 6% quarter-over-quarter. But then, when we look at the P&L in the Commercial & Investment bank, net interest income is down 2% and lending income is down 4%. And I know there's hedges and other complicated things, but it just kind of doesn't compute that you'd have such strong loan growth and not have revenue growth associated with that."
+          },
+          {
+            "label": "neutral",
+            "score": 0.6993528008460999,
+            "tokens": 8,
+            "text": "Okay. All right. Thank you."
+          }
+        ],
+        "positive": 0,
+        "negative": 1,
+        "neutral": 1,
+        "total_chunks": 2,
+        "total_tokens": 103,
+        "positive_score": 0.0,
+        "negative_score": 0.9623004794120789,
+        "ratio_score": -0.48115023970603943
+      },
+      "Hedging": {
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9103606343269348,
+            "tokens": 5,
+            "text": "Hedges for sure. Yeah"
+          }
+        ],
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0
+      }
+    }
+  },
+  "analysis_timestamp": "2025-09-14T00:56:21.598483",
+  "bank_name": "jp_morgan"
+}
