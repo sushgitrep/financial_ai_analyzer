@@ -1,18 +1,11 @@
-"""
-Sentiment Analysis Agent
-"""
-
 import streamlit as st
 from pathlib import Path
 import sys
 import logging
-import matplotlib.pyplot as plt
-import numpy as np
-from typing import Dict, Any, List
-from datetime import datetime
-from collections import Counter
 import pandas as pd
-import re
+from typing import Dict, Any
+import plotly.graph_objects as go
+import plotly.express as px
 
 sys.path.append(str(Path(__file__).parent.parent))
 from utils.data_manager import DataManager
@@ -22,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 class SentimentAnalysisAgent:
-    """Final polished sentiment analysis agent"""
+    """Sentiment analysis agent using a comprehensive suite of Plotly visualizations."""
 
     def __init__(self):
         self.data_manager = DataManager()
@@ -30,14 +23,13 @@ class SentimentAnalysisAgent:
         self.config = self.data_manager.config
 
     def run(self):
-        """Run polished sentiment analysis with correct order"""
-        st.subheader("💭 Sentiment Analysis")
+        """Run sentiment analysis and display interactive plots."""
+        st.subheader("💭 Sentiment & Emotion Analysis")
 
         if not self.current_bank:
             st.error("❌ No bank selected. Please go to Bank Selection tab first.")
             return
 
-        # Check prerequisites
         if "document_data" not in st.session_state:
             st.warning("⚠️ Please process a document first in the Preprocessing tab")
             return
@@ -47,7 +39,6 @@ class SentimentAnalysisAgent:
             f"**Analyzing Sentiment for:** {bank_info['name'] if bank_info else self.current_bank}"
         )
 
-        # 1. Analysis section FIRST
         st.markdown("### 💭 Run Sentiment Analysis")
 
         available_plots = self.data_manager.get_available_plots(self.current_bank)
@@ -55,109 +46,85 @@ class SentimentAnalysisAgent:
             st.warning("⚠️ Running new analysis will overwrite previous sentiment plots")
 
         if st.button(
-            "💭 Run Sentiment Analysis",
-            type="primary",
-            use_container_width=True,
-            key="run_sentiment_analysis_polished",
+            "💭 Run Sentiment Analysis", type="primary", use_container_width=True
         ):
             self._run_sentiment_analysis()
 
-        # 2. Current Plots section SECOND (after running analysis)
-        if "sentiment_results" in st.session_state:
-            st.markdown("---")
+        # This section now correctly displays plots from the current run
+        if "sentiment_plots" in st.session_state:
             self._display_current_plots()
 
-        # 3. FIXED: Previous Analysis section THIRD (only one instance, no duplicates)
         if available_plots:
             st.markdown("---")
             self._show_previous_analysis_section(available_plots)
 
-        # 4. Analysis results LAST
         if "sentiment_results" in st.session_state:
             st.markdown("---")
             self._display_current_results()
 
-    def _show_previous_analysis_section(self, available_plots: Dict):
-        """Show previous analysis plots section - SINGLE INSTANCE ONLY"""
-        st.markdown("### 📂 Previous Sentiment Plots")
-
-        if st.button(
-            "📊 View Previous Plots",
-            type="secondary",
-            use_container_width=True,
-            key="view_sentiment_plots_polished",
-        ):
-            self._show_previous_plots(available_plots)
-
-        # Show plot preview
-        with st.expander("🖼️ Previous Sentiment Analysis Plots", expanded=False):
-            self._show_previous_plots(available_plots)
-
-    def _show_previous_plots(self, available_plots: Dict):
-        """Display previous sentiment analysis plots"""
-        sentiment_plots = {}
-        for plot_name, plot_files in available_plots.items():
-            if any(
-                keyword in plot_name.lower()
-                for keyword in ["sentiment", "emotion", "feeling", "mood"]
-            ):
-                sentiment_plots[plot_name] = plot_files
-
-        if sentiment_plots:
-            cols = st.columns(2)
-            for i, (plot_name, plot_files) in enumerate(sentiment_plots.items()):
-                with cols[i % 2]:
-                    st.markdown(f"**{plot_name.replace('_', ' ').title()}**")
-                    if plot_files:
-                        try:
-                            latest_plot = plot_files[0]
-                            st.image(
-                                latest_plot,
-                                caption=f"Previous: {plot_name}",
-                                use_container_width=True,
-                            )
-                        except Exception as e:
-                            st.write(f"Plot file: {Path(latest_plot).name}")
-        else:
-            st.info("No previous sentiment analysis plots found.")
-
     def _run_sentiment_analysis(self):
-        """Run actual sentiment analysis"""
         try:
-            with st.spinner("💭 Running comprehensive sentiment analysis..."):
+            with st.spinner("💭 Running model-based sentiment analysis..."):
                 doc_data = st.session_state.document_data
-                text = doc_data.get("cleaned_text", doc_data.get("text", ""))
                 text_sections = doc_data.get("text_sections", [])
 
-                # Real sentiment analysis
-                results = self._perform_real_sentiment_analysis(text, text_sections)
+                if not text_sections:
+                    st.error(
+                        "❌ No text sections found. Please re-process the document."
+                    )
+                    return
 
-                # Save results to session
+                # 1. Perform Analysis
+                results = self._perform_model_sentiment_analysis(text_sections)
                 st.session_state.sentiment_results = results
-
-                # Save to persistent storage (overwriting previous)
                 self.data_manager.save_analysis_results(
                     self.current_bank, "sentiment_results", results
                 )
 
-                # Generate and save ONLY 2 plots
-                self._generate_and_save_plots(results)
+                # 2. Generate and Save Plots
+                sentiment_data = results.get("sentiments", {})
+                output_path_prefix = (
+                    f"sentiment_analysis_{pd.Timestamp.now():%Y%m%d_%H%M%S}"
+                )
 
-                st.success("💭 Sentiment analysis completed and saved!")
-                st.rerun()
+                # This will hold the figures for immediate display
+                st.session_state.sentiment_plots = {}
 
+                for model_name, speakers_data in sentiment_data.items():
+                    st.session_state.sentiment_plots[model_name] = {}
+                    plot_configs = {
+                        "overall_volume": self._create_overall_sentiment_volume_plot,
+                        "ratio_scores": self._create_ratio_score_plot,
+                        "sentiment_trend": self._create_sentiment_trend_plot,
+                        "sentiment_distribution": self._create_sentiment_distribution_plot,
+                        "sentiment_counts": self._create_sentiment_counts_plot,
+                        "sentiment_tokens": self._create_sentiment_token_plot,
+                    }
+
+                    for plot_key, plot_func in plot_configs.items():
+                        fig = plot_func(speakers_data, model_name)
+                        # Store figure in session state for immediate display
+                        st.session_state.sentiment_plots[model_name][plot_key] = fig
+
+                        # Save figure to disk for future sessions
+                        plot_name = f"{output_path_prefix}_{model_name.replace('/', '_')}_{plot_key}"
+                        self.data_manager.save_plot(
+                            self.current_bank, plot_name, fig, "plotly"
+                        )
+
+                logger.info(
+                    f"Generated and saved all Plotly sentiment plots for {self.current_bank}"
+                )
+                st.success("💭 Sentiment analysis completed!")
+                # No st.rerun() needed here, Streamlit's flow will handle the update
         except Exception as e:
             st.error(f"❌ Analysis failed: {str(e)}")
-            logger.error(f"Sentiment analysis error: {e}")
+            logger.error(f"Sentiment analysis error: {e}", exc_info=True)
 
-    def _perform_real_sentiment_analysis(
-        self, text: str, text_sections: list
-    ) -> Dict[str, Any]:
-        """Perform real sentiment analysis"""
-
+    def _perform_model_sentiment_analysis(self, text_sections: list) -> Dict[str, Any]:
+        """Performs sentiment analysis using configured models."""
         models = self.config["sentiment_analysis"]["models"]
-
-        sentiments = dict()
+        sentiments = {}
         for model in models:
             analyzer = SentimentAnalyzerFactory.create_analyzer(model)
             sentiment_results = analyzer.analyze(text_sections)
@@ -165,252 +132,332 @@ class SentimentAnalysisAgent:
 
         return {
             "sentiments": sentiments,
-            "analysis_timestamp": datetime.now().isoformat(),
+            "analysis_timestamp": pd.Timestamp.now().isoformat(),
             "bank_name": self.current_bank,
-            "text_length": len(text),
         }
 
-    def _generate_and_save_plots(self, results: Dict[str, Any]):
-        """Generate and save ONLY 2 plots"""
-        try:
-            # 1. Sentiment distribution bar chart
-            fig1 = self._create_sentiment_distribution_chart(results)
-            self.data_manager.save_plot(
-                self.current_bank, "sentiment_distribution_bar", fig1, "matplotlib"
+    # --- PLOTTING FUNCTIONS (Unchanged) ---
+    def _create_overall_sentiment_volume_plot(
+        self, speakers_data: dict, model_name: str
+    ) -> go.Figure:
+        """Generates a single stacked bar chart summarizing total token volume for key speakers."""
+        total_pos, total_neg, total_neu = 0, 0, 0
+        for speaker, data in speakers_data.items():
+            if speaker == "Operator" or data.get("total_tokens", 0) < 20:
+                continue
+            total_pos += sum(
+                c["tokens"] for c in data["chunks"] if c["label"] == "positive"
             )
-            plt.close(fig1)
-
-            # 2. Sentiment confidence pie chart
-            fig2 = self._create_sentiment_pie_chart(results)
-            self.data_manager.save_plot(
-                self.current_bank, "sentiment_confidence_pie", fig2, "matplotlib"
+            total_neg += sum(
+                c["tokens"] for c in data["chunks"] if c["label"] == "negative"
             )
-            plt.close(fig2)
-
-            logger.info(
-                f"Generated and saved 2 sentiment analysis plots for {self.current_bank}"
+            total_neu += sum(
+                c["tokens"] for c in data["chunks"] if c["label"] == "neutral"
             )
 
-        except Exception as e:
-            logger.error(f"Error generating sentiment plots: {e}")
-            st.warning(f"Analysis completed but plot generation had issues: {str(e)}")
+        if (total_pos + total_neg + total_neu) == 0:
+            return go.Figure()
 
-    def _create_sentiment_distribution_chart(self, results: Dict[str, Any]):
-        """Create sentiment distribution bar chart"""
-        fig, ax = plt.subplots(figsize=(10, 6))
+        fig = go.Figure()
+        fig.add_trace(
+            go.Bar(
+                y=["Overall Sentiment"],
+                x=[total_pos],
+                name="Positive",
+                orientation="h",
+                marker_color="#2ca02c",
+            )
+        )
+        fig.add_trace(
+            go.Bar(
+                y=["Overall Sentiment"],
+                x=[total_neu],
+                name="Neutral",
+                orientation="h",
+                marker_color="#808080",
+            )
+        )
+        fig.add_trace(
+            go.Bar(
+                y=["Overall Sentiment"],
+                x=[total_neg],
+                name="Negative",
+                orientation="h",
+                marker_color="#d62728",
+            )
+        )
+        fig.update_layout(
+            barmode="stack",
+            title=f"Overall Sentiment Volume (Key Speakers Only)<br><sup>Model: {model_name}</sup>",
+            xaxis_title="Total Number of Tokens",
+            yaxis_title=None,
+            template="plotly_white",
+            legend_title_text="Sentiment",
+        )
+        return fig
 
-        sentiments = ["Positive", "Negative", "Neutral"]
-        distribution = results["sentiment_distribution"]
-        percentages = [
-            distribution["positive"],
-            distribution["negative"],
-            distribution["neutral"],
+    def _create_ratio_score_plot(
+        self, speakers_data: dict, model_name: str
+    ) -> go.Figure:
+        """Generates an interactive horizontal bar chart for the ratio_score."""
+        plot_data = [
+            {"speaker": s, "ratio_score": d.get("ratio_score", 0.0)}
+            for s, d in speakers_data.items()
+            if d.get("total_tokens", 0) >= 20
+        ]
+        if not plot_data:
+            return go.Figure()
+        df = pd.DataFrame(plot_data)
+        fig = px.bar(
+            df,
+            x="ratio_score",
+            y="speaker",
+            orientation="h",
+            color="ratio_score",
+            color_continuous_scale="RdYlGn",
+            range_color=[-1, 1],
+            title=f"Net Sentiment Score per Speaker<br><sup>Model: {model_name}</sup>",
+            labels={"ratio_score": "Token-Weighted Ratio Score", "speaker": "Speaker"},
+        )
+        fig.update_layout(
+            yaxis={"categoryorder": "total ascending"},
+            xaxis_title="Ratio Score (-1.0 to +1.0)",
+            yaxis_title=None,
+            coloraxis_showscale=False,
+            template="plotly_white",
+        )
+        fig.add_vline(x=0, line_width=1, line_dash="dash", line_color="grey")
+        return fig
+
+    def _create_sentiment_trend_plot(
+        self, speakers_data: dict, model_name: str
+    ) -> go.Figure:
+        """Generates a line chart showing sentiment trend over the course of the call."""
+        all_chunks = [
+            chunk for data in speakers_data.values() for chunk in data.get("chunks", [])
+        ]
+        if not all_chunks:
+            return go.Figure()
+
+        sentiment_map = {"positive": 1, "neutral": 0, "negative": -1}
+        scores = [
+            sentiment_map[chunk["label"]] * chunk["score"] for chunk in all_chunks
+        ]
+        df = pd.DataFrame({"score": scores})
+        df["rolling_avg"] = (
+            df["score"].rolling(window=5, center=True, min_periods=1).mean()
+        )
+
+        fig = px.line(
+            df,
+            y="rolling_avg",
+            title=f"Sentiment Trend Over Call<br><sup>Model: {model_name}</sup>",
+            labels={"index": "Chunk Sequence", "value": "Sentiment Score"},
+        )
+        fig.update_layout(
+            template="plotly_white", yaxis_title="Sentiment Score (Smoothed)"
+        )
+        return fig
+
+    def _create_sentiment_distribution_plot(
+        self, speakers_data: dict, model_name: str
+    ) -> go.Figure:
+        """Generates a box plot showing the distribution of sentiment scores per speaker."""
+        plot_data = [
+            {"speaker": s, "score": c["score"], "label": c["label"]}
+            for s, d in speakers_data.items()
+            if d.get("total_tokens", 0) >= 20
+            for c in d.get("chunks", [])
+        ]
+        if not plot_data:
+            return go.Figure()
+        df = pd.DataFrame(plot_data)
+        fig = px.box(
+            df,
+            x="speaker",
+            y="score",
+            color="speaker",
+            title=f"Sentiment Score Distribution per Speaker<br><sup>Model: {model_name}</sup>",
+            labels={"score": "Sentiment Confidence Score", "speaker": "Speaker"},
+        )
+        fig.update_layout(
+            template="plotly_white", showlegend=False, xaxis_tickangle=-45
+        )
+        return fig
+
+    def _create_sentiment_counts_plot(
+        self, speakers_data: dict, model_name: str
+    ) -> go.Figure:
+        """Generates an interactive stacked bar chart for sentiment chunk counts."""
+        plot_data = [
+            {
+                "speaker": s,
+                "positive": d.get("positive", 0),
+                "negative": d.get("negative", 0),
+                "neutral": d.get("neutral", 0),
+            }
+            for s, d in speakers_data.items()
+            if d.get("total_tokens", 0) >= 20
+        ]
+        if not plot_data:
+            return go.Figure()
+        df = pd.DataFrame(plot_data)
+        df["total_chunks"] = df["positive"] + df["negative"] + df["neutral"]
+        df = df.sort_values(by="total_chunks", ascending=False)
+        fig = px.bar(
+            df,
+            x="speaker",
+            y=["positive", "neutral", "negative"],
+            title=f"Sentiment Chunk Distribution per Speaker<br><sup>Model: {model_name}</sup>",
+            labels={"value": "Number of Analyzed Chunks", "speaker": "Speaker"},
+            color_discrete_map={
+                "positive": "#2ca02c",
+                "neutral": "#808080",
+                "negative": "#d62728",
+            },
+        )
+        fig.update_layout(barmode="stack", xaxis_tickangle=-45, template="plotly_white")
+        return fig
+
+    def _create_sentiment_token_plot(
+        self, speakers_data: dict, model_name: str
+    ) -> go.Figure:
+        """Generates an interactive stacked bar chart for sentiment token volume."""
+        plot_data = []
+        for speaker, data in speakers_data.items():
+            if data.get("total_tokens", 0) < 20:
+                continue
+            plot_data.append(
+                {
+                    "speaker": speaker,
+                    "positive": sum(
+                        c["tokens"] for c in data["chunks"] if c["label"] == "positive"
+                    ),
+                    "negative": sum(
+                        c["tokens"] for c in data["chunks"] if c["label"] == "negative"
+                    ),
+                    "neutral": sum(
+                        c["tokens"] for c in data["chunks"] if c["label"] == "neutral"
+                    ),
+                }
+            )
+        if not plot_data:
+            return go.Figure()
+        df = pd.DataFrame(plot_data)
+        df["total_tokens"] = df["positive"] + df["negative"] + df["neutral"]
+        df = df.sort_values(by="total_tokens", ascending=False)
+        fig = px.bar(
+            df,
+            x="speaker",
+            y=["positive", "neutral", "negative"],
+            title=f"Sentiment Token Volume per Speaker<br><sup>Model: {model_name}</sup>",
+            labels={"value": "Number of Tokens", "speaker": "Speaker"},
+            color_discrete_map={
+                "positive": "#2ca02c",
+                "neutral": "#808080",
+                "negative": "#d62728",
+            },
+        )
+        fig.update_layout(barmode="stack", xaxis_tickangle=-45, template="plotly_white")
+        return fig
+
+    # --- DISPLAY FUNCTIONS ---
+    def _display_current_plots(self):
+        """Displays the newly generated plots from session_state."""
+        st.markdown("### 📊 Current Interactive Plots")
+
+        plot_order = [
+            "overall_volume",
+            "ratio_scores",
+            "sentiment_trend",
+            "sentiment_distribution",
+            "sentiment_counts",
+            "sentiment_tokens",
         ]
 
-        # Color scheme
-        colors = ["#2E8B57", "#DC143C", "#808080"]  # Green, Red, Gray
+        for model_name, plots in st.session_state.sentiment_plots.items():
+            st.markdown(f"#### Results for Model: `{model_name}`")
+            for plot_key in plot_order:
+                if plot_key in plots:
+                    fig = plots[plot_key]
+                    st.plotly_chart(fig, use_container_width=True)
 
-        bars = ax.bar(
-            sentiments,
-            percentages,
-            color=colors,
-            alpha=0.8,
-            edgecolor="black",
-            linewidth=1,
+    def _show_previous_analysis_section(self, available_plots: Dict):
+        """Shows the section for viewing previously generated plots."""
+        st.markdown("### 📂 Previous Sentiment Plots")
+        with st.expander("🖼️ View Previous Sentiment Analysis Plots", expanded=False):
+            self._show_previous_plots(available_plots)
+
+    def _show_previous_plots(self, available_plots: Dict):
+        """Displays plots from storage, handling Plotly JSON."""
+        plot_keys = ["overall", "ratio", "trend", "distribution", "counts", "tokens"]
+        sentiment_plots = {
+            name: files
+            for name, files in available_plots.items()
+            if any(key in name.lower() for key in plot_keys)
+        }
+        if not sentiment_plots:
+            st.info("No previous sentiment analysis plots found.")
+            return
+
+        sorted_plot_names = sorted(
+            sentiment_plots.keys(),
+            key=lambda name: next(
+                (i for i, key in enumerate(plot_keys) if key in name.lower()), 99
+            ),
         )
 
-        ax.set_title(
-            "Financial Document Sentiment Analysis",
-            fontsize=16,
-            fontweight="bold",
-            pad=20,
-        )
-        ax.set_xlabel("Sentiment Categories", fontsize=12)
-        ax.set_ylabel("Percentage (%)", fontsize=12)
-        ax.set_ylim(0, max(percentages) * 1.1 + 10)
-
-        # Add percentage labels on bars
-        for bar, percentage in zip(bars, percentages):
-            height = bar.get_height()
-            ax.text(
-                bar.get_x() + bar.get_width() / 2.0,
-                height + 1,
-                f"{percentage:.1f}%",
-                ha="center",
-                va="bottom",
-                fontweight="bold",
-                fontsize=11,
-            )
-
-        # Add grid for better readability
-        ax.grid(True, alpha=0.3, axis="y")
-
-        plt.tight_layout()
-        return fig
-
-    def _create_sentiment_pie_chart(self, results: Dict[str, Any]):
-        """Create sentiment distribution pie chart"""
-        fig, ax = plt.subplots(figsize=(8, 8))
-
-        distribution = results["sentiment_distribution"]
-
-        labels = []
-        sizes = []
-        colors = []
-
-        if distribution["positive"] > 0:
-            labels.append(f"Positive\n{distribution['positive']:.1f}%")
-            sizes.append(distribution["positive"])
-            colors.append("#2E8B57")
-
-        if distribution["negative"] > 0:
-            labels.append(f"Negative\n{distribution['negative']:.1f}%")
-            sizes.append(distribution["negative"])
-            colors.append("#DC143C")
-
-        if distribution["neutral"] > 0:
-            labels.append(f"Neutral\n{distribution['neutral']:.1f}%")
-            sizes.append(distribution["neutral"])
-            colors.append("#808080")
-
-        if sizes:
-            wedges, texts, autotexts = ax.pie(
-                sizes,
-                labels=labels,
-                colors=colors,
-                autopct="",
-                startangle=90,
-                textprops={"fontsize": 10},
-            )
-
-            # Enhance text
-            for text in texts:
-                text.set_fontweight("bold")
-
-        ax.set_title(
-            f'Overall Sentiment: {results["overall_sentiment"]}',
-            fontsize=16,
-            fontweight="bold",
-            pad=20,
-        )
-
-        return fig
-
-    def _display_current_plots(self):
-        """Display current analysis plots section"""
-        st.markdown("### 📊 Current Plots")
-        st.success("✅ **New sentiment plots generated!**")
-
-        # Get most recent plots
-        available_plots = self.data_manager.get_available_plots(self.current_bank)
-
-        if available_plots:
-            sentiment_plots = {}
-            for plot_name, plot_files in available_plots.items():
-                if any(
-                    keyword in plot_name.lower()
-                    for keyword in ["sentiment_distribution", "sentiment_confidence"]
-                ):
-                    sentiment_plots[plot_name] = plot_files
-
-            if sentiment_plots:
-                cols = st.columns(2)
-                for i, (plot_name, plot_files) in enumerate(sentiment_plots.items()):
-                    with cols[i % 2]:
-                        st.markdown(f"**{plot_name.replace('_', ' ').title()}**")
-                        if plot_files:
-                            try:
-                                latest_plot = plot_files[0]  # Most recent
-                                st.image(
-                                    latest_plot,
-                                    caption=f"Current: {plot_name}",
-                                    use_container_width=True,
-                                )
-                            except Exception as e:
-                                st.write(f"Plot file: {Path(latest_plot).name}")
-        else:
-            st.info("Run analysis to generate current plots.")
+        for plot_name in sorted_plot_names:
+            plot_files = sentiment_plots[plot_name]
+            st.markdown(f"**{plot_name.replace('_', ' ').title()}**")
+            if plot_files:
+                try:
+                    fig = self.data_manager.load_plot(plot_files[0])
+                    st.plotly_chart(fig, use_container_width=True)
+                except Exception as e:
+                    st.error(f"Could not load plot {plot_name}: {e}")
 
     def _display_current_results(self):
-        """Display current sentiment analysis results - streamlined"""
+        """Displays the detailed sentiment results in a sortable table."""
         results = st.session_state.sentiment_results
+        st.markdown("### 💭 Detailed Sentiment Results")
 
-        st.markdown("### 💭 Sentiment Analysis Results")
-
-        # Overall sentiment display
-        overall_sentiment = results.get("overall_sentiment", "Unknown")
-        confidence = results.get("overall_confidence", 0)
-
-        # Color-code the overall sentiment
-        if overall_sentiment == "Positive":
-            sentiment_color = "🟢"
-        elif overall_sentiment == "Negative":
-            sentiment_color = "🔴"
-        else:
-            sentiment_color = "🔵"
-
-        st.markdown(
-            f"""
-        #### {sentiment_color} Overall Sentiment: **{overall_sentiment}**
-        **Confidence Level:** {confidence:.1%}
-        """
-        )
-
-        # Key metrics (streamlined)
-        col1, col2, col3 = st.columns(3)
-
-        sentiment_counts = results.get("sentiment_counts", {})
-
-        with col1:
-            st.metric("😊 Positive", sentiment_counts.get("positive", 0))
-
-        with col2:
-            st.metric("😞 Negative", sentiment_counts.get("negative", 0))
-
-        with col3:
-            st.metric("😐 Neutral", sentiment_counts.get("neutral", 0))
-
-        # Sentiment distribution (streamlined)
-        distribution = results.get("sentiment_distribution", {})
-        if distribution:
-            st.markdown("#### 📈 Sentiment Distribution")
-
-            df_sentiment = pd.DataFrame(
-                [
+        sentiment_data = results.get("sentiments", {})
+        for model_name, speakers_data in sentiment_data.items():
+            with st.expander(f"**Model: {model_name}**", expanded=True):
+                df_data = [
                     {
-                        "Sentiment": "Positive",
-                        "Percentage": f"{distribution.get('positive', 0):.1f}%",
-                    },
-                    {
-                        "Sentiment": "Negative",
-                        "Percentage": f"{distribution.get('negative', 0):.1f}%",
-                    },
-                    {
-                        "Sentiment": "Neutral",
-                        "Percentage": f"{distribution.get('neutral', 0):.1f}%",
-                    },
+                        "Speaker": s,
+                        "Ratio Score": d.get("ratio_score", 0.0),
+                        "Positive Chunks": d.get("positive", 0),
+                        "Negative Chunks": d.get("negative", 0),
+                        "Neutral Chunks": d.get("neutral", 0),
+                        "Total Tokens": d.get("total_tokens", 0),
+                    }
+                    for s, d in speakers_data.items()
                 ]
-            )
-
-            st.dataframe(df_sentiment, use_container_width=True, hide_index=True)
-
-        # Example sentences (condensed)
-        with st.expander("📝 Example Sentences", expanded=False):
-            positive_examples = results.get("positive_examples", [])
-            negative_examples = results.get("negative_examples", [])
-
-            if positive_examples:
-                st.markdown("**😊 Positive Examples:**")
-                for example in positive_examples[:2]:  # Show only 2
-                    st.markdown(f"• {example['text']}")
-
-            if negative_examples:
-                st.markdown("**😞 Negative Examples:**")
-                for example in negative_examples[:2]:  # Show only 2
-                    st.markdown(f"• {example['text']}")
+                if not df_data:
+                    st.info("No data to display.")
+                    continue
+                df = pd.DataFrame(df_data).sort_values(
+                    by="Ratio Score", ascending=False
+                )
+                st.dataframe(
+                    df,
+                    use_container_width=True,
+                    hide_index=True,
+                    column_config={
+                        "Ratio Score": st.column_config.ProgressColumn(
+                            "Ratio Score",
+                            help="Token-weighted net sentiment. Ranges from -1 (very negative) to +1 (very positive).",
+                            format="%.3f",
+                            min_value=-1,
+                            max_value=1,
+                        ),
+                    },
+                )
 
 
 def run_sentiment_analysis_agent():
-    """Entry point for sentiment analysis agent"""
     agent = SentimentAnalysisAgent()
     agent.run()

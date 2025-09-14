@@ -143,28 +143,30 @@ class BaseProcessor:
         Allows for middle names/initials.
         """
 
-        # Remove extra spaces
+        # Accept "Operator", "Q", "A", and names in First Last format
         line = line.strip()
-
-        # Regex: capitalized words, optional initials
-        pattern = r"^[A-Z][a-zA-Z'’\-]+(?:\s(?:[A-Z]\.|[A-Z][a-zA-Z'’\-]+)){1,2}$"
-
+        if line in {"Operator", "Q", "A"}:
+            return True
+        # Regex for First Last (optionally with middle/initial)
+        pattern = r"^[A-Z][a-zA-Z'’\-]+(?:\s(?:[A-Z]\.|[A-Z][a-zA-Z'’\-]+)){0,2}$"
         return re.match(pattern, line) is not None
 
     def split_text_into_sections(self, cleaned_text: str) -> list:
         """
         Splits cleaned text by speaker.
-        If no speaker is detected, text is assigned to 'Unknown'.
+        Handles speaker lines without colons and optional title lines.
         """
         sections = []
         current_speaker = "Unknown"
         current_text = []
 
         lines = cleaned_text.split("\n")
-
-        for line in lines:
-            # Speaker detection
-            if self.is_person_name(line) or line == "Operator":
+        i = 0
+        while i < len(lines):
+            line = lines[i].strip()
+            # Detect speaker line (no colon required)
+            if self.is_person_name(line):
+                # Save previous speaker's text
                 if current_text:
                     sections.append(
                         {
@@ -174,8 +176,16 @@ class BaseProcessor:
                     )
                 current_speaker = line
                 current_text = []
+                # Optionally skip title line (e.g., "Chief Executive Officer")
+                if i + 1 < len(lines) and re.search(
+                    r"Chief|President|Officer|Analyst|Moderator|Manager",
+                    lines[i + 1],
+                    re.IGNORECASE,
+                ):
+                    i += 1  # skip title line
             else:
                 current_text.append(line)
+            i += 1
 
         # Last block
         if current_text:

@@ -1,0 +1,2533 @@
+{
+  "sentiments": {
+    "finbert": [
+      {
+        "label": "neutral",
+        "score": 0.9480109810829163,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.6,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9345681667327881,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.666016697883606,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8605146408081055,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.7962831258773804,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8482468128204346,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8727313280105591,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6741377115249634,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8802142143249512,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8195561766624451,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8520335555076599,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8917250037193298,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8461379408836365,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.5830829739570618,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.8567979335784912,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8234814405441284,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9467793703079224,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7369074821472168,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.801632285118103,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8937805891036987,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.782451868057251,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8537489771842957,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.893622636795044,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8982633352279663,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8918454051017761,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.7779870629310608,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7139290571212769,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9443681836128235,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9315274953842163,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "neutral",
+        "score": 0.856328010559082,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8527466058731079,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.6330451369285583,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9004715085029602,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9164924621582031,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8489557504653931,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9260879158973694,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7477285265922546,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8460710048675537,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7568167448043823,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9465343952178955,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9088498950004578,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8350430727005005,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8354281187057495,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.4849094748497009,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8634396195411682,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.930124819278717,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.761699914932251,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6827763319015503,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "negative",
+        "score": 0.9271745681762695,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8780620694160461,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9050087928771973,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.618972659111023,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8105388879776001,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9281465411186218,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8373726010322571,
+        "speaker": "John McDonald"
+      },
+      {
+        "label": "negative",
+        "score": 0.6577012538909912,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.714867889881134,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9132154583930969,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.51839679479599,
+        "speaker": "John McDonald"
+      },
+      {
+        "label": "neutral",
+        "score": 0.5841765999794006,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.745762825012207,
+        "speaker": "John McDonald"
+      },
+      {
+        "label": "positive",
+        "score": 0.5528934597969055,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9317582249641418,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6447542905807495,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7770848870277405,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8727285861968994,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8530572652816772,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7609111666679382,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9305236339569092,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8944345116615295,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8436578512191772,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8761534094810486,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.671558141708374,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6926831603050232,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6943709254264832,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9417957067489624,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8303825855255127,
+        "speaker": "Erika Najarian"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6747167110443115,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6641749143600464,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9156001806259155,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.614829957485199,
+        "speaker": "Erika Najarian"
+      },
+      {
+        "label": "negative",
+        "score": 0.5460748076438904,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.585448145866394,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6939252018928528,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.6791133284568787,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8234814405441284,
+        "speaker": "Erika Najarian"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9402559399604797,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7677180767059326,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "neutral",
+        "score": 0.845709502696991,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.900465726852417,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8290911316871643,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8231785297393799,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8564057946205139,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8760334253311157,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "neutral",
+        "score": 0.81755131483078,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8635942339897156,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.6328080296516418,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8105388879776001,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.94359290599823,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8483638167381287,
+        "speaker": "Ken Usdin"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9062396287918091,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7667539715766907,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.5495765805244446,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8949147462844849,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7994205951690674,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.5578635931015015,
+        "speaker": "Ken Usdin"
+      },
+      {
+        "label": "positive",
+        "score": 0.5969892144203186,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8518420457839966,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.6984689831733704,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.6053293347358704,
+        "speaker": "Ken Usdin"
+      },
+      {
+        "label": "neutral",
+        "score": 0.691907525062561,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9323028326034546,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.4903686046600342,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8046542406082153,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8329405784606934,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8605222702026367,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.5169851779937744,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8447253108024597,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6939225792884827,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8730101585388184,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6321184635162354,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8358602523803711,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6892433166503906,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8351266980171204,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.909633457660675,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8431010842323303,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6884467005729675,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.710770308971405,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8174859285354614,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "neutral",
+        "score": 0.49199262261390686,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7985748052597046,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8824465870857239,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7230385541915894,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.794833779335022,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "positive",
+        "score": 0.5503315925598145,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6855793595314026,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9217329621315002,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8478536605834961,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8453094959259033,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6656811833381653,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8696256279945374,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.905584454536438,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.6633461713790894,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9363159537315369,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7003620266914368,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8150438070297241,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8229987621307373,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.49967142939567566,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8234814405441284,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9217998385429382,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8234814405441284,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9141284227371216,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.807884156703949,
+        "speaker": "Saul Martinez"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6732285618782043,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9165058732032776,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.7487320303916931,
+        "speaker": "Saul Martinez"
+      },
+      {
+        "label": "neutral",
+        "score": 0.894079864025116,
+        "speaker": "Operator"
+      },
+      {
+        "label": "negative",
+        "score": 0.9557129740715027,
+        "speaker": "Chris Kotowski"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8641082048416138,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9110763669013977,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9103606343269348,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6993528008460999,
+        "speaker": "Chris Kotowski"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8105388879776001,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9299832582473755,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6736485362052917,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6859453916549683,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9177591800689697,
+        "speaker": "Operator"
+      }
+    ],
+    "finbert-tone": [
+      {
+        "label": "Neutral",
+        "score": 0.9999192953109741,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.6,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9991699457168579,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9895790219306946,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9410616755485535,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Positive",
+        "score": 0.8914312720298767,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9997637867927551,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9964510202407837,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9991532564163208,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9983807802200317,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9430259466171265,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9042981863021851,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9947679042816162,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9825596809387207,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Positive",
+        "score": 1.0,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Positive",
+        "score": 0.7049776315689087,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8304303288459778,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9984544515609741,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.6029175519943237,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9466185569763184,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9969292283058167,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9998118281364441,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9992530941963196,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9976339340209961,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9975132942199707,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9997192025184631,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.6882684230804443,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.963935911655426,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9961609840393066,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9998229146003723,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9881616234779358,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9979807734489441,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9996774196624756,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9884678721427917,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9999847412109375,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9989720582962036,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.999176561832428,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9917798638343811,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9999260902404785,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9739317893981934,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9967717528343201,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8003845810890198,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9987516403198242,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9991533756256104,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9944506883621216,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9833696484565735,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9946485161781311,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Negative",
+        "score": 0.6661132574081421,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "Negative",
+        "score": 0.9982666969299316,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Negative",
+        "score": 0.9887627959251404,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9996527433395386,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9998375177383423,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8250821232795715,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8665344715118408,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9982941746711731,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9795241951942444,
+        "speaker": "John McDonald"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.7427952885627747,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9463685750961304,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9992743134498596,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.577963650226593,
+        "speaker": "John McDonald"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.7966843247413635,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8623639345169067,
+        "speaker": "John McDonald"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.944617748260498,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9992803931236267,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8271751403808594,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9540212750434875,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.999576985836029,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9853892922401428,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "Negative",
+        "score": 0.687639057636261,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9996320009231567,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9964030981063843,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9999524354934692,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.991795003414154,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9044575691223145,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9999988079071045,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.6653609871864319,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9974174499511719,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9985142350196838,
+        "speaker": "Erika Najarian"
+      },
+      {
+        "label": "Positive",
+        "score": 0.999790370464325,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9999996423721313,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.5104033946990967,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Negative",
+        "score": 0.5755718350410461,
+        "speaker": "Erika Najarian"
+      },
+      {
+        "label": "Negative",
+        "score": 0.9172957539558411,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Negative",
+        "score": 0.9995030164718628,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9989308714866638,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9999833106994629,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8304303288459778,
+        "speaker": "Erika Najarian"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9991161227226257,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9914570450782776,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9965715408325195,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9986023306846619,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9691150188446045,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9986922144889832,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8000945448875427,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.944786787033081,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9705265164375305,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9999779462814331,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9563734531402588,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8665344715118408,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9978651404380798,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9858858585357666,
+        "speaker": "Ken Usdin"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9999347925186157,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9965729713439941,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Positive",
+        "score": 1.0,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9994800686836243,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9997847676277161,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Positive",
+        "score": 0.6115193367004395,
+        "speaker": "Ken Usdin"
+      },
+      {
+        "label": "Negative",
+        "score": 0.9531062245368958,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Negative",
+        "score": 0.5982955694198608,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9878188371658325,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9602048397064209,
+        "speaker": "Ken Usdin"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.735779881477356,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.998794674873352,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.7233303189277649,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9980545043945312,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Positive",
+        "score": 0.8224985599517822,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9983794689178467,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Negative",
+        "score": 0.777656078338623,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9984695315361023,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9778604507446289,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9985597729682922,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9731819033622742,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9990692734718323,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Negative",
+        "score": 0.6175738573074341,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.998309850692749,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9990774393081665,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8529006242752075,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9976410865783691,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.6598742604255676,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9739558696746826,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "Positive",
+        "score": 0.5077354311943054,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9798058867454529,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9928164482116699,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.774705708026886,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.7594038248062134,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9764425158500671,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Positive",
+        "score": 0.967018723487854,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9987190961837769,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9440299868583679,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9992641806602478,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9998916387557983,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.7113732695579529,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9990842342376709,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Positive",
+        "score": 0.899300754070282,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9999494552612305,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9997493624687195,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9810918569564819,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9334803223609924,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "Positive",
+        "score": 0.999895453453064,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8304303288459778,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "Negative",
+        "score": 0.8968484401702881,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8304303288459778,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9976595640182495,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9780510663986206,
+        "speaker": "Saul Martinez"
+      },
+      {
+        "label": "Positive",
+        "score": 0.9917426705360413,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9971510767936707,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.6284389495849609,
+        "speaker": "Saul Martinez"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9981721639633179,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Negative",
+        "score": 0.9989669322967529,
+        "speaker": "Chris Kotowski"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9998447895050049,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9932891726493835,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9895472526550293,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.977816104888916,
+        "speaker": "Chris Kotowski"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8665344715118408,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9991612434387207,
+        "speaker": "Operator"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.8625292778015137,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "Positive",
+        "score": 0.6878675818443298,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "Neutral",
+        "score": 0.9991518259048462,
+        "speaker": "Operator"
+      }
+    ],
+    "financial-roberta": [
+      {
+        "label": "neutral",
+        "score": 0.9996022582054138,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.6,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994503855705261,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.9978400468826294,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9992891550064087,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.998857855796814,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994685053825378,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.99720299243927,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9978785514831543,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9977292418479919,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9862874150276184,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8861878514289856,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9995537400245667,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9978641867637634,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.9913477301597595,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9798847436904907,
+        "speaker": "Christopher McGratty"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9991152882575989,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9995489716529846,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9987484216690063,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9991305470466614,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6717237234115601,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.5581665635108948,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9993583559989929,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9984468817710876,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8893213272094727,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9986792206764221,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9719563126564026,
+        "speaker": "Betsy L. Graseck"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9992662072181702,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.999528169631958,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9985737800598145,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9980180263519287,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.998725950717926,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.9971600770950317,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9956082701683044,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9990693926811218,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7921696901321411,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994105100631714,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "negative",
+        "score": 0.9953462481498718,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9976450800895691,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9992063641548157,
+        "speaker": "Steven Alexopolous"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994930028915405,
+        "speaker": "Operator"
+      },
+      {
+        "label": "negative",
+        "score": 0.5019770860671997,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "positive",
+        "score": 0.9970617890357971,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9989973902702332,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9957184195518494,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.999396562576294,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.998771607875824,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "negative",
+        "score": 0.9874468445777893,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9560123682022095,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "negative",
+        "score": 0.974002480506897,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9970622658729553,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994747042655945,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9979536533355713,
+        "speaker": "Ebrahim Poonawala"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9988258481025696,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9993785619735718,
+        "speaker": "Operator"
+      },
+      {
+        "label": "negative",
+        "score": 0.997245192527771,
+        "speaker": "John McDonald"
+      },
+      {
+        "label": "negative",
+        "score": 0.8803247809410095,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.9922215342521667,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994213581085205,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.9975817203521729,
+        "speaker": "John McDonald"
+      },
+      {
+        "label": "positive",
+        "score": 0.9805928468704224,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9648373126983643,
+        "speaker": "John McDonald"
+      },
+      {
+        "label": "neutral",
+        "score": 0.999144434928894,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994452595710754,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.9969742298126221,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9992803931236267,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.6413933634757996,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9992746710777283,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9982189536094666,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9992817044258118,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9981176853179932,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994781613349915,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7023561596870422,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9972596168518066,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9818732738494873,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9987319111824036,
+        "speaker": "Mike Mayo"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9995168447494507,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.993633508682251,
+        "speaker": "Erika Najarian"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9963132739067078,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9946355223655701,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9993239641189575,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.9905391931533813,
+        "speaker": "Erika Najarian"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9984194040298462,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9720723032951355,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8753765821456909,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.9976307153701782,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9991152882575989,
+        "speaker": "Erika Najarian"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994353652000427,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.9963162541389465,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9958522319793701,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9993300437927246,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9232209324836731,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9976466298103333,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.6249020099639893,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.5435358881950378,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9954115748405457,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9995600581169128,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9993411898612976,
+        "speaker": "Jim Mitchell"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9988258481025696,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9995304346084595,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9938727617263794,
+        "speaker": "Ken Usdin"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9995063543319702,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9978277087211609,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.9978309273719788,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9988769888877869,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9883379340171814,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.8593147397041321,
+        "speaker": "Ken Usdin"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9426248669624329,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9967023730278015,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.9809438586235046,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9968344569206238,
+        "speaker": "Ken Usdin"
+      },
+      {
+        "label": "neutral",
+        "score": 0.998296320438385,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994682669639587,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994958639144897,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "negative",
+        "score": 0.9986573457717896,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9976999163627625,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9990179538726807,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "negative",
+        "score": 0.9203546047210693,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9993841648101807,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9605063199996948,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9980605244636536,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9971119165420532,
+        "speaker": "Matt O\u2019Connor"
+      },
+      {
+        "label": "neutral",
+        "score": 0.8030512928962708,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "negative",
+        "score": 0.9887181520462036,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "negative",
+        "score": 0.982647716999054,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994781613349915,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9543182253837585,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "negative",
+        "score": 0.9872612953186035,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9985900521278381,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "positive",
+        "score": 0.9967638254165649,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7765246033668518,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9992085099220276,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9988226294517517,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9932249188423157,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9919924736022949,
+        "speaker": "Glenn Schorr"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9993131160736084,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.796674370765686,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9993939399719238,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.986374020576477,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "positive",
+        "score": 0.9953576922416687,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "positive",
+        "score": 0.9976925849914551,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "negative",
+        "score": 0.5194365978240967,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9992237091064453,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9950398802757263,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9981086254119873,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994188547134399,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9934701919555664,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "negative",
+        "score": 0.9979720711708069,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.7900676727294922,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9991152882575989,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9991897940635681,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9991152882575989,
+        "speaker": "Gerard Cassidy"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9994029998779297,
+        "speaker": "Operator"
+      },
+      {
+        "label": "positive",
+        "score": 0.9804795980453491,
+        "speaker": "Saul Martinez"
+      },
+      {
+        "label": "positive",
+        "score": 0.9434458017349243,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "negative",
+        "score": 0.9550645351409912,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9970893263816833,
+        "speaker": "Saul Martinez"
+      },
+      {
+        "label": "neutral",
+        "score": 0.999395489692688,
+        "speaker": "Operator"
+      },
+      {
+        "label": "negative",
+        "score": 0.9953952431678772,
+        "speaker": "Chris Kotowski"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9995915293693542,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9943361878395081,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9883213639259338,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9989362359046936,
+        "speaker": "Chris Kotowski"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9988258481025696,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9943631887435913,
+        "speaker": "Operator"
+      },
+      {
+        "label": "neutral",
+        "score": 0.999267041683197,
+        "speaker": "Jeremy Barnum"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9991289973258972,
+        "speaker": "Jamie Dimon"
+      },
+      {
+        "label": "neutral",
+        "score": 0.9973649382591248,
+        "speaker": "Operator"
+      }
+    ]
+  },
+  "analysis_timestamp": "2025-09-13T18:04:47.245483",
+  "bank_name": "jp_morgan",
+  "text_length": 44034
+}

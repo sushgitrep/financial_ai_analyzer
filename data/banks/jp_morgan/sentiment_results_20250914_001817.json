@@ -1,0 +1,659 @@
+{
+  "sentiments": {
+    "yiyanghkust/finbert-tone": {
+      "Operator": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9991518259048462,
+            "tokens": 11,
+            "text": "Operator: Thank you. We have no further questions."
+          }
+        ]
+      },
+      "Jeremy Barnum": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 4,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8625292778015137,
+            "tokens": 4,
+            "text": "Thanks very much."
+          }
+        ]
+      },
+      "Christopher McGratty": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 6,
+        "positive_score": 0.16666666666666666,
+        "negative_score": 0.0,
+        "ratio_score": 0.16666666666666666,
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.7049776315689087,
+            "tokens": 6,
+            "text": "Great. Thanks, again."
+          }
+        ]
+      },
+      "Jamie Dimon": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 4,
+        "positive_score": 0.25,
+        "negative_score": 0.0,
+        "ratio_score": 0.25,
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.6878675818443298,
+            "tokens": 4,
+            "text": "And thank you."
+          }
+        ]
+      },
+      "Betsy L. Graseck": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6882684230804443,
+            "tokens": 11,
+            "text": "Excellent. Okay. Thank you so much for that."
+          }
+        ]
+      },
+      "Steven Alexopolous": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9739317893981934,
+            "tokens": 11,
+            "text": "Okay. Fair enough. Thanks for taking my questions."
+          }
+        ]
+      },
+      "Ebrahim Poonawala": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8250821232795715,
+            "tokens": 5,
+            "text": "Helpful. Thank you."
+          }
+        ]
+      },
+      "John McDonald": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8623639345169067,
+            "tokens": 8,
+            "text": "Got it. Great. Thank you."
+          }
+        ]
+      },
+      "Mike Mayo": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 6,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6653609871864319,
+            "tokens": 6,
+            "text": "All right. Thank you."
+          }
+        ]
+      },
+      "Erika Najarian": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 3,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8304303288459778,
+            "tokens": 3,
+            "text": "Thank you."
+          }
+        ]
+      },
+      "Jim Mitchell": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9563734531402588,
+            "tokens": 8,
+            "text": "All right. Thanks for the color."
+          }
+        ]
+      },
+      "Ken Usdin": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 7,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9602048397064209,
+            "tokens": 7,
+            "text": "Okay. Thank you, Jeremy."
+          }
+        ]
+      },
+      "Matt O\u2019Connor": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9731819033622742,
+            "tokens": 5,
+            "text": "Okay. Thank you."
+          }
+        ]
+      },
+      "Glenn Schorr": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 10,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.7594038248062134,
+            "tokens": 10,
+            "text": "You always do. All right. Thank you."
+          }
+        ]
+      },
+      "Gerard Cassidy": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 3,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8304303288459778,
+            "tokens": 3,
+            "text": "Thank you."
+          }
+        ]
+      },
+      "Saul Martinez": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6284389495849609,
+            "tokens": 11,
+            "text": "That's fine. Thanks a lot, guys."
+          }
+        ]
+      },
+      "Chris Kotowski": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.977816104888916,
+            "tokens": 8,
+            "text": "Okay. All right. Thank you."
+          }
+        ]
+      },
+      "Hedging": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9895472526550293,
+            "tokens": 5,
+            "text": "Hedges for sure. Yeah"
+          }
+        ]
+      }
+    },
+    "ProsusAI/finbert": {
+      "Operator": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9177591800689697,
+            "tokens": 11,
+            "text": "Operator: Thank you. We have no further questions."
+          }
+        ]
+      },
+      "Jeremy Barnum": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 4,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6736485362052917,
+            "tokens": 4,
+            "text": "Thanks very much."
+          }
+        ]
+      },
+      "Christopher McGratty": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 6,
+        "positive_score": 0.16666666666666666,
+        "negative_score": 0.0,
+        "ratio_score": 0.16666666666666666,
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.8567979335784912,
+            "tokens": 6,
+            "text": "Great. Thanks, again."
+          }
+        ]
+      },
+      "Jamie Dimon": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 4,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6859453916549683,
+            "tokens": 4,
+            "text": "And thank you."
+          }
+        ]
+      },
+      "Betsy L. Graseck": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.09090909090909091,
+        "negative_score": 0.0,
+        "ratio_score": 0.09090909090909091,
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.7779870629310608,
+            "tokens": 11,
+            "text": "Excellent. Okay. Thank you so much for that."
+          }
+        ]
+      },
+      "Steven Alexopolous": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.7568167448043823,
+            "tokens": 11,
+            "text": "Okay. Fair enough. Thanks for taking my questions."
+          }
+        ]
+      },
+      "Ebrahim Poonawala": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.2,
+        "negative_score": 0.0,
+        "ratio_score": 0.2,
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.618972659111023,
+            "tokens": 5,
+            "text": "Helpful. Thank you."
+          }
+        ]
+      },
+      "John McDonald": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.125,
+        "negative_score": 0.0,
+        "ratio_score": 0.125,
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.745762825012207,
+            "tokens": 8,
+            "text": "Got it. Great. Thank you."
+          }
+        ]
+      },
+      "Mike Mayo": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 6,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6943709254264832,
+            "tokens": 6,
+            "text": "All right. Thank you."
+          }
+        ]
+      },
+      "Erika Najarian": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 3,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8234814405441284,
+            "tokens": 3,
+            "text": "Thank you."
+          }
+        ]
+      },
+      "Jim Mitchell": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.125,
+        "negative_score": 0.0,
+        "ratio_score": 0.125,
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.6328080296516418,
+            "tokens": 8,
+            "text": "All right. Thanks for the color."
+          }
+        ]
+      },
+      "Ken Usdin": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 7,
+        "positive_score": 0.14285714285714285,
+        "negative_score": 0.0,
+        "ratio_score": 0.14285714285714285,
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.6053293347358704,
+            "tokens": 7,
+            "text": "Okay. Thank you, Jeremy."
+          }
+        ]
+      },
+      "Matt O\u2019Connor": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6321184635162354,
+            "tokens": 5,
+            "text": "Okay. Thank you."
+          }
+        ]
+      },
+      "Glenn Schorr": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 10,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.794833779335022,
+            "tokens": 10,
+            "text": "You always do. All right. Thank you."
+          }
+        ]
+      },
+      "Gerard Cassidy": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 3,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.8234814405441284,
+            "tokens": 3,
+            "text": "Thank you."
+          }
+        ]
+      },
+      "Saul Martinez": {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0,
+        "total_chunks": 1,
+        "total_tokens": 11,
+        "positive_score": 0.09090909090909091,
+        "negative_score": 0.0,
+        "ratio_score": 0.09090909090909091,
+        "chunks": [
+          {
+            "label": "positive",
+            "score": 0.7487320303916931,
+            "tokens": 11,
+            "text": "That's fine. Thanks a lot, guys."
+          }
+        ]
+      },
+      "Chris Kotowski": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 8,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.6993528008460999,
+            "tokens": 8,
+            "text": "Okay. All right. Thank you."
+          }
+        ]
+      },
+      "Hedging": {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1,
+        "total_chunks": 1,
+        "total_tokens": 5,
+        "positive_score": 0.0,
+        "negative_score": 0.0,
+        "ratio_score": 0.0,
+        "chunks": [
+          {
+            "label": "neutral",
+            "score": 0.9103606343269348,
+            "tokens": 5,
+            "text": "Hedges for sure. Yeah"
+          }
+        ]
+      }
+    }
+  },
+  "analysis_timestamp": "2025-09-14T00:18:17.003120",
+  "bank_name": "jp_morgan",
+  "text_length": 115870
+}
