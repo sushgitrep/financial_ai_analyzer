@@ -165,7 +165,10 @@ class EnhancedPreprocessingAgent:
 
     def _process_pdf_file(self, file_path: str, source: str = "unknown") -> bool:
         """Process PDF file with AUTOMATIC SAVE"""
+        logger.info("Process PDF file")
         try:
+            
+            st.session_state.filepath = file_path
             progress_bar = st.progress(0)
             status_text = st.empty()
 
@@ -187,6 +190,13 @@ class EnhancedPreprocessingAgent:
             else:
                 raw_text = text_pdfplumber
                 method = "pdfplumber"
+            
+            # Store in session
+            
+            st.session_state.raw_text = raw_text  
+            st.session_state.document_data = raw_text          
+            
+            logger.info("stroing raw text")          
 
             if not raw_text or len(raw_text.strip()) < 50:
                 st.error("❌ Could not extract sufficient text")
@@ -195,10 +205,9 @@ class EnhancedPreprocessingAgent:
             status_text.text("🧹 Processing text...")
             progress_bar.progress(80)
 
-            processed_data = self._preprocess_text(raw_text, source, method)
+            # processed_data = self._preprocess_text(raw_text, source, method)
 
-            # Store in session
-            st.session_state.document_data = processed_data
+
 
             # AUTOMATIC SAVE
             status_text.text("💾 Automatically saving...")
@@ -252,35 +261,35 @@ class EnhancedPreprocessingAgent:
 
     def _preprocess_text(self, raw_text: str, source: str, method: str) -> Dict[str, Any]:
         """Preprocess text"""
-        try:
-            # Safe cleaning
-            text = self._safe_clean_text(raw_text)
-            cleaned_text = self._simple_nltk_processing(text)
+        # try:
+        #     # Safe cleaning
+        #     text = self._safe_clean_text(raw_text)
+        #     cleaned_text = self._simple_nltk_processing(text)
 
-            return {
-                'text': raw_text,
-                'cleaned_text': cleaned_text,
-                'total_words': len(raw_text.split()),
-                'total_pages': max(1, raw_text.count('\f') + 1),
-                'cleaned_word_count': len(cleaned_text.split()),
-                'source': source,
-                'processed_at': datetime.now().isoformat(),
-                'bank_key': self.current_bank,
-                'bank_name': self.current_bank,
-                'preprocessing_stats': {'extraction_method': method}
-            }
-        except Exception as e:
-            return {
-                'text': raw_text,
-                'cleaned_text': raw_text,
-                'total_words': len(raw_text.split()),
-                'total_pages': 1,
-                'cleaned_word_count': len(raw_text.split()),
-                'source': source,
-                'processed_at': datetime.now().isoformat(),
-                'bank_key': self.current_bank,
-                'bank_name': self.current_bank
-            }
+        #     return {
+        #         'text': raw_text,
+        #         'cleaned_text': cleaned_text,
+        #         'total_words': len(raw_text.split()),
+        #         'total_pages': max(1, raw_text.count('\f') + 1),
+        #         'cleaned_word_count': len(cleaned_text.split()),
+        #         'source': source,
+        #         'processed_at': datetime.now().isoformat(),
+        #         'bank_key': self.current_bank,
+        #         'bank_name': self.current_bank,
+        #         'preprocessing_stats': {'extraction_method': method}
+        #     }
+        # except Exception as e:
+        #     return {
+        #         'text': raw_text,
+        #         'cleaned_text': raw_text,
+        #         'total_words': len(raw_text.split()),
+        #         'total_pages': 1,
+        #         'cleaned_word_count': len(raw_text.split()),
+        #         'source': source,
+        #         'processed_at': datetime.now().isoformat(),
+        #         'bank_key': self.current_bank,
+        #         'bank_name': self.current_bank
+        #     }
 
     def _safe_clean_text(self, text: str) -> str:
         """Safe text cleaning"""
