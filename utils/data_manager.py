@@ -192,6 +192,7 @@ class DataManager:
             print(f"Error saving plot: {e}")
             return False
 
+
     def get_available_plots(self, bank_key: str) -> Dict[str, List[str]]:
         try:
             plot_path = self.base_path / "plots" / bank_key

@@ -193,7 +193,10 @@ class EnhancedPreprocessingAgent:
 
     def _process_pdf_file(self, file_path: str, source: str = "unknown") -> bool:
         """Process PDF file with AUTOMATIC SAVE"""
+        logger.info("Process PDF file")
         try:
+            
+            st.session_state.filepath = file_path
             progress_bar = st.progress(0)
             status_text = st.empty()
 
@@ -217,6 +220,13 @@ class EnhancedPreprocessingAgent:
             else:
                 raw_text = text_pdfplumber
                 method = "pdfplumber"
+            
+            # Store in session
+            
+            st.session_state.raw_text = raw_text  
+            st.session_state.document_data = raw_text          
+            
+            logger.info("stroing raw text")          
 
             if not raw_text or len(raw_text.strip()) < 50:
                 st.error("❌ Could not extract sufficient text")
@@ -225,10 +235,9 @@ class EnhancedPreprocessingAgent:
             status_text.text("🧹 Processing text...")
             progress_bar.progress(80)
 
-            processed_data = self._preprocess_text(raw_text, source, method)
+            # processed_data = self._preprocess_text(raw_text, source, method)
 
-            # Store in session
-            st.session_state.document_data = processed_data
+
 
             # AUTOMATIC SAVE
             status_text.text("💾 Automatically saving...")

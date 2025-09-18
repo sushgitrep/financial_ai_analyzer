@@ -15,10 +15,23 @@ sys.path.append(str(project_root))
 
 # Import utilities
 from utils.data_manager import DataManager
+from agents.chatbot_agent import initialize_chatbot
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+import subprocess
+import streamlit as st
+
+@st.cache_resource
+def download_spacy_model():
+    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+
+# Call this function at the start of your app
+download_spacy_model()
+
 
 def configure_page():
     """Configure Streamlit page settings"""
@@ -184,12 +197,31 @@ def _perform_bank_selection(new_bank_key: str, data_manager: DataManager):
     try:
         # Clear current session data
         session_keys_to_clear = [
-            'document_data', 'topic_results', 'sentiment_results', 'summary_results', 'chat_history'
+            'document_data', 'topic_results', 'sentiment_results', 'summary_results', 'chat_history', 'raw_text', 'pdf_processed', 'filepath'
         ]
 
         for key in session_keys_to_clear:
             if key in st.session_state:
+                logger.info(str(key))
                 del st.session_state[key]
+        
+        for key in st.session_state:
+           logger.info("session key : " + str(key))
+           
+        # Check if chatbot exists in session state
+        if "chatbot" in st.session_state:
+            logger.info("history chat ")
+            # st.session_state.chatbot, error = initialize_chatbot()
+            st.session_state.chatbot.clear_chat_history()
+            
+            # if error:
+            #     st.error(f"Chatbot failed to initialize: {error}")
+            # elif st.session_state.chatbot is None:
+            #     st.error("Chatbot object is None for unknown reason")
+            # st.session_state.chatbot.process_pdf(st.session_state.filepath)
+        if "messages" in st.session_state:
+            logger.info("messages")
+            st.session_state.messages = []
 
         # Set new bank
         st.session_state.current_bank = new_bank_key
@@ -205,6 +237,7 @@ def _perform_bank_selection(new_bank_key: str, data_manager: DataManager):
 def main():
     configure_page()
     display_main_header()
+    download_spacy_model()
 
     # REMOVED: New features section completely removed
 
@@ -274,6 +307,7 @@ def main():
 
 if __name__ == "__main__":
     try:
+        logger.info(f"Main application main")
         main()
     except Exception as e:
         st.error(f"💥 Application Error: {str(e)}")
