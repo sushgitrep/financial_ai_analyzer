@@ -7,11 +7,23 @@ banks:
     folder_name: "jp_morgan"
     default_pdf_url: "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/2nd-quarter/jpm-2q25-earnings-call-transcript.pdf"
 
-  goldman_sachs:
-    name: "The Goldman Sachs Group, Inc."
-    ticker: "GS"
-    folder_name: "goldman_sachs"
-    default_pdf_url: "https://www.goldmansachs.com/investor-relations/financials/current/quarterly-earnings/"
+  bank_of_america:
+    name: "Bank of America"
+    ticker: "BAML"
+    folder_name: "bank_of_america"
+    default_pdf_url: ""
+
+  silicon_valley_bank:
+    name: "Silicon Valley Bank"
+    ticker: "SVB"
+    folder_name: "silicon_valley_bank"
+    default_pdf_url: ""
+
+  lehman_brothers:
+    name: "Lehman Brothers Holdings Inc."
+    ticker: "LB"
+    folder_name: "lehman_brothers"
+    default_pdf_url: ""
 
 
 # Default Settings

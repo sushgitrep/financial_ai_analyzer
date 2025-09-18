@@ -70,6 +70,13 @@ focus_topics:
   - "regulatory_compliance"
   - "esg_sustainability"
 
+# models use in sentiment analysis agent
+sentiment_analysis:
+  models:
+    - yiyanghkust/finbert-tone
+    - ProsusAI/finbert
+
+
 # Visualization Settings
 visualization:
   max_words_wordcloud: 100
