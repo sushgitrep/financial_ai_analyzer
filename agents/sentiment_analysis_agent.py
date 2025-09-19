@@ -65,8 +65,7 @@ class SentimentAnalysisAgent:
     def _run_sentiment_analysis(self):
         try:
             with st.spinner("💭 Running model-based sentiment analysis..."):
-                doc_data = st.session_state.document_data
-                text_sections = doc_data.get("text_sections", [])
+                text_sections = st.session_state.text_sections
 
                 if not text_sections:
                     st.error(

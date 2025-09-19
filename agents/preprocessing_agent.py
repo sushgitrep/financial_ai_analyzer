@@ -50,8 +50,9 @@ class EnhancedPreprocessingAgent:
             self.current_bank
         )
         self._use_raw_for_finbert = any(
-        (m or "").strip().lower() in ("yiyanghkust/finbert-tone", "prosusai/finbert")
-        for m in self.config.get("sentiment_analysis", {}).get("models", [])
+            (m or "").strip().lower()
+            in ("yiyanghkust/finbert-tone", "prosusai/finbert")
+            for m in self.config.get("sentiment_analysis", {}).get("models", [])
         )
 
         # Setup NLTK stopwords
@@ -195,7 +196,7 @@ class EnhancedPreprocessingAgent:
         """Process PDF file with AUTOMATIC SAVE"""
         logger.info("Process PDF file")
         try:
-            
+
             st.session_state.filepath = file_path
             progress_bar = st.progress(0)
             status_text = st.empty()
@@ -220,13 +221,13 @@ class EnhancedPreprocessingAgent:
             else:
                 raw_text = text_pdfplumber
                 method = "pdfplumber"
-            
+
             # Store in session
-            
-            st.session_state.raw_text = raw_text  
-            st.session_state.document_data = raw_text          
-            
-            logger.info("stroing raw text")          
+
+            st.session_state.raw_text = raw_text
+            st.session_state.document_data = raw_text
+
+            logger.info("stroing raw text")
 
             if not raw_text or len(raw_text.strip()) < 50:
                 st.error("❌ Could not extract sufficient text")
@@ -235,9 +236,10 @@ class EnhancedPreprocessingAgent:
             status_text.text("🧹 Processing text...")
             progress_bar.progress(80)
 
-            # processed_data = self._preprocess_text(raw_text, source, method)
+            processed_data = self._preprocess_text(raw_text, source, method)
 
-
+            # Store text_sections in session
+            st.session_state.text_sections = processed_data.get("text_sections", [])
 
             # AUTOMATIC SAVE
             status_text.text("💾 Automatically saving...")
@@ -277,13 +279,13 @@ class EnhancedPreprocessingAgent:
         try:
             # Safe cleaning
             text = self._safe_clean_text(raw_text)
-            
+
             # For FinBERT, skip stopword/punctuation removal
             if self._use_raw_for_finbert:
-               cleaned_text = text
+                cleaned_text = text
             else:
                 cleaned_text = self._simple_nltk_processing(text)
-            
+
             self.transcript_processor = TranscriptProcessorFactory.create_processor(
                 self.current_bank
             )

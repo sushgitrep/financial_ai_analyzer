@@ -22,7 +22,7 @@ hdbscan==0.8.40
 plotly
 hf_xet
 loguru
-
+langchain-openai
 
 
 
