@@ -35,6 +35,8 @@ bertopic[all]
 # Vector DB
 chromadb
 faiss-cpu
+faiss-gpu
+tiktoken
 
 # LangChain
 langchain-openai
