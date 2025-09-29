@@ -29,11 +29,11 @@ import streamlit as st
 def download_spacy_model():
     # subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
     import spacy
-    from spacy.cli import download
+    from spacy.cli import download as spacy_download
     try:
         return spacy.load("en_core_web_sm")
     except OSError:
-        download("en_core_web_sm")
+        spacy_download("en_core_web_sm")
         spacy.load("en_core_web_sm")
         
     import nltk
