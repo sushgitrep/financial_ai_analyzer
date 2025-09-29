@@ -461,10 +461,10 @@ class TopicModelingAgent:
             st.markdown("---")
             self._show_previous_analysis_section(available_plots)
 
-        # 4. Analysis results LAST
-        if 'topic_results' in st.session_state:
-            st.markdown("---")
-            self._display_current_results()
+        # # 4. Analysis results LAST
+        # if 'topic_results' in st.session_state:
+        #     st.markdown("---")
+        #     self._display_current_results()
 
     def _show_previous_analysis_section(self, available_plots: Dict):
         """Show previous analysis plots section - SINGLE INSTANCE ONLY"""
