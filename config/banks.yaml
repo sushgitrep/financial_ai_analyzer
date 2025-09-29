@@ -5,24 +5,28 @@ banks:
     name: "JPMorgan Chase & Co."
     ticker: "JPM"
     folder_name: "jp_morgan"
+    "bankfile": "JPM 2Q25"
     default_pdf_url: "https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/investor-relations/documents/quarterly-earnings/2025/2nd-quarter/jpm-2q25-earnings-call-transcript.pdf"
 
   bank_of_america:
     name: "Bank of America"
     ticker: "BAML"
     folder_name: "bank_of_america"
+    "bankfile": "BAML 2Q25"
     default_pdf_url: ""
 
   silicon_valley_bank:
     name: "Silicon Valley Bank"
     ticker: "SVB"
     folder_name: "silicon_valley_bank"
+    "bankfile": "SVB 3Q22"
     default_pdf_url: ""
 
   lehman_brothers:
     name: "Lehman Brothers Holdings Inc."
     ticker: "LB"
     folder_name: "lehman_brothers"
+    "bankfile": "LB 1Q08"
     default_pdf_url: ""
 
 

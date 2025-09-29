@@ -23,6 +23,7 @@ plotly
 hf_xet
 loguru
 langchain-openai
+gdown
 
 
 

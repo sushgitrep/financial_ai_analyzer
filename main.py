@@ -212,7 +212,8 @@ def _perform_bank_selection(new_bank_key: str, data_manager: DataManager):
         if "chatbot" in st.session_state:
             logger.info("history chat ")
             # st.session_state.chatbot, error = initialize_chatbot()
-            st.session_state.chatbot.clear_chat_history()
+            if "chatbot" in st.session_state and st.session_state.chatbot is not None:
+                st.session_state.chatbot.clear_chat_history()
             
             # if error:
             #     st.error(f"Chatbot failed to initialize: {error}")

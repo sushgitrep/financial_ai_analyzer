@@ -72,6 +72,7 @@ class DataManager:
                 'name': bank_info.get('name', bank_key),
                 'ticker': bank_info.get('ticker', ''),
                 'folder_name': bank_info.get('folder_name', bank_key),
+                'bankfile': bank_info.get('bankfile', bank_key),
                 'has_data': self._check_bank_has_data(bank_key),
                 'storage_stats': self._get_storage_stats(bank_key)
             })
