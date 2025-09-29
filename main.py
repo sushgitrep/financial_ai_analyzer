@@ -27,7 +27,15 @@ import streamlit as st
 
 @st.cache_resource
 def download_spacy_model():
-    subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    # subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    import spacy
+    from spacy.cli import download
+    try:
+        return spacy.load("en_core_web_sm")
+    except OSError:
+        download("en_core_web_sm")
+        spacy.load("en_core_web_sm")
+        
     import nltk
     for resource in ["punkt", "punkt_tab"]:
         try:
