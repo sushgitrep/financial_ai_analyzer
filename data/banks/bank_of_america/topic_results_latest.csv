@@ -1,0 +1,6 @@
+,finetuned-modernbert-finance-large Top Words,bge-large-en-v1.5 Top Words,k-finance-sentence-transformer Top Words,setfit-finetuned-financial-text-classification Top Words,all-MiniLM-L6-v2 Top Words,nomic-embed-financial-matryoshka Top Words,fin-mpnet-base Top Words
+0,"['growth', 'activity', 'expense', 'pretty', 'return']","['move', 'coin', 'stable', 'digital', 'buffer']","['buffer', 'basis', 'anticipate', 'roll', 'deposit']","['business', 'stuff', 'use', 'model', 'move']","['move', 'model', 'coin', 'stable', 'use']",,"['deposit', 'retail', 'check', 'account', 'grow']"
+1,"['growth', 'grow', 'leverage', 'operate', 'kick']","['growth', 'grow', 'business', 'loan', 'capital']","['move', 'business', 'industry', 'feel', 'grow']","['use', 'interesting', 'buy', 'sheet', 'deposit']","['growth', 'grow', 'deposit', 'loan', 'fast']",,"['growth', 'grow', 'business', 'capital', 'use']"
+2,"['end', 'move', 'balance', 'rate', 'statement']",,"['growth', 'grow', 'loan', 'revenue', 'return']","['growth', 'grow', 'deposit', 'move', 'loan']","['capital', 'business', 'growth', 'return', 'grow']",,
+3,"['business', 'move', 'use', 'growth', 'let']",,,,,,
+4,"['grow', 'business', 'deposit', 'growth', 'model']",,,,,,

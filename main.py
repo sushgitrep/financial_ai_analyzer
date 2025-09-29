@@ -8,7 +8,7 @@ import sys
 import logging
 from pathlib import Path
 from datetime import datetime
-
+import os
 # Add project root to path
 project_root = Path(__file__).parent
 sys.path.append(str(project_root))
@@ -218,6 +218,9 @@ def _perform_bank_selection(new_bank_key: str, data_manager: DataManager):
             if key in st.session_state:
                 logger.info(str(key))
                 del st.session_state[key]
+        
+        if "OPENAI_API_KEY" in os.environ:
+            del os.environ["OPENAI_API_KEY"]
         
         for key in st.session_state:
            logger.info("session key : " + str(key))
