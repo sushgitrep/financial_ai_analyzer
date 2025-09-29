@@ -24,6 +24,7 @@ hf_xet
 loguru
 langchain-openai
 gdown
+langchain-community
 
 
 
