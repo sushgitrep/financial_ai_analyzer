@@ -22,3 +22,7 @@ processors/transcript_processors/__pycache__/silicon_valley_bank_processor.cpyth
 utils/__pycache__/__init__.cpython-312.pyc
 utils/__pycache__/chat.cpython-312.pyc
 utils/__pycache__/data_manager.cpython-312.pyc
+data/banks/jp_morgan/jp_morgan_preprocessed.txt
+data/banks/jp_morgan/topic_results_latest.csv
+plots/jp_morgan/word_cloud_visualization_20250929_171329.png
+plots/jp_morgan/word_frequency_analysis_20250929_171329.png

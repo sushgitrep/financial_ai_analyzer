@@ -15,7 +15,6 @@ wordcloud
 sentence-transformers
 torch
 transformers
-spacy>=3.7.0
 scikit-learn==1.6.1
 umap-learn==0.5.9.post2
 hdbscan==0.8.40
