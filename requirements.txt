@@ -1,32 +1,44 @@
-streamlit
+# Core app
+streamlit>=1.32.0
 matplotlib
+plotly
+wordcloud
+
+# PDF processing
 PyMuPDF
 pdfplumber
+pypdf
+
+# HTTP & config
 requests
 pyyaml
+gdown
+loguru
+
+# File paths
 pathlib2
-pypdf
-pandas==2.2.2
+
+# Data science stack
 numpy==2.0.2
+pandas==2.2.2
+scikit-learn==1.6.1
 nltk
-bertopic[all]
-matplotlib
-wordcloud
 sentence-transformers
 torch
 transformers
-scikit-learn==1.6.1
 umap-learn==0.5.9.post2
 hdbscan==0.8.40
-plotly
-hf_xet
-loguru
-langchain-openai
-gdown
-langchain-community
-spacy==3.7.5
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 
+# Topic modeling
+bertopic[all]
+
+# LangChain
+langchain-openai
+langchain-community
+
+# SpaCy and its model
+spacy==3.8.2
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 
 
 
