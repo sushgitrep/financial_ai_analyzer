@@ -28,6 +28,12 @@ import streamlit as st
 @st.cache_resource
 def download_spacy_model():
     subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+    import nltk
+    for resource in ["punkt", "punkt_tab"]:
+        try:
+            nltk.data.find(f"tokenizers/{resource}")
+        except LookupError:
+            nltk.download(resource)
 
 # Call this function at the start of your app
 download_spacy_model()
