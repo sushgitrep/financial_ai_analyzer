@@ -31,7 +31,7 @@ def download_spacy_model():
     import spacy
     from spacy.cli import download as spacy_download
     try:
-        return spacy.load("en_core_web_sm")
+        spacy.load("en_core_web_sm")
     except OSError:
         spacy_download("en_core_web_sm")
         spacy.load("en_core_web_sm")
