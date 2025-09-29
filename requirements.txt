@@ -32,6 +32,10 @@ hdbscan==0.8.40
 # Topic modeling
 bertopic[all]
 
+# Vector DB
+chromadb
+faiss-cpu
+
 # LangChain
 langchain-openai
 langchain-community
