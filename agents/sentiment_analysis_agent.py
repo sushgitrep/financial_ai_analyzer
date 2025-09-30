@@ -6,6 +6,7 @@ import pandas as pd
 from typing import Dict, Any
 import plotly.graph_objects as go
 import plotly.express as px
+import plotly.io as pio
 
 sys.path.append(str(Path(__file__).parent.parent))
 from utils.data_manager import DataManager
@@ -41,7 +42,10 @@ class SentimentAnalysisAgent:
 
         st.markdown("### 💭 Run Sentiment Analysis")
 
-        available_plots = self.data_manager.get_available_plots(self.current_bank)
+        available_plots = self.data_manager.get_available_plots(
+            self.current_bank, "json"
+        )
+
         if available_plots:
             st.warning("⚠️ Running new analysis will overwrite previous sentiment plots")
 
@@ -107,6 +111,9 @@ class SentimentAnalysisAgent:
 
                         # Save figure to disk for future sessions
                         plot_name = f"{output_path_prefix}_{model_name.replace('/', '_')}_{plot_key}"
+
+                        logger.info(f" !!! Saving plot: {plot_name}")
+
                         self.data_manager.save_plot(
                             self.current_bank, plot_name, fig, "plotly"
                         )
@@ -390,6 +397,7 @@ class SentimentAnalysisAgent:
     def _show_previous_plots(self, available_plots: Dict):
         """Displays plots from storage, handling Plotly JSON."""
         plot_keys = ["overall", "ratio", "trend", "distribution", "counts", "tokens"]
+
         sentiment_plots = {
             name: files
             for name, files in available_plots.items()
@@ -411,7 +419,7 @@ class SentimentAnalysisAgent:
             st.markdown(f"**{plot_name.replace('_', ' ').title()}**")
             if plot_files:
                 try:
-                    fig = self.data_manager.load_plot(plot_files[0])
+                    fig = pio.read_json(plot_files[0])
                     st.plotly_chart(fig, use_container_width=True)
                 except Exception as e:
                     st.error(f"Could not load plot {plot_name}: {e}")
